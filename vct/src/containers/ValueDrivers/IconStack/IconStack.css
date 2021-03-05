@@ -1,0 +1,45 @@
+.iconCircle{
+    padding-left: 0.8rem;
+    cursor: pointer;
+    }
+.iconDisableCircle {
+    padding-left: 0.8rem;
+}
+
+.icon-stack-body-div .cloud-icon {
+    padding-left: 0.6rem;
+    padding-bottom: 0.2rem;
+}
+
+.export-img {
+    width: 25px;
+    height: 25px;
+}
+.download-img, .upload-img {
+    width: 30px;
+    height: 32px;
+    padding-bottom: 0.2rem;
+}
+
+.tree-img {
+    width: 25px;
+    height: 21px;
+}
+
+.save-img {
+    width: 24px;
+    height: 24px;
+}
+.expand-img {
+    width: 23px;
+    height: 22px;
+}
+.close-img {
+    width: 20px;
+    height: 20px;
+}
+.tooltip-class.show {
+    background-color: black !important;
+    color: white !important;
+    padding: 0.5rem;
+}

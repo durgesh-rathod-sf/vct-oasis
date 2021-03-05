@@ -1,0 +1,337 @@
+/* DivTable.com */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+#LandingPage .leftDivHome {
+	
+	margin-top: 0.5rem;
+	/* padding-right: 30px; */
+}
+
+#LandingPage .outerDiv{
+	width:32%;
+}
+
+#LandingPage .leftDivDelivery {
+	width: 32%;
+	float: left;
+}
+
+#LandingPage ul.A {
+	list-style-type: none;
+	padding-inline-start: 10px !important;
+	margin-bottom: 0rem;
+}
+
+#LandingPage .leftFont {
+	font-size: 27px;
+	text-align: "left";
+	word-wrap: break-word;
+	width: '30%';
+	line-height: 28px;
+	font-weight: 600;
+	display: table-cell;
+	color: #ffffff;
+	font-family: 'Graphik';
+	padding-left: 14px;
+	float: left;
+	word-wrap: inherit;
+	text-align: left;
+}
+
+
+#LandingPage .EUleftFont {
+	font-size: 27px;
+	text-align: "left";
+	word-wrap: break-word;
+	width: '30%';
+	line-height: 32px;
+	font-weight: 600;
+	display: table-cell;
+	color: #ffffff;
+	font-family: 'Graphik';
+	padding-left: 25px;
+	float: left;
+	word-wrap: inherit;
+	text-align: left;
+}
+
+#LandingPage .deliveryLeftFont {
+	text-align: left;
+	font-size: 27px;
+	text-align: "left";
+	word-wrap: break-word;
+	width: '30%';
+	line-height: 28px;
+	font-weight: 600;
+	display: table-cell;
+	color: #ffffff;
+	font-family: 'Graphik';
+	padding-left: 7px;
+	float: left;
+	word-wrap: inherit;
+	
+}
+
+#LandingPage .leftFont1 {
+	font-size: 26px;
+	text-align: "left";
+	word-wrap: break-word;
+	width: '30%';
+	line-height: 28px;
+	font-weight: 600;
+	display: table-cell;
+	color: #ffffff;
+	font-family: 'Graphik';
+	word-wrap: inherit;
+	text-align: left;
+}
+
+#LandingPage .EUleftFont1 {
+	font-size: 26px;
+	text-align: "left";
+	word-wrap: break-word;
+	width: '30%';
+	line-height: 28px;
+	font-weight: 600;
+	display: table-cell;
+	color: #ffffff;
+	font-family: 'Graphik';
+	word-wrap: inherit;
+	text-align: left;
+}
+
+#LandingPage .bellIco {
+	float: left;
+	text-align-last: left;
+	width: 500px;
+	/* margin-top: 1.0rem; */
+	padding-left: 17px;
+}
+
+#LandingPage .divTableDelivery {
+	display: table;
+	width: 100%;
+	float: right;
+	font-size: 16px;
+	/* margin-left: 50px; */
+	/* margin-right: 30px; */
+}
+
+#LandingPage .divTableSales {
+	display: table;
+	width: 68%;
+	float: right;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+#LandingPage .divTableRow {
+	display: table-row;
+}
+
+#LandingPage .divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+
+#LandingPage .divTableHead {
+	display: table-cell;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.7rem;
+	color: #ffffff;
+	width: 100px !important;
+	vertical-align: middle;
+	text-align: center;
+	width: 40px;
+	max-width: 35px;
+}
+#LandingPage .divTableHead12 {
+	display: table-cell;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 12px;
+	color: #ffffff;
+	width: 100px !important;
+	vertical-align: middle;
+	text-align: center;
+	width: 40px;
+	max-width: 35px;
+}
+
+
+
+#LandingPage .divTableCell1 {
+	display: table-cell;
+	color: #ffffff;
+	font-family: 'Graphik';
+	font-style: normal;
+	max-width: 35px;
+	font-size: 10px;
+	line-height: 14px;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	word-wrap: normal;
+	padding-top: 7px;
+	height: 45px;
+	padding-bottom: 6px;
+}
+
+#LandingPage .divTableCell11 {
+	display: table-cell;
+	color: #ffffff;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-size: 10px;
+	line-height: 14px;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	padding-left: 6px;
+	max-width: 35px;
+}
+
+#LandingPage .Activities {
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 16px;
+	/* identical to box height */
+	align-items: center;
+	text-align: center;
+	transform: translateY(150px) rotate(-90deg);
+	display: grid;
+}
+
+
+#LandingPage .divTableCell {
+	display: table-cell;
+	/* padding: 3px 5px; */
+	color: #ffffff;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.6rem;
+	line-height: 11.3px;
+	word-wrap: inherit;
+	text-align: left;
+	padding-top: 7px;
+	width: 40px;
+	max-width: 35px;
+}
+
+#LandingPage .divTableCell-sales {
+	display: table-cell;
+	/* padding: 3px 5px; */
+	color: #ffffff;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 12px;
+	word-wrap: inherit;
+	text-align: left;
+	padding-top: 7px;
+	width: 40px;
+	max-width: 35px;
+}
+
+#LandingPage .divActivityCell {
+	display: table-cell;
+	color: #ffffff;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.6rem;
+	width: 8px;
+	max-width: 3px;
+}
+#LandingPage .divActivityCellD {
+	display: table-cell;
+	color: #ffffff;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.6rem;
+	width: 13px;
+	max-width: 13px;
+}
+
+#LandingPage .divTableCellleft {
+	display: table-cell;
+	color: #ffffff;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 10px;
+	text-align: left;
+	word-wrap: normal;
+}
+
+#LandingPage.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+
+#LandingPage .divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+
+#LandingPage .divTableBody {
+	display: table-row-group;
+}
+
+
+#LandingPage .divTextCell {
+	display: table-cell;
+	/* padding: 3px 5px; */
+	color: #ffffff;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.6rem;
+	line-height: 12px;
+	word-wrap: inherit;
+	text-align: left;
+	padding-top: 7px;
+	width: 40px;
+	max-width: 35px;
+	float: left;
+}
+ .sales-home-main
+{
+	padding-left: 22px;
+	margin-top: 0.5rem;
+}
+
+delivery-home-main{
+	/* padding-left: 22px; */
+}
+
+.sales-external-home-main {
+	background-image: url(../../assets/project/login/opportunityHome.png);
+    background-size: 85%;
+    /* height: calc(100vh - 140px); */
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-left:0px
+
+}
+
+.gradientClass{
+	background: -moz-linear-gradient(left,  rgba(69,69,69,1) 30%, rgba(69,69,69,0.98) 49%, rgba(255,255,255,0) 100%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(69,69,69,1) 30%,rgba(69,69,69,0.98) 49%,rgba(255,255,255,0) 100%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(69,69,69,1) 30%,rgba(69,69,69,0.98) 49%,rgba(255,255,255,0) 100%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+	height: calc(100vh - 140px);
+	
+
+}

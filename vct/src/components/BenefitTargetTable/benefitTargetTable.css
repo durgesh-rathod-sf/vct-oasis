@@ -1,0 +1,110 @@
+.toolTip{
+    text-align-last: "right";
+    width: '17%';
+    min-width:  '60px';
+    background-Color: "#d3d3d3ad"
+}
+
+.react-datepicker-popper { z-index: 1000 !important }
+   
+.date-Input {
+    width: 75px;
+    height: 100%;
+    padding: 0px;
+    border: none;
+    margin-top: 0px;
+    font-size: 10px !important;
+    font-family: 'Graphik' !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    text-align-last: center !important;
+    background-color: #505050 !important;
+    
+}
+.benefit-act-home-kpi_table-responsive .date-Input:disabled {
+    color: #B9B9B9;
+}
+
+.benefit-act-home-kpi_table-responsive .date-Input {
+    width: 75px;
+    height: 30px;
+    padding: 0px;
+    border: none;
+    margin-top: 0px;
+    font-size:12px !important;
+    text-align-last: center !important;
+    background-color: #4D4D4D !important;
+}
+.input-Ben-actuals-target:focus{
+    outline: 0px !important;
+}
+.input-Ben-actuals-target{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #4D4D4D;
+    padding: 0px;
+    width: 100%;
+    text-align-last: right;
+    border: 0px;
+}
+.icons-benefits{
+    padding-right: 0.5rem;
+    text-align-last: end;
+    position: relative;
+    top: -3rem;
+}
+.icons-benefits img{
+    width: 20px;
+    margin-left: 7%;
+    cursor: pointer;
+}
+.ben-target .table th{
+    padding: 3px 6px 3px 3px;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 18px;
+    vertical-align: middle;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 600;
+    padding: 3px 6px 3px 3px;
+    text-align-last: center;
+    background: #505050;
+    border: 1px solid #909090;
+    box-sizing: border-box;
+}
+.ben-actuals .table th{
+    padding: 3px 6px 3px 3px;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 18px;
+    vertical-align: middle;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 600;
+    padding: 3px 6px 3px 3px;
+    text-align-last: center;
+    background: #505050;
+    border: 1px solid #909090;
+    box-sizing: border-box;
+}
+
+.ben-target::-webkit-scrollbar,.ben-actuals::-webkit-scrollbar{
+    border: 0.5px solid #909090; 
+   height: 0.5em;
+   background: #454545;
+   
+ }
+ .ben-target::-webkit-scrollbar-thumb,.ben-actuals::-webkit-scrollbar-thumb {
+   background-color: #6E6E6E;
+   border-radius: 4px;
+ }
+ .ben-target::-webkit-scrollbar-track,.ben-actuals::-webkit-scrollbar-track{
+  background-color: #565555;
+}

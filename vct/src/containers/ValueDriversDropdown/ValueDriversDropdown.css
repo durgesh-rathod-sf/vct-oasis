@@ -1,0 +1,41 @@
+.my-project-body{
+   color: #ffffff;
+   height: 100%;
+   /* background: linear-gradient(180deg, #434343 0%, #2F2F2F 100%); */
+}
+
+.vdt-tab {
+   font-size: 16px;
+   color: #ffffff;
+}
+
+.activeMenu {
+   padding: 4%;
+   border-bottom: 4px #ffffff solid;    
+   color: #ffffff;   
+}
+
+.tab a{
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.project-note {
+   font-size: 0.9rem;
+}
+
+.export-button {
+   font-weight: bold;
+   font-size: 0.9rem;
+   width: 200px;
+   background-color: transparent;
+   color: #ffffff;
+}
+
+.generate-kpi-button {
+   font-weight: 500;
+   font-size: 0.9rem;
+   width: 400px;
+   background-color: transparent;
+   color: #ffffff;
+}

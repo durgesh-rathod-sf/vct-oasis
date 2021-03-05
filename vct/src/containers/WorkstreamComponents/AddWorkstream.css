@@ -1,0 +1,83 @@
+.add-workstream-tab .add-workstream {
+    margin-bottom: 1%;
+}
+
+.add-workstream-tab .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.add-workstream {
+    border: none;
+    background: #505050;
+    border-radius: 2px;
+    padding: 8px 0;
+}
+
+.ws-icon-input {
+    display: inline-block;
+    width: 100%;
+}
+
+.ws-icon-input .ws-icon {
+    display: inline-block;
+    width: 5%;
+}
+
+.ws-icon-input .ws-input-div {
+    display: inline-block;
+    width: 95%;
+}
+
+.ws-input-div label{
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+label .ws-name {
+    color: #fff;
+}
+label .ws-placeholder {
+    color: gray;
+}
+
+.workstream-input {
+    width: 100%;
+    color: #fff;
+    background: #4D4D4D;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.add-workstream-tab .workstream-input {
+    width: 50%;
+}
+
+.add-workstream-tab .ws-input-div label {
+    width: 50%;
+}
+
+.add-workstream-tab .add-ws-plus {
+    padding-left: 1rem;
+}
+
+.add-workstream-tab img {
+    cursor: pointer;
+}
+
+
+
+/* font-awesome icon styles */
+.icon-disabled .fa-plus {
+    opacity: 0.5;
+    cursor: default;
+}
+.fa-plus {
+    cursor: pointer;
+}
+.fa-trash {
+    cursor: pointer;
+}

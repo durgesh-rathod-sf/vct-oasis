@@ -1,0 +1,445 @@
+.ws-gantt-chart-wrapper .add-ws-chart-binder {
+
+}
+
+.add-ws-chart-binder {
+    width: 100%;
+}
+
+.saved-ws-chart-row {
+    width: 100%;
+}
+
+.ws-gantt-chart-wrapper .each-ws-chart-row {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 8px 0;
+    margin-bottom: 8px;
+    position: relative;
+    height: 36px;
+}
+
+.ws-gantt-chart-wrapper .custom-gantt-chart {
+    position: absolute;
+    height: 20px;
+    cursor: pointer;
+    clip-path: polygon(0 0, calc(100% - 8px) 0,100% 50%, calc(100% - 8px) 100%, 0 100%);
+}
+
+.filtered-view-main .ws-gantt-chart-wrapper .custom-gantt-chart, .filtered-view-main .multi-miles .mile-icon-img,
+.sorted-view-main .del-ms-div .mile-icon-img,
+.group-by-view-main .del-ms-div .mile-icon-img {
+   cursor: default;
+}
+
+.ws-gantt-chart-wrapper .default-chart-color {
+    background: #c4c4c4;
+    width: 100%;
+}
+
+.ws-gantt-chart-wrapper .ws-chart-color {
+    background: #008EFF;
+}
+.ws-gantt-chart-wrapper .act-chart-color {
+    background: #00BAFF;;
+}
+.ws-gantt-chart-wrapper .del-chart-color {
+    background: #99E3FF;
+}
+
+/* arrow styles experiment */
+#ws_gantt_main svg path {
+    /* marker-end: url(#arrow_head); */
+}
+/* milestones styles */
+.ws-gantt-chart-wrapper .del-ms-div {
+    position: absolute;
+    top: -8px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.filtered-view-main .ws-gantt-chart-wrapper .del-ms-div {
+    cursor: default;
+}
+
+.ws-gantt-chart-wrapper .mile-delete-div {
+    cursor: pointer;
+}
+
+.ws-gantt-chart-wrapper .mile-context-menu {
+    z-index: 2;
+}
+
+.ws-gantt-chart-wrapper .add-mile-div {
+    z-index: 2;
+}
+
+
+/* timeline exp styles */
+
+.timeLine-del-left-side {
+    position: absolute;
+    width: 15px;
+    left: -15px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.timeLine-del-right-side {
+    position: absolute;
+    width: 15px;
+    left: 100%;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timeLine-del-right-side:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 10px;
+    content: "";
+    height: 20px;
+    position: absolute;
+    border-bottom: 1px dashed #fff;
+}
+.timeLine-del-right-side:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 10px;
+    content: "";
+    height: 20px;
+    position: absolute;
+    border-bottom: 1px dashed #fff;
+}
+/* left and right span styles of chart */
+
+.whole-width-replica {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    display: flex;
+}
+.whole-width-replica .del-bg-white {
+    background-color: #fff;
+}
+.custom-gantt-chart .left-span {
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.dws-default-charts .not-read-user .left-span:hover,
+.dws-default-charts .not-read-user .right-span:hover {
+    background-color: #fff;
+}
+.custom-gantt-chart .middle-span {
+    width: calc(100% - 20px);
+    height: 100%;
+    position: absolute;
+    left: 10px
+}
+.custom-gantt-chart .right-span {
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    left: calc(100% - 10px);
+}
+
+.custom-gantt-chart .start-date-menu {
+    position: absolute;
+    background: #505050;
+    border: 1px solid #707070;
+    border-radius: 2px;
+}
+
+
+/* context-menu styles */
+.mile-context-menu .trash-icon {
+    padding-right: 4px;
+    padding-bottom: 2px;
+}
+
+.mile-context-menu .menu-item {
+    outline: none;
+}
+
+.del-context-menu {
+    z-index: 1;
+}
+
+.del-context-menu, .mile-context-menu {
+    background: #505050;
+    border: 1px solid #707070;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 0;
+}
+.mile-context-menu {
+    padding: 4px 8px;
+}
+
+.del-context-menu .menu-item ,.del-context-menu .react-contextmenu-submenu .react-contextmenu-item{
+    white-space: nowrap;
+    text-align: left;
+    padding: 4px 10px;
+    outline: none;
+    font-family:  'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+ .del-context-menu .dep-type-single .react-contextmenu-submenu {
+     padding: 0px;
+ }
+ .del-context-menu .dep-type-single .react-contextmenu .dep-type-submenu{
+    max-height: 156px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    cursor: default;
+    
+   
+ }
+ .depdel-ws-wrap{
+    max-width: 160px;
+    padding: 4px 10px;
+ }
+.del-context-menu .react-contextmenu-submenu{
+    padding: 0px;
+    cursor: pointer;
+}
+
+
+.del-context-menu .menu-item:hover {
+    background: #004DFF;
+    cursor: pointer;
+}
+.del-context-menu .react-contextmenu-item--active{
+    background: #004DFF; 
+}
+
+.del-context-menu .disabled-item {
+    cursor: default;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.sortable-cursor {
+    cursor: default !important;
+}
+
+
+
+/* milestones with same date styles */
+.each-multi-miles-binder {
+    position: relative;
+}
+
+.each-multi-miles-binder .mile__badge {
+    position: absolute;
+    top: -5px;
+    left: 9px;
+    background-color: #fa3e3e;
+    border-radius: 0px;
+    color: white;
+    padding: 0px 3px;
+    font-size: 9px;
+}
+
+.mile-group-menu {
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    top: -60px;
+    width: 160px;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.mile-group-menu .menu-item:hover {
+    cursor: default;
+}
+
+.mile-group-menu .group-mile-name {
+    cursor: pointer;
+}
+
+.ws-gantt-chart-wrapper .del-ms-div.multi-miles {
+    cursor: default;
+}
+
+.multi-miles .mile-icon-img {
+    cursor: pointer;
+}
+
+.mile-group-menu .menu-item:not(:last-child) {
+    border-bottom: 1px solid #757575;
+}
+
+.mile-group-menu .mile-delete-div {
+    float: right;
+    cursor: pointer;
+}
+
+/* connectors styles */
+.connector-ref {
+    position: relative;
+}
+
+.connector-svg-binder svg {
+    z-index: 1;
+}
+
+.ws-actuals-tab-main .connector-svg-binder svg {
+    z-index: 2;
+}
+
+/* dependent deliverable context menu styles */
+
+.dependent-type-sub-menu .react-contextmenu{
+    pointer-events: none;
+    opacity: 0;
+    background: #505050;
+    border: 1px solid #707070;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 0px;
+    min-width: fit-content;
+    margin-left:3px
+    
+}
+.dependent-type-sub-menu .react-contextmenu--visible{
+    opacity: 1;
+    z-index: 9999;
+    pointer-events: auto;
+}
+.depdel-ws{
+    font-family:  'Graphik';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+color: #303030;
+/* padding: 5px 0px 0px 0px; */
+text-align-last: center;
+}
+.depdel-act{
+    font-family:  'Graphik';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+color: #D0D0D0;
+padding: 0px;
+text-align-last: center;
+}
+.depdel-del{
+    padding-top:4px;
+    /* text-align-last: center; */
+    text-align: -webkit-center;
+}
+.depdel-del-wrap{
+    max-width: 100px;
+    text-align-last: left;
+}
+.depdel-del-span-disabled{
+    opacity: 0.5;
+    vertical-align: text-top;
+}
+.depdel-del-span{
+    vertical-align: text-top;
+}
+.depdel-del .input-checkbox{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.del-context-menu .dep-type-single .dep-type-submenu::-webkit-scrollbar-track {
+    background: #565555; 
+}
+.del-context-menu .dep-type-single .dep-type-submenu::-webkit-scrollbar-thumb {
+    background:#6E6E6E; 
+}
+.del-context-menu .dep-type-single .dep-type-submenu::-webkit-scrollbar {
+    background: #454545;
+    /* outline: 1px solid slategrey; */
+  }
+  .react-contextmenu:focus , .react-contextmenu-item:focus{
+outline: 0px;
+  }
+
+
+/* drag and drop styles and z-index */
+.each-del-encloser .drag-object,
+.each-act-encloser .drag-object,
+.each-ws-encloser .drag-object {
+    z-index: 0;
+    
+}
+
+.each-del-encloser .drop-object,
+.each-act-encloser .drop-object,
+.each-ws-encloser .drop-object {
+    z-index: 1;
+    border: 1px dashed #fff;
+}
+
+.each-del-encloser .react-draggable-dragging .custom-gantt-chart,
+.each-act-encloser .react-draggable-dragging .custom-gantt-chart,
+.each-ws-encloser .react-draggable-dragging .custom-gantt-chart {
+    /* background-color: lime; */
+    /* backdrop-filter: blur(5px); */
+    opacity: 0.6;    
+}
+
+/* del start and end date menus on hover click*/
+.del-dates-main {
+    font-size: 11px;
+    z-index: 2;
+    position: absolute;
+    top: 30px;
+    background: #505050;
+    border: 1px solid #707070;
+    border-radius: 2px;
+    padding: 5px;
+    width: 135px;
+}
+
+.open-to-top {
+    top: -50px
+}
+
+.cursor-pro {
+    cursor: progress;
+}
+
+.cursor-poi {
+    cursor: pointer;;
+}
+
+.del-start-date-menu label {
+    margin-bottom: 4px;
+}
+
+.del-dates-main .date-form-control .form-control{
+    font-size: 11px;
+    padding: 4px;
+    text-align: center;  
+    height: 22px;  
+}
+
+.del-dates-main .date-form-control {
+    padding: 0;
+}
+
+.del-start-date-menu {
+    display: flex;
+}

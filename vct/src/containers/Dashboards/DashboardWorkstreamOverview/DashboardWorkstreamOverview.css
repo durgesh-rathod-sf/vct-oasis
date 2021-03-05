@@ -1,0 +1,46 @@
+#wsBenefits .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 0.5rem 0rem;
+    cursor: pointer;
+}
+#wsBenefits .rect {
+    width: 30px;
+    height: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: text-top;
+}
+#wsBenefits .selected{
+    border: lightgrey 2px solid;
+}
+
+#wsBenefits .circle:hover {
+   
+    border: lightgrey 2px solid;
+}
+#wsBenefits .DELAYED{
+    background: #e15759;
+}
+#wsBenefits .INPROGRESS{
+    background: #4e79a7; 
+}
+#wsBenefits .CMP_WITHIN_DUE_DT{
+    background: #339933;
+}
+#wsBenefits .CMP_AFTER_DUE_DT{
+    background:#59a14f;
+}
+#wsBenefits .null,#wsBenefits .NOT_STARTED{
+    background: #bbb;
+}
+#wsBenefits .clickable:hover{
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+/* #wsBenefits .clickable{
+   padding-left: 10px;
+} */

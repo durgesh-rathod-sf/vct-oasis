@@ -1,0 +1,7 @@
+.ad-modal .modal-content {
+    background-color: #fff !important;
+  }
+
+  .ad-modal .modal-title, .ad-modal .modal-dialog p {
+    color: #212529;
+  }

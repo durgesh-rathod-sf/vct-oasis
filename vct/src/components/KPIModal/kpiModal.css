@@ -1,0 +1,63 @@
+.KPI{
+    text-align: left;
+}
+
+/* #export .modal-content {
+    width: 833px !important;
+    margin-top:25%
+}*/
+
+.kpiModal1 {
+    width:50% !important;
+    margin-left: 23% !important;
+    margin-top: 4% !important;
+   
+} 
+
+.modal-open {
+    width: 100%;
+    overflow-y: visible;
+}
+
+
+/* new design styles for modal */
+.kpiModal1 .modal-dialog {
+    margin-top: 0;
+}
+
+.kpiModal1 .modal-title {
+    font-size: 18px;
+    margin-right: auto;
+}
+
+.kpiModal1 .title-close-wrapper {
+    display: flex;
+    border-bottom: 1px solid #505050;
+    padding-bottom: 1rem;
+}
+
+.kpiModal1 .modal-header-flex {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0;
+}
+
+.kpiModal1 .modal-header-flex .col-sm-1 {
+    text-align: right;
+}
+
+.kpiModal1 .form-group {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.kpiModal1 .form-group label {
+    margin-bottom: 0;
+}
+
+.kpiModal1 .form-group .form-control {
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    background-color: #4D4D4D;
+    color: #fff;
+}

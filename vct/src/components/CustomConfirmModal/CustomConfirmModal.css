@@ -1,0 +1,156 @@
+/* customize own classname below*/
+
+.full-vdt-delete .modal-dialog {
+    width: 40%;
+}
+
+.user-access-delete .modal-dialog {
+    width: 35%;
+}
+
+.user-delete-modal .modal-dialog {
+    width: 32%;
+}
+
+.client-master-delete-modal .modal-dialog {
+    width: 28%;
+}
+
+.ws-mile-delete .modal-dialog {
+    width: 22%
+}
+
+.saved-vdt-delete .modal-dialog {
+    width: 40%;
+}
+.commonData-new-delete .modal-dialog ,.Inv-delete .modal-dialog{
+    width: 320px;
+}
+.commonData-existing-delete .modal-dialog {
+    width: 415px;
+}
+.commonData-changeName-save .modal-dialog {
+    width: 438px;
+}
+.KpiBenefitsData-modal .modal-dialog {
+    width: 325px;
+}
+.KpiBenfits-delete .modal-dialog {
+    width: 360px;
+}
+.paramRule_close .modal-dialog {
+    width: 360px;
+}
+.benefitRule_close .modal-dialog {
+    width: 360px;
+}
+.BenefitActuals-delete-modal .modal-dialog {
+    width: 430px;
+}
+
+.vdt-kpi-delete .modal-dialog {
+    width: 40%;
+}
+
+.vdt-obj-delete .modal-dialog {
+    width: 30%
+}
+
+.ws-act-delete-modal .modal-dialog {
+    width: 35%
+}
+
+.ws-del-delete-modal .modal-dialog {
+    width: 30%
+}
+.wsact-save .modal-dialog {
+    width: 42%
+}
+.wsact-save .modal-title {
+    font-size: 16px !important
+}
+
+
+.doc-delete-modal .modal-dialog{
+    width: 30%;
+    top: -6%
+}
+.video-delete-modal .modal-dialog{
+    width: 30%;
+    top: -6%
+}
+.ws-delete-modal .modal-dialog {
+    width: 40%;
+}
+.fit-content .modal-dialog{
+    width: fit-content;
+}
+.fit-content-delDw .modal-dialog{
+    width: fit-content;
+}
+.fit-content-delDw .modal-title{
+    font-size: 16px !important;
+}
+
+.bulk-doc-modal .modal-dialog{
+    width: 25% !important;
+}
+.bulk-doc-modal .modal-title{
+    font-size: 16px !important;
+}
+
+/* customize own classname above */
+
+.confirm-modal-wrapper .show {
+    display: grid !important;
+    place-items: center;
+}
+
+.confirm-modal-main .modal-content {
+    padding: 4% 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.confirm-modal-main .modal-header {
+    /* font-size: 16px; */
+    border-bottom: none;
+    /* color: #fff;
+    text-align: center; */
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.confirm-modal-main .modal-body {
+    text-align-last: center;
+}
+
+.confirm-modal-main .yes-button {
+    min-width: 65px;
+    margin-right: 5%;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #3b3b3b
+}
+
+.confirm-modal-main .no-button {
+    min-width: 65px;
+    border-radius: 2px;
+    background: #767676;
+    border: 1px solid #9B9A9A;
+    color: #fff;
+    font-size: 14px;
+}
+

@@ -1,0 +1,424 @@
+#opp_req .accessHeader {
+    width: 100%;
+    /* margin-left: 6%;
+    margin-right: 6%; */
+    margin-top: 2%;
+}
+#opp_req .page-header-row {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #A2A2A2;
+    padding-left: 0px !important;
+}
+#opp_req .page-header-label {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-family: 'Graphik';
+    font-weight: 500;
+}
+#opp_req .master-dropdownSort {
+    /* width: 320px; */
+    /* height: 25px; */
+    /* position: absolute; */
+    color: #ffffff;
+    z-index: 99;
+    background-color: #5A5A5A !important;
+    color: '#ffffff';
+}
+#opp_req .accessTableHead {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px 35px 0px 25px;
+}
+#opp_req .accessTable {
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    /* padding-right: 75px;
+    margin-left: 5%; */
+    width: 100%;
+    position: relative;
+}
+#opp_req .table-responsive {
+    /* overflow-x: hidden !important; */
+}
+#opp_req .table {
+    width: 100%;
+    min-width: 100%;
+   padding: 3px;
+    padding-left: 0.5rem;
+    color: #ffffff;
+    /* border: 0.5px solid rgba(255, 255, 255, 0.5); */
+    overflow-x: hidden !important;
+    margin-bottom: 0px;
+}
+#opp_req .table thead, #opp_req tbody tr {
+    display:table;
+     width:100%; 
+    /* table-layout:fixed; */
+    overflow-x: hidden !important;
+  
+}
+#opp_req .table th, #opp_req .table td {
+    background-color: #505050 !important;
+    /* border-bottom: none !important;
+    border-top: 0px; */
+    font-weight: 400;
+    vertical-align: middle;
+    /* border: 1px solid; */
+    padding: 0px;
+    text-align-last: center;
+    font-size: 10px;
+    font-family: 'Graphik';
+    min-width: 112px;
+    height: 33px;
+    /* min-width: 70px; */
+    border: none;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+ #opp_req .table td {
+    height: 44px !important;
+    background-color: #5A5A5A !important;
+}
+#opp_req .table th .sub-th{
+width :10%;
+vertical-align: text-top;
+line-height: 25px;
+height:50%;
+min-width: 112px;
+color:#c8c5c5;
+
+}
+#opp_req .table td .sub-td{
+    min-width: 112px;
+}
+
+#opp_req .table td .right-sub-td {
+    border-left: 1px solid #fff;
+}
+
+#opp_req .table th .right-sub-th {
+    border-left: 1px solid #fff;
+    border-top: 0;
+    height: 50px;
+   
+}
+
+#opp_req .table th {
+    font-size: 10px;
+    color:#c8c5c5;
+
+}
+
+.horizontal-scroll-except-first-column {
+    width: 100%;
+    /* margin: 0% 1% 0% 1%; */
+    max-height: 350px;
+    overflow: auto;
+}
+
+.horizontal-scroll-except-first-column > table {
+  /* margin-left: 26%; */
+}
+
+.horizontal-scroll-except-first-column .opp-req-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.horizontal-scroll-except-first-column > table > * > tr > th:first-child {
+    position: sticky;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.opp-side-heading {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.border-left-only {
+    border-left: 1px solid #fff !important;
+}
+#opp_req .border-right-only{
+    border-right: 1px solid #fff !important;
+}
+
+.horizontal-scroll-except-first-column > table > tbody > tr:last-child {
+    border-bottom: 1px solid #fff;
+}
+
+
+
+.horizontal-scroll-except-first-column > table > * > tr > th:first-child,
+.horizontal-scroll-except-first-column > table > * > tr > td:first-child {
+  position: sticky;
+  left: 0;
+  width: 20% !important;
+  /* margin-left: -24.8%; */
+  background: #ccc;
+}
+.horizontal-scroll-except-first-column > table > * > tr > th:last-child,
+.horizontal-scroll-except-first-column > table > * > tr > td:last-child {
+  /* position: absolute;
+  width: 9% !important;
+  margin-left: -44.5%;
+  background: #ccc; */
+    position: sticky;
+    right: 0;
+    /* z-index: 1; */
+}
+
+.horizontal-scroll-except-first-column > table > * > tr > th,
+.horizontal-scroll-except-first-column > table > * > tr > td {
+  /* Without this, if a cell wraps onto two lines, the first column
+   * will look bad, and may need padding. */
+  white-space: nowrap;
+}
+
+/* scrollbar styles */
+
+#opp_req_table_scroll::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+  } 
+  
+  /* Track */
+ #opp_req_table_scroll::-webkit-scrollbar-track {
+    background: #565555; 
+  } 
+ #opp_req_table_scroll::-webkit-scrollbar-thumb {
+    background:#6E6E6E; 
+  }
+  
+  /* Handle on hover */
+ #opp_req_table_scroll::-webkit-scrollbar-thumb:hover {
+    background: #454545; 
+  }
+
+/* scroll styles for td elements */
+#opp_req_table_scroll td p::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+  } 
+  
+  /* Track */
+ #opp_req_table_scroll td p::-webkit-scrollbar-track {
+    background: #565555; 
+  } 
+ #opp_req_table_scroll td p::-webkit-scrollbar-thumb {
+    background:#6E6E6E; 
+  }
+  
+  /* Handle on hover */
+ #opp_req_table_scroll td p::-webkit-scrollbar-thumb:hover {
+    background: #454545; 
+  }
+  
+  /* #opp_req .border-left-none{
+      border-left: 0px !important;
+  }
+  #opp_req .border-right-none{
+    border-right: 0px !important;
+} */
+#opp_req .table td .sub-td .input{
+    min-width: 68px;
+    background-color: #505050 !important;
+    height: 25px;
+    /* background-color: #5A5A5A !important; */
+    border: 0px;
+    color: white;
+}
+#opp_req .table td .input{
+    width: 100px;
+    background-color: #505050 !important;
+    height: 25px;
+    /* background-color: #5A5A5A !important; */
+    border: 0px;
+    color: white;
+}
+#opp_req .table td .sub-td p{
+
+    height: 44px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    min-width: 84px;
+    margin: 0px 2px;
+    padding: 12px 0px;
+    /* width: 80px;
+    margin: 0px 4px;
+    padding: 12px 0px; */
+}
+#opp_req .table td p{
+    width: 104px;
+    height: 44px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin: 0px;
+    padding: 12px 4px;
+}
+#opp_req .edit-img{
+    margin: 8px 8px 0px 0px;
+    cursor:pointer;
+}
+#opp_req .calendar-img{
+    width: 15px;
+    float: right;
+}
+#opp_req .delete-img{
+    width: 20px;
+    margin: 8px 0px 0px 8px;
+    cursor:pointer;
+}
+#opp_req .add-img{
+    width: 18px;
+    margin: 8px 0px 10px 0px ;
+    cursor:pointer;
+}
+#opp_req .dateInput
+/* #opp_req .react-datepicker-ignore-onclickoutside */
+{
+    width: 80px !important;
+}
+
+
+/* filterBy for Opp req page */
+#opp_req .opp-req-filterBy {
+    position: relative;
+    display: inline;
+    margin-right: 10px;    
+    padding: 5px;
+}
+
+#opp_req .opp-req-filterBy .filterBy-menu .rc-menu-item-active, .filterBy-menu .rc-menu-submenu-active > .rc-menu-submenu-title,
+.rc-menu-submenu .rc-menu-item-active, .rc-menu-submenu-selected {
+    background-color: #004DFF !important;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#opp_req .opp-req-filterBy .filterBy-menu .rc-menu-item-selected, .rc-menu-submenu .rc-menu-item-selected {
+    background-color: #004DFF ;
+    transform: none;
+}
+
+#opp_req .opp-req-filterBy .filterBy-menu{
+z-index: 3;
+text-align: left;
+width: 160px;
+position: absolute;
+right:  4px;
+background-color: #505050;
+box-shadow: none;
+border: none;
+color: white;
+font-size: 10px;
+font-family: Graphik;
+}
+
+#opp_req .opp-req-filterBy .filterBy-menu .rc-menu-submenu-title, .rc-menu-item {
+    margin: 0;
+    position: relative;
+    display: block;
+    padding: 7px 7px 8px 10px !important;
+    white-space: nowrap;
+}
+
+#opp_req .opp-req-filterBy .filterBy-menu .main-menu {
+    display: inline-block;
+    width: calc(100% - 0px);
+}
+
+#opp_req .opp-req-filterBy .filterBy-menu .sub-menu {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#opp_req .opp-req-filterBy .filterBy-menu.rc-menu-rtl.rc-menu-vertical > .rc-menu-submenu > .rc-menu-submenu-title{
+    padding : 10px !important;
+}
+
+#opp_req .opp-req-filterBy .filterBy-menu.rc-menu-rtl.rc-menu-vertical .rc-menu-submenu-arrow{
+    left : 10px !important;
+}
+
+.filterBy-menu > .rc-menu-item {
+    padding: 10px !important;
+}
+
+.filterBy-menu {
+    padding: 6px 0px !important;
+}
+ 
+/* #opp_req .rc-menu-submenu-popup {
+    z-index: 3;
+    padding: 5px 0px !important;
+    width: 85px !important;
+} */
+
+#opp_req .opp-req-filterBy .filter-tooltip-placement {
+    width:  fit-content !important;
+}
+
+#opp_req .no-records {
+    font-family: 'Graphik';
+    font-size: 16px;
+    color: #fff;
+}
+
+.filter-disabled {
+    opacity: 0.5;
+    cursor: unset;
+}
+
+.filter-enabled{
+    color: #fff;
+    cursor: pointer;
+}
+/*  filterBy for Opp req page end */
+/* save button styles */
+.opp-req-table-main .add-row {
+    margin-top: 10px;
+}
+.opp-req-table-main .save-div {
+    margin-top: 15px;
+}
+.opp-req-table-main .save-div button {
+    min-width: 90px;
+}
+
+
+/* spineer styles */
+.opp-req-table-main .spinner-div {
+    padding: 5rem;
+}
+
+.opp-req-table-main .spinner-div i {
+    font-size: 32px;
+}
+#opp_req .date-wrapper{
+    display: flex;
+    background-color: #505050 !important;
+    width: 90%;
+    margin-left: 5%;
+}
+#opp_req .date-wrapper .react-datepicker__input-container{
+    position: unset;
+}
+#opp_req .desc-cell{
+    min-width: 224px !important;
+}
+
+#opp_req .desc-input{
+    min-width: 200px !important;
+}
+
+#opp_req .opp{
+    width: 250px !important;
+}
+
+#opp_req .__react_component_tooltip{
+    max-width: 240px;
+    word-break: break-word;
+}

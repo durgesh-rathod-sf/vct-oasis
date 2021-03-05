@@ -1,0 +1,67 @@
+.admin-option-box {
+    margin: 6% 0;
+    
+}
+
+.disabled-link {
+    pointer-events: none;
+  }
+
+.admin-upload-box {
+    border: 2px dotted #ffffff;
+    height: 330px;
+    margin: 1%;
+    padding: 10%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.admin-other-box {
+    border: 1px solid #909090;
+    height: 290px;
+    margin: 1%;
+    padding: 12%;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #505050;
+    border-radius: 10px;
+}
+
+.admin-other-box:hover {
+    box-shadow: 0px 1px 4px 4px rgba(255, 255, 255, 0.25); /*0 24px 48px 0 rgba(0,0,0,0.2);*/
+}
+
+.option-icon {
+    font-size: 6rem;    
+}
+
+.option-img{
+    height: 100px;
+}
+
+.access-control-form {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: #ffffff;
+    padding: 1%;
+}
+
+.form-label {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.submit-btn {
+    width: 120px;
+    font-weight: bold;
+}
+
+.option-upload {
+ width: 130%;
+ margin-left: -15%;   
+}
+
+.upload-text-align{
+    padding-left: 0px;
+    padding-right: 0px;
+}

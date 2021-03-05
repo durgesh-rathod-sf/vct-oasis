@@ -1,0 +1,38 @@
+.high-priority-filter-btn{
+    border-radius: 0px;
+    background-color: #FFA761;    
+    border-color: #FFA761;
+}
+
+.low-priority-filter-btn{
+    border-radius: 0px;
+    background-color: #72AC67;    
+    border-color: #72AC67;
+}
+
+.select-filter-btn{
+    border-radius: 0px;
+    background-color: #A9A9A9;    
+    border-color: #A9A9A9;
+}
+.active-btn{
+    font-weight: 500;
+}
+.vdt-table .table {
+    margin-bottom: 2%;
+    font-size: 13px;
+}
+
+.vdt-table .table {
+    color: #ffffff;
+}
+
+.vdt-table .table th {
+    border-top: 0px;
+    font-weight: 400;
+}
+
+.tab-vdt {
+    color: #ffffff;
+    font-size: 15px;
+}

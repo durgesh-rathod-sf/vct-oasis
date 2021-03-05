@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="129px" height="140px" viewBox="0 0 129 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>create</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing2-Copy-25" transform="translate(-456.000000, -550.000000)">
+            <g id="create" transform="translate(447.000000, 547.000000)">
+                <path d="M83.4488494,5.70489623 L127.101717,30.7364419 C133.318546,34.3013133 137.152867,40.9199818 137.152867,48.0863813 L137.152867,97.9136187 C137.152867,105.080018 133.318546,111.698687 127.101717,115.263558 L83.4488494,140.295104 C77.2868783,143.828518 69.7131217,143.828518 63.5511506,140.295104 L19.8982835,115.263558 C13.6814537,111.698687 9.84713282,105.080018 9.84713282,97.9136187 L9.84713282,48.0863813 C9.84713282,40.9199818 13.6814537,34.3013133 19.8982835,30.7364419 L63.5511506,5.70489623 C69.7131217,2.17148206 77.2868783,2.17148206 83.4488494,5.70489623 Z" id="Polygon-Copy-2" fill="#FFFFFF"></path>
+                <g id="create-project-scenario" transform="translate(51.333333, 27.000000)">
+                    <path d="M4.16666667,29.5 L9.16666667,29.5 L9.16666667,20.5 L4.16666667,20.5 L4.16666667,29.5 Z" id="Fill-1" stroke="#343434" stroke-width="3"></path>
+                    <path d="M19.1666667,29.5 L24.1666667,29.5 L24.1666667,9.5 L19.1666667,9.5 L19.1666667,29.5 Z" id="Fill-2" stroke="#343434" stroke-width="3"></path>
+                    <polygon id="Fill-2-Copy" fill="#343434" points="0.666666667 37 42.6666667 37 42.6666667 34 0.666666667 34"></polygon>
+                    <path d="M34.1666667,29.5 L39.1666667,29.5 L39.1666667,1.5 L34.1666667,1.5 L34.1666667,29.5 Z" id="Fill-3" stroke="#343434" stroke-width="3"></path>
+                </g>
+                <text id="5.-Add-initiative-in" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="17.9972063" y="83">5. Add Initiative </tspan>
+                    <tspan x="32.9527391" y="100">Information</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,115 @@
+.client-master-main .left-container {
+    background-color: #5A5A5A;
+}
+
+.client-master-main .mainContainer {
+    background-color: #5A5A5A;
+    height: 412px;
+}
+
+.action-radio-div {
+    padding-top: 18px;
+}
+
+#cmH .navMenu .tab_menu{
+    display: flex;
+    width: 60%;
+    z-index: 1;
+}
+
+#cmH .navMenu .Icon_menu{
+    display: flex;
+    width: 40%;
+    z-index: 1;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+#cmH .navMenu {
+    margin:0px;
+    padding-left: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+     display: flex;
+    max-width: 100%; 
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#cmH .nav-tabs {
+   border: 0px !important;
+}
+#cmH .nav-tabs>li {
+    float: left;
+    padding: 6px 0px;
+
+}
+#cmH .nav>li {
+    position: relative;
+    display: block;
+}
+
+#cmH .nav-tabs>li {
+    /* width: 25%; */
+    cursor: pointer;
+    text-align-last: center;
+    margin: 0px;
+    line-height: 1.42857143;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px 4px 0 0;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #D0D0D0;
+}
+#cmH .nav-tabs>li.active {
+    cursor: default;
+    border:  1px solid #ffff ;
+    border-bottom-color: transparent;
+    color: #FFFFFF;
+}
+#cmH .nav-tabs>li.active:active,.nav-tabs>li.active:focus{
+    border: 0px;
+}
+#cmH .tooltip-class.show {
+    background-color: black !important;
+    color: white !important;
+    padding: 0.5rem;
+    left:1092px;
+    top:65px
+}
+#cmH .nav-tabs li:active {
+    border: none;
+}
+#addClentMaster .lblAccount
+{
+    
+    
+    /* identical to box height */
+    
+  
+    color:#ffffff;
+}
+#addClentMaster .inputVDT{
+    border: 1px solid #D0D0D0;
+box-sizing: border-box;
+border-radius: 2px;
+width: 320px;
+height: 40px;
+background-color: #5A5A5A;
+color: #FFFFFF !important;
+padding-left: 10px;
+}
+#cmH .tab_menu
+{
+    width:88%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 2%;
+    
+}

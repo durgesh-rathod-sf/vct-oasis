@@ -1,0 +1,36 @@
+#custom-table table {
+    border-spacing: 10px;
+    border: 1px solid gray;
+  }
+
+#custom-table th {
+    padding: 10px;
+    text-align: center;
+    border: solid 2px white;
+    width: 22%;
+    font-size: smaller;
+}
+
+#custom-table td {
+    border-top: solid 1px white;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: inherit;
+    width: 22%;
+    font-size: smaller;
+}
+
+#custom-table .mergeRowBorder {
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+#custom-table .circle
+{
+border-radius: 50%;
+width: 12px;
+height: 12px;
+margin: 0% 37%;
+}

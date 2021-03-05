@@ -1,0 +1,339 @@
+{
+  "data": {
+    "resultCode": "OK",
+    "resultDescription": "Data retrieved successfully",
+    "errorDescription": null,
+    "resultObj":[
+      {
+        "objectiveType": "Cost Category",
+        "objectiveDetailList": [
+          {
+            "elementName": "Discovery",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "elementName": "Intent Design",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "elementName": "VA Development",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          }
+        ],
+        "totalCapexDetails": {
+          "totalTargetInvestments": 80000000,
+          "totalTargetInvestmentsTillDate": 20000000,
+          "totalActualInvestmentsTillDate": 30000000
+        },
+        "totalOpexDetails": {
+          "totalTargetInvestments": 80000000,
+          "totalTargetInvestmentsTillDate": 20000000,
+          "totalActualInvestmentsTillDate": 30000000
+        },
+        "periodicInvestmentViewList": [
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2022",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2019",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2020",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2021",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2023",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          }
+        ]
+      },
+      {
+        "objectiveType": "Workstream",
+        "objectiveDetailList": [
+          {
+            "elementName": "Discovery",
+            "capexDetails": {
+              "targetInvestment": 2100,
+              "actualInvestment": 1100
+            },
+            "opexDetails": {
+              "targetInvestment": 4100,
+              "actualInvestment": 3100
+            }
+          },
+          {
+            "elementName": "Intent Design",
+            "capexDetails": {
+              "targetInvestment": 2100,
+              "actualInvestment": 1100
+            },
+            "opexDetails": {
+              "targetInvestment": 4100,
+              "actualInvestment": 3100
+            }
+          },
+          {
+            "elementName": "VA Development",
+            "capexDetails": {
+              "targetInvestment": 2100,
+              "actualInvestment": 1100
+            },
+            "opexDetails": {
+              "targetInvestment": 4100,
+              "actualInvestment": 3100
+            }
+          }
+        ],
+        "totalCapexDetails": {
+          "totalTargetInvestments": 80000000,
+          "totalTargetInvestmentsTillDate": 20000000,
+          "totalActualInvestmentsTillDate": 30000000
+        },
+        "totalOpexDetails": {
+          "totalTargetInvestments": 80000000,
+          "totalTargetInvestmentsTillDate": 20000000,
+          "totalActualInvestmentsTillDate": 30000000
+        },
+        "periodicInvestmentViewList": [
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2022",
+            "capexDetails": {
+              "targetInvestment": 2100,
+              "actualInvestment": 1100
+            },
+            "opexDetails": {
+              "targetInvestment": 4100,
+              "actualInvestment": 3100
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2019",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2020",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2021",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2023",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          }
+        ]
+      },
+      {
+        "objectiveType": "Financial Objective",
+        "objectiveDetailList": [
+          {
+            "elementName": "Discovery",
+            "capexDetails": {
+              "targetInvestment": 2200,
+              "actualInvestment": 1200
+            },
+            "opexDetails": {
+              "targetInvestment": 4200,
+              "actualInvestment": 3200
+            }
+          },
+          {
+            "elementName": "Intent Design",
+            "capexDetails": {
+              "targetInvestment": 2200,
+              "actualInvestment": 1200
+            },
+            "opexDetails": {
+              "targetInvestment": 4200,
+              "actualInvestment": 3200
+            }
+          },
+          {
+            "elementName": "VA Development",
+            "capexDetails": {
+              "targetInvestment": 2200,
+              "actualInvestment": 1200
+            },
+            "opexDetails": {
+              "targetInvestment": 4200,
+              "actualInvestment": 3200
+            }
+          }
+        ],
+        "totalCapexDetails": {
+          "totalTargetInvestments": 80000000,
+          "totalTargetInvestmentsTillDate": 20000000,
+          "totalActualInvestmentsTillDate": 30000000
+        },
+        "totalOpexDetails": {
+          "totalTargetInvestments": 80000000,
+          "totalTargetInvestmentsTillDate": 20000000,
+          "totalActualInvestmentsTillDate": 30000000
+        },
+        "periodicInvestmentViewList": [
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2022",
+            "capexDetails": {
+              "targetInvestment": 2200,
+              "actualInvestment": 1200
+            },
+            "opexDetails": {
+              "targetInvestment": 4200,
+              "actualInvestment": 3200
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2019",
+            "capexDetails": {
+              "targetInvestment": 2200,
+              "actualInvestment": 1200
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2020",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2021",
+            "capexDetails": {
+              "targetInvestment": 2200,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4200,
+              "actualInvestment": 3000
+            }
+          },
+          {
+            "frequencyType": "YEARLY",
+            "frequency": "2023",
+            "capexDetails": {
+              "targetInvestment": 2000,
+              "actualInvestment": 1000
+            },
+            "opexDetails": {
+              "targetInvestment": 4000,
+              "actualInvestment": 3000
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

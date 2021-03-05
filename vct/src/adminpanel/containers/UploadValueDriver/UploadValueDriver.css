@@ -1,0 +1,360 @@
+.uploadVDTDiv {
+    background-color: whitesmoke;
+    margin-left: 0%;
+    height: fit-content;
+    padding-bottom: 8%;
+}
+
+.parentRadioDiv {
+    padding-top: 15px;
+    padding-bottom: 10%;
+}
+
+.childRadioDiv {
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.uploadHeading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 3%
+}
+
+#uploadValueDriver.test-input {
+    width: 4% !important;
+    height: 43%;
+    color: #000000;
+}
+
+#uploadVDTDiv #select_container {
+    position: relative;
+}
+
+#uploadVDTDiv #myselect-container select {
+    position: absolute;
+    font-size: 13px;
+    width: 100%;
+    height: 20px;
+}
+
+#uploadVDTDiv .selectLevel {
+    font-size: 14px;
+    width: 100%;
+}
+
+#uploadVDTDiv .selectWAD {
+    font-size: 14px;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+}
+
+#uploadVDTDiv .test-radio {
+    font-size: 13px;
+    margin-bottom: 14px;
+    margin-right: 0px;
+    margin-left: 9%;
+    color: #000000;
+    font-weight: 500;
+}
+
+#uploadVDTDiv .test-input {
+    margin-top: 0.2rem !important;
+}
+
+.uploadLabel {
+    font-size: 15px;
+    margin-bottom: 0%;
+}
+
+.rightPanel {
+    background-color: white;
+}
+
+.mainContainer {
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+
+#uploadValueDriver .navMenu .tab_menu{
+    display: flex;
+    width: 60%;
+    z-index: 1;
+}
+
+#uploadValueDriver .navMenu .Icon_menu{
+    display: flex;
+    width: 40%;
+    z-index: 1;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+#uploadValueDriver .navMenu {
+    margin:0px;
+    padding-left: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+     display: flex;
+    max-width: 100%; 
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#uploadValueDriver .nav-tabs {
+   border: 0px !important;
+}
+#uploadValueDriver .nav-tabs>li {
+    float: left;
+    padding: 6px 0px;
+
+}
+#uploadValueDriver .nav>li {
+    position: relative;
+    display: block;
+}
+
+#uploadValueDriver .nav-tabs>li {
+    width: 25%;
+    cursor: pointer;
+    text-align-last: center;
+    margin: 0px;
+    line-height: 1.42857143;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px 4px 0 0;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #D0D0D0;
+}
+#uploadValueDriver .nav-tabs>li.active {
+    cursor: default;
+    border:  1px solid #ffff ;
+    border-bottom-color: transparent;
+    color: #FFFFFF;
+}
+#uploadValueDriver .nav-tabs>li.active:active,.nav-tabs>li.active:focus{
+    border: 0px;
+}
+#uploadValueDriver .tooltip-class.show {
+    background-color: black !important;
+    color: white !important;
+    padding: 0.5rem;
+    left:1092px;
+    top:65px
+}
+#uploadValueDriver .nav-tabs li:active {
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+#uploadValueDriver .checkBoxlabel
+{
+    margin-left: 6px;
+}
+
+#addVDT  .textboxStyle
+{
+    width: 90%;
+    padding-left: 10px;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #5A5A5A;
+    color: #FFFFFF !important;
+    height: 40px;
+
+}
+#addVDT  .labelH5
+{
+    color: #ffffff;
+}
+.paddingNone{
+    padding: 0px
+}
+.marginNone{
+    margin: 0px;
+}
+.container-fluid .subContainer{
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 2%;
+}
+#uploadValueDriver .pointer{
+
+    cursor: pointer;
+}
+#bulk-upload .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    color: #ffffff !important;
+}
+#bulk-upload .table thead th {
+    vertical-align: bottom;
+    border-bottom: none !important;
+    border-right: 1px solid !important;
+    text-align: center !important;
+    font-size: 12px;
+    font-family: 'Graphik';
+    font-weight: 600;
+}
+
+#bulk-upload .table tbody  {
+    max-height: 268px;
+    overflow-y: overlay;
+    overflow-x: hidden;
+    width: 100%;
+    /* border-bottom: 1px solid #5d5d5d; */
+    border-top: none!important;
+}
+
+#bulk-upload ::-webkit-scrollbar {
+    width: 8px !important;
+  }
+  
+  #bulk-upload ::-webkit-scrollbar-track {
+    background: #565555 !important; 
+  } 
+  #bulk-upload ::-webkit-scrollbar-thumb {
+    background:#6E6E6E !important; 
+  }
+  #bulk-upload  ::-webkit-scrollbar-thumb:hover {
+    background: #3B3b3b !important; 
+  }
+
+#bulk-upload .table th {
+    /* padding: 0.75rem; */
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-right: 1px solid !important;
+    font-size: 12px;
+    font-family: 'Graphik';
+}
+
+#bulk-upload .table td {
+    /* padding: 0.75rem; */
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-right: 1px solid !important;
+    font-size: 12px;
+    font-family: 'Graphik';
+}
+
+#bulk-upload .table thead  {
+    background: #5A5A5A !important;
+}
+
+#bulk-upload .tablediv {
+    /* height: 105px; */
+    overflow-y: auto;
+    /* width: 95%; */
+    margin: 1% 0% 1% 1% !important;
+    width: 546px !important;
+    height: 160px !important;
+}
+
+#bulk-upload {
+    position: fixed !important;
+    z-index: 1050;
+    display: none;
+    /* width: 43% !important; */
+    margin-left: 30% !important;
+    /* height: 93%;
+    overflow: hidden; */
+    /* height: 80% !important; */
+    overflow-y: hidden !important;
+    outline: 0;
+    margin-top: 5% !important;
+    width: 620px !important;
+    height: 401px !important;
+}
+
+#bulk-upload .modal-content {
+    background: #505050 !important;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1.5rem;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    /* height: 100%; */
+}
+
+#bulk-upload .modal-header {
+    padding: 1rem 0;
+    padding-top: 0;
+    border-bottom: 1px solid #5B5B5B;
+    margin-bottom: 10px;
+}
+
+#bulk-upload .save-cancel-enabled {
+    width: 71px;
+    height: 38px;
+    background: #00BAFF;
+    border: 1px solid #00BAFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: 'Graphik';
+    color: #fff;
+}
+
+#bulk-upload .save-cancel-enabled:hover {
+    background: #007bff;
+    border: 1px solid #007bff;
+}
+
+#bulk-upload .save-cancel-disabled {
+    width: 71px;
+    height: 38px;
+    background: #767676;
+    border: 1px solid #9B9A9A;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: 'Graphik';
+}
+
+/* #bulk-upload .save-cancel-disabled:hover {
+    background: #007bff;
+    border: 1px solid #007bff;
+} */
+
+#bulk-upload header-info {
+    font-size: 14px;
+    font-family: 'Graphik';
+}
+
+.UploadStyle {
+    width:  fit-content !important;
+}
+
+.textForCSS {
+    width: 300px;
+}
+
+.Toastify__toast {
+    position: relative;
+    min-height: 64px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: 8px;
+    border-radius: 1px;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.1), 0 2px 15px 0 rgba(0,0,0,.05);
+    display: flex;
+    justify-content: space-between;
+    max-height: 450px !important;
+    overflow: auto !important;
+    font-family: sans-serif;
+    cursor: pointer;
+    direction: ltr;
+}

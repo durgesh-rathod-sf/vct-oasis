@@ -1,0 +1,94 @@
+.dropdown .netBenefitOverview .react-select__menu {
+  background-color: #5A5A5A ;
+  margin-top: 0px;
+  border-radius: 0px
+}
+
+.dropdown .netBenefitOverview .react-select__control--is-focused {
+   background-color: #333;
+}
+
+.dropdown .netBenefitOverview .react-select__control{
+  background-color: #5A5A5A !important;
+  border-radius: 2px !important;
+  height: 40px;
+}
+
+.dropdown .netBenefitOverview .react-select__indicator {
+  padding-right: 12px !important;
+}
+
+.dropdown .netBenefitOverview .react-select__option {
+  background-color: #5A5A5A;
+  padding: 0px 10px;
+}
+
+.dropdown .netBenefitOverview .react-select__clear-indicator {
+   display:none;
+}
+.dropdown .netBenefitOverview .react-select__menu .react-select__option--is-focused {
+  background-color: #4285f4;
+  color: #fff;
+}
+.dropdown .netBenefitOverview .react-select__single-value {
+  color: #fff;
+}
+.dropdown .netBenefitOverview .react-select__multi-value {
+  border: 1px solid #999;
+  background-color: #666;
+}
+
+.dropdown .netBenefitOverview .react-select__multi-value__label {
+   color: #fff;
+}
+
+.netBenefitOverview .multi-select {
+  --rmsc-main: #4285f4 !important;
+  --rmsc-hover: #5A5A5A !important; /* 004DFF */
+  --rmsc-selected: #5A5A5A !important;
+  --rmsc-border: #ccc !important;
+  --rmsc-gray: #ffffff !important;
+  --rmsc-bg: #5A5A5A !important;
+  --rmsc-p: 10px !important; /* Spacing */
+  --rmsc-radius: 2px !important; /* Radius */
+  --rmsc-h: 40px !important; /* Height */
+}
+
+.netBenefitOverview .disabledMultiselect{
+  --rmsc-border: grey !important;
+}
+
+.netBenefitOverview .dropdown-heading{
+   color: #FFFFFF;
+}
+
+.netBenefitOverview .dropdown-content{
+   color: #FFFFFF;
+   white-space: nowrap;
+}
+
+.netBenefitOverview .disabledMultiselect .dropdown-container:focus-within{
+  box-shadow: grey 0 0 0 0px !important;
+    border-color: grey !important;
+}
+
+.netBenefitOverview .disabledMultiselect .dropdown-container .gray{
+  color : grey;
+}
+
+.netBenefitOverview .dropdown-container .dropdown-content .panel-content .select-panel .select-item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.netBenefitOverview .control{
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 2px; 
+  text-align: left;
+  background-color: #5A5A5A;
+  border-color: rgba(255, 255, 255, 0.8);
+  min-height: 32px;
+  font-size: 12px,
+  }

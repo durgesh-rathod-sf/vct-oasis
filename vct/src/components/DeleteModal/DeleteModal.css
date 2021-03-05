@@ -1,0 +1,37 @@
+.parent-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#modalContainer{
+    /* width: 40%;
+    margin-left: 30%;     */
+}
+.my-projects-delete .show{
+    display: grid !important;
+    place-items: center ;
+
+}
+.my-projects-delete .modal-title{
+    text-align-last: center;
+}
+.my-projects-delete .modal-dialog{
+    width: 500px;
+}
+.my-projects-delete .yes-button {
+    min-width: 65px;
+    margin-right: 5%;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #3b3b3b
+}
+ 
+.my-projects-delete .no-button {
+    min-width: 65px;
+    border-radius: 2px;
+    background: #767676;
+    border: 1px solid #9B9A9A;
+    color: #fff;
+    font-size: 14px;
+}

@@ -1,0 +1,45 @@
+div {
+    visibility: visible;
+}
+.rvdt-header {
+    margin: 1% 0.5%;
+    background-color: #6C6C6C;
+    font-size: 13px;    
+    width: 596px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.modal-open .rvdt-header {
+    z-index: 0;
+}
+
+.rvdt-header-col {
+    padding-top: 1.5%;
+}
+
+.html2canvas-container {
+    width: 1800px !important;
+}
+
+
+/* new styles for new designs */
+
+.empty-tree-data-div {
+    justify-content: center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 7%;
+}
+
+.empty-tree-data-div p {
+    margin-bottom: 0;
+}
+
+.icon-stack-wrapper-row {
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    top: -3rem;
+    width: 100%;
+}

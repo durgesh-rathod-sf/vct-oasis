@@ -1,0 +1,160 @@
+.ws-main-container {
+    padding-top: 1%;
+}
+
+.plus-icon  {
+    width: 4%;
+    background: darkgrey;
+    padding: 10px;
+    border-radius: 50%;
+}
+.link-kpi-icon  {
+    width: 4%;
+    background: darkgrey;
+    padding: 5px;
+    border-radius: 50%;
+}
+.list-icon, .list-d-icon, .list-a-icon {
+    width: 4%;
+    background: darkgrey;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.icon-enclose {
+    padding: 1% 0;
+}
+
+.grid-icon, .sort-az-icon, .sort-date-icon, .list-w-icon {
+    width: 44px;
+    height: 44px;
+    background: darkgrey;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.ws-color-grey {
+    color: darkgrey;
+}
+
+.ws-color-white {
+    color: #fff;
+}
+
+.circle-icon {
+    background: darkgrey;
+    padding: 5px;
+    border-radius: 50%; 
+}
+.icons-tab-row {
+    display: inline;
+}
+.icon-tab-div {
+    display: inline;
+    margin-right: 3%;
+}
+
+.tab-click-icon:hover {
+    cursor: pointer;
+}
+
+.icon-container {
+    margin-bottom: 1%;
+}
+
+.dws-tabs-li .disable-icon {
+    pointer-events: none;
+}
+
+.dws-icons-tab-row .icon-tab-div .disable-icon{
+    opacity: 0.6;
+}
+
+.dws-icons-tab-row img {
+    cursor: pointer;
+}
+
+/* media query */
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .workstream-home .container {
+        max-width: 1086px;
+    }
+}
+
+
+/* new design styles */
+
+.ws-main-container .dws-icons-tab-row {
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.dws-icons-tab-row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.dws-icons-tab-row .dws-tabs-wrapper {
+    padding-left: 0.5rem;
+}
+.dws-icons-tab-row .dws-option-icons {
+    padding-right: 0.5rem;
+}
+
+.dws-tabs-ul {
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-right: 0;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Graphik';   
+}
+
+.dws-tabs-li {
+    margin-bottom: -1px;
+}
+
+.dws-tabs-ul .dws-tabs-li .active-class {
+    border-color: #fff #fff #5A5A5A;
+    background-color: #5A5A5A;
+}
+
+.dws-tabs-li .dws-nav-link {
+    color: #fff;
+    display: block;
+    padding: .7rem .5rem;
+    cursor: pointer;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+   
+}
+
+.dws-option-icons {
+    text-align: right;
+
+}
+
+.dws-option-icons .last-ws-icon {
+    margin-right: 0;
+}
+
+.workstream-tabs {
+    margin: 0 1rem;
+}
+
+.no-ws-msg {
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.ws-spinner-div {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}

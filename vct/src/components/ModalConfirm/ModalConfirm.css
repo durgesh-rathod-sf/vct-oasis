@@ -1,0 +1,10 @@
+.modal-header-flex {
+    display: flex;
+    padding: 3%;
+}
+#confirm .modal-dialog{
+   text-align: -webkit-center;
+    }
+#confirm .modal-content{
+    width:  490px;
+    }

@@ -1,0 +1,283 @@
+.link-kpi-investments-tab {
+  width: 100%;
+  height: 100%;
+  
+  /*margin-bottom: 1%;*/
+}
+
+.kpicostcat-modal-main .link-kpi-investments-tab {
+  background: #555555;
+}
+.linkkpitext {
+  font-size: 14px;
+  margin-bottom: 0px;
+  
+}
+.linkkpioptions {
+  width: 100%;
+  margin-bottom: 2%;
+  margin-left: 75%;
+  margin-right: 10%;
+  display: flex;
+}
+
+.tableSection {
+  /*width: 97%;*/
+  overflow: auto;
+  /* background: whitesmoke; */
+  color: #fff;
+  text-align: left;
+  margin: 0 30px;
+  height: 201px;
+  /*padding-top: 30px;
+  /* overflow: auto; */
+}
+
+.link-kpi-bgc ::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+.link-kpi-bgc ::-webkit-scrollbar-track {
+  background: #5B5B5B; 
+} 
+.link-kpi-bgc ::-webkit-scrollbar-thumb {
+  background:grey; 
+}
+
+/* Handle on hover */
+.link-kpi-bgc ::-webkit-scrollbar-thumb:hover {
+  background: #454545; 
+}
+
+#linkKpiInvestmentsTable{
+  width: 100%;
+  background: #3e3e3e;
+  /* overflow: scroll; */
+  /* table-layout: auto; */
+}
+#linkKpiInvestmentsTable th{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align-last: center;
+  font-weight: 400;
+  height: 40px;
+  color: #fff;
+  width: 20px;
+  max-width: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  /* transition: all .2s linear; */
+}
+/* #linkKpiInvestmentsTable thead tr th:first-child{
+  width: 4rem !important;
+  min-width: 4rem !important;
+  max-width: 4rem !important;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */
+/* #linkKpiInvestmentsTable th:focus, #linkKpiInvestmentsTable th:hover { */
+  /* color:transparent; */
+/* } */
+/* #linkKpiInvestmentsTable th:focus:after, #linkKpiInvestmentsTable th:hover:after{
+    content:attr(abbr);
+    overflow: visible;
+    text-overflow: inherit;
+    background: lightgray;
+    position: absolute;
+    left:auto;
+    top:auto;
+    width: auto;
+    max-width: 20rem;
+    border: 1px solid #eaebec;
+    padding: 0 .5rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.28);
+    white-space: normal;
+    word-wrap: break-word;
+    display:block;
+    color:black;
+    margin-top:-2.75rem;
+    height: 20px;
+    width: auto;
+  } */
+
+#linkKpiInvestmentsTable td {
+  max-width: 150px;
+  min-width: 150px;
+  border: 1px solid #909090;
+  border-collapse: collapse;
+  font-size: 13px;
+  background: #505050;
+}
+#linkKpiInvestmentsTable tr {
+  
+  border-collapse: collapse;
+}
+#linkKpiInvestmentsTable th {
+  background: #494949;
+border: 1px solid #909090;
+}
+#linkKpiInvestmentsTable tr:last-child { background: lightgray; }
+.linkKpiIcon_Disabled {
+  width: 45px;
+  background: darkgrey;
+  border-radius: 50%;
+  font-size: 24px;
+  height: 45px;
+  text-align-last: center;
+  margin-left: 14px;
+  padding: 4px 0px;
+}
+.linkKpiIcon {
+  width: 45px;
+  background: white;
+  border-radius: 50%;
+  font-size: 24px;
+  height: 45px;
+  text-align-last: center;
+  margin-left: 14px;
+  padding: 4px 0px;
+}
+.linkKpiIcon:hover {
+  cursor: pointer;
+}
+.linkKpiIcon_Disabled:hover {
+  background: white;
+  cursor: pointer
+}
+.link-kpi-input {
+width: 100%;
+padding: 3px 1px 3px 0px;
+background-color: #505050;
+color: #fff;
+border: none;
+}
+.totalTH
+{background-color:#606060;}
+.totalTD
+{background-color:#606060;}
+.link-kpi-inputTotal {
+  width: 100%;
+  padding: 3px 1px 3px 0px;
+  background-color: #606060;
+  color: #fff;
+  border: none;
+  }
+
+  .kpicostcat-modal-main .link-kpi-inputTotal {
+    background-color: transparent;
+  }
+
+.input-euro {
+position: relative;
+}
+.input-euro.right input:focus{
+  padding-right:18px;
+  text-align:end;
+  background: #494949;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.input-euro.right input {
+padding-right:18px;
+text-align:end; 
+}
+.input-euro:before {
+position: absolute;
+content:"%";
+padding: 3px 1px 3px 0px;
+}
+.input-euro.right:before {
+right: 5px;
+}
+.nodata_available {
+height: 25px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
+/* new design styles */
+
+.link-kpi-investments-tab .link-icon-stack div {
+  padding-left: 20px;
+}
+
+.link-kpi-investments-tab .link-icon-stack img {
+  cursor: pointer;
+}
+.link-icon-stack .active-icon img {
+  opacity: 1;
+}
+.link-icon-stack .disabled-icon img{
+  opacity: 0.6;
+}
+
+.link-icon-stack {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px;
+}
+
+  .link-common-header {
+   margin: 0px 30px 30px 30px;
+    /*background: #494949;*/
+    border-bottom: 1px solid #505050;
+  border-radius: 2px;
+  padding: 30px 0px 20px 0px;
+}
+
+.kpicostcat-modal-main .link-common-header {
+  border-bottom: 1px solid #5b5b5b;
+}
+
+.link-kpi-bgc {
+  /* background: rgba(73, 73, 73, 0.5); */
+  background: #555555;
+border-radius: 0px 0px 2px 2px;
+}
+
+#linkKpiInvestmentsTable tbody th {
+  max-width: 150px;
+  min-width: 150px;
+  background: #494949;
+  text-align-last: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#linkKpiInvestmentsTable thead th {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#linkKpiInvestmentsTable tfoot th {
+  background: #494949;
+  text-align-last: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#linkKpiInvestmentsTable tfoot td {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#linkKpiInvestmentsTable tfoot td input {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.link-kpi-save-row {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 30px;
+}
+
+.link-kpi-header-tag{
+  padding: 0px;
+}
+input:focus {
+  outline:0px;
+}

@@ -1,0 +1,20 @@
+.iconTab {
+    opacity: 0.7;
+    display: flex;
+    padding: 6px 0;
+    margin: 0 5px;
+    max-width: 200px;
+    font-size: 1.3em;
+    cursor: pointer
+}
+.iconTab.activated {
+  opacity: 1;
+   border-bottom: 3px solid #fff;
+}
+.iconTab img{
+    width: 50px;
+    margin: 7px;
+}
+.iconTab div{
+    align-self: center;
+}

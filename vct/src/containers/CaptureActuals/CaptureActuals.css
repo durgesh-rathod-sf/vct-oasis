@@ -1,0 +1,86 @@
+.ca-tab-content-main {
+    padding-top: 0.5rem;
+}
+.capture-actuals-main-tab {
+    margin: 1rem 0;
+}
+
+.capture-actuals-main-tab .page-name-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.capture-actuals-main-tab .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.ca-vdt-tree-main {
+    width: 610px;    
+}
+
+.ca-tables-main {
+    width: calc(100% - 610px);
+    padding-left: 1%;
+    margin-top: 1%;
+}
+
+.capture-actuals-main-tab .dbc-vdt-header .tree-only-header {
+    margin-right: 0;
+    padding-right: 0.5%;
+}
+
+
+/* ben inv actuals home styles - main tables all tabs */
+
+.ca-tab-content-main-wrapper {
+    width: 100%;
+}
+
+.ca-tab-ul {
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-right: 0;    
+}
+
+.ca-tab-li {
+    margin-bottom: -1px;
+}
+
+.ca-tab-links-wrapper {
+    margin-right: 0.5rem !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.ia-tab-content-main {
+    margin-right: 0.5rem !important;
+    z-index: 99;
+    margin-top: 1%;
+}
+
+.ca-tab-ul .ca-tab-li .active-class {
+    border-color: #fff #fff #5A5A5A;
+    background-color: #5A5A5A;
+}
+
+.ca-tab-ul .ca-tab-li {
+    z-index: 1;
+}
+.modal-open .ca-tab-ul .ca-tab-li {
+    z-index: 0;
+}
+
+
+.ca-tab-li .ca-nav-link {
+    display: block;
+    padding: .5rem .5rem;
+    cursor: pointer;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+   
+}

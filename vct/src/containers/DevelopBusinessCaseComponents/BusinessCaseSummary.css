@@ -1,0 +1,119 @@
+.MuiIconButton-root{
+    padding:4px;
+    /* background-color:red; */
+}
+
+.MuiTableCell-root{
+padding: 5px !important;
+}
+
+.MuiTable-root {
+width: 100% !important;
+table-layout: fixed !important;
+}
+
+.MuiTableCell-alignLeft{
+width:22% !important;
+border-left: none !important;
+}
+
+.MuiTableCell-paddingNone {
+    width: 23% !important;
+    border-right: none !important;
+}
+
+.MuiToolbar-regular{
+    min-height: 0px !important;
+}
+
+.MuiTableCell-head {
+    line-height:1.5 !important;
+}
+
+.mt-5, .my-5 {
+    margin-top: 1rem !important;
+}
+.npv{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    /* margin: 5% 1% 1% 1%; */
+    display: flex;
+}
+.cpc{
+    width: 45px;
+    height: 20px;
+    border: 0px;
+    background:#4D4D4D;
+    border-radius: 1px;
+    text-align-last: center;
+    align-self: center;
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    color: #FFFFFF;
+}
+.npvStyle{
+    height: 22px;
+    border: none;
+    background: none;
+    padding-left: 5px;
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.label-BCS{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0px;
+    color: #FFFFFF;
+    padding-right: 5px;
+    align-self: center;
+}
+.BCS .rvdt-header-cd{
+    background-color: rgb(108, 108, 108);
+    width: 100% !important;
+    margin: 1% 0% !important;
+}
+.BCS button:focus{
+    outline: 0px;
+}
+.MuiTableRow-root .MuiTableCell-paddingNone{
+/* background-color:#4D4D4D; */
+/* border: "1px solid rgb(144, 144, 144)",  */
+border-bottom: 1px solid rgb(144, 144, 144);
+
+/* color: #FFFFFF; */
+}
+.MuiTableRow-root .MuiTableCell-paddingNone .MuiIconButton-label{
+    color: #FFFFFF;
+}
+
+.BusinessCase-Icon {
+    width: 40%;
+    top: 16rem;
+    max-width: 40%;
+    position: absolute;
+    margin-left: 56%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calcIcon {
+    margin-top: 12px;
+    font-size: x-large !important;
+    margin-left: 10px;
+}

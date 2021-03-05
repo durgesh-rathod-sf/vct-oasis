@@ -1,0 +1,293 @@
+.ws-actuals-gantt-chart-wrapper {
+    overflow-x: auto;
+    padding-top: 0.5rem;
+}
+
+.add-ws-chart-binder {
+    width: 100%;
+}
+
+.saved-ws-chart-row {
+    width: 100%;
+}
+
+.ws-actuals-gantt-chart-wrapper .each-ws-chart-row {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 8px 0;
+    margin-bottom: 8px;
+    position: relative;
+    height: 36px;
+}
+
+.ws-actuals-gantt-chart-wrapper .custom-gantt-chart {
+    position: absolute;
+    height: 20px;
+    cursor: pointer;
+    clip-path: polygon(0 0, calc(100% - 8px) 0,100% 50%, calc(100% - 8px) 100%, 0 100%);
+}
+
+.ws-actuals-gantt-chart-wrapper .custom-gantt-chart-slider {
+    position: absolute;
+    height: 30px;
+    cursor: pointer;
+    clip-path: polygon(0% 0%, 100% 0, 100% 84%, 49% 100%, 0 84%); 
+    background: #B0B0B0;
+    z-index: 1;
+}
+
+.ws-actuals-tab-main .ws-actuals-gantt-chart-wrapper .custom-gantt-chart-slider {
+    z-index: 2;
+}
+
+.ws-actuals-gantt-chart-wrapper .slider-end{
+    background: #FFFFFF;
+}
+
+.ws-actuals-gantt-chart-wrapper .default-chart-color {
+    background: #D0D0D0;
+    /* #c4c4c4; */
+    width: 100%;
+}
+
+.ws-actuals-tab-main .ws-actuals-gantt-chart-wrapper .default-chart-color {
+    z-index: 1;
+}
+
+.ws-actuals-gantt-chart-wrapper .ws-chart-color {
+    background: #6694FF;
+}
+.ws-actuals-gantt-chart-wrapper .act-chart-color {
+    background: #66BBFF;
+}
+.ws-actuals-gantt-chart-wrapper .del-chart-color {
+    background: #99E3FF;
+}
+
+/* arrow styles experiment */
+#ws_gantt_main svg path {
+    /* marker-end: url(#arrow_head); */
+}
+/* milestones styles */
+.ws-actuals-gantt-chart-wrapper .del-ms-div {
+    position: absolute;
+    top: -8px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.ws-actuals-tab-main .ws-actuals-gantt-chart-wrapper .del-ms-div {
+    z-index: 2;
+}
+
+.ws-actuals-gantt-chart-wrapper .mile-context-menu {
+    z-index: 5;
+}
+
+.ws-actuals-gantt-chart-wrapper .add-mile-div {
+    z-index: 2;
+}
+
+
+/* timeline exp styles */
+
+.timeLine-del-left-side {
+    position: absolute;
+    width: 15px;
+    left: -15px;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.timeLine-del-right-side {
+    position: absolute;
+    width: 15px;
+    left: 100%;
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timeLine-del-right-side:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 10px;
+    content: "";
+    height: 20px;
+    position: absolute;
+    border-bottom: 1px dashed #fff;
+}
+.timeLine-del-right-side:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 10px;
+    content: "";
+    height: 20px;
+    position: absolute;
+    border-bottom: 1px dashed #fff;
+}
+/* left and right span styles of chart */
+
+.whole-width-replica {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.custom-gantt-chart .left-span {
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    float: left;
+}
+.custom-gantt-chart .middle-span {
+    width: calc(100% - 20px);
+    height: 100%;
+    position: absolute;
+}
+.custom-gantt-chart .right-span {
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    float: right;
+}
+
+
+/* context-menu styles */
+.mile-context-menu .trash-icon {
+    padding-right: 4px;
+    padding-bottom: 2px;
+}
+
+.mile-context-menu .menu-item {
+    outline: none;
+}
+
+.del-context-menu {
+    z-index: 1;
+}
+
+.del-context-menu, .mile-context-menu {
+    background: #757575;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #fff;
+    padding: 4px 0;
+}
+.mile-context-menu {
+    padding: 4px 8px;
+}
+
+.del-context-menu .menu-item {
+    white-space: nowrap;
+    text-align: left;
+    padding: 4px 6px;
+    outline: none;
+}
+
+.del-context-menu .menu-item:hover {
+    background: #00B0F0;
+    cursor: pointer;
+}
+
+.del-context-menu .disabled-item {
+    cursor: default;
+    opacity: 0.7;
+    pointer-events: none;
+}
+.custom-gantt-chart-bar-coloured{
+    width: 100%;
+    /* background-image: repeating-linear-gradient(to left, #ffffff 0%, #ffffff 50%, transparent 120%); */
+    /* background-size: 6px 100%; */
+    background-size: 11px 100%;
+}
+.custom-gantt-chart-bar-coloured .coloured-solid{
+    text-align-last: center;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 20px;
+    clip-path: polygon(0 0, calc(100% - 8px) 0,100% 50%, calc(100% - 8px) 100%, 0 100%);
+
+}
+.custom-gantt-chart-bar-coloured .coloured-striped{
+    /* background-image: repeating-linear-gradient(to left, #ffffff 0%, #ffffff 50%, transparent 120%);
+    background-size: 4px 100%; */
+}
+.groupBy-actuals-menu .rc-menu-submenu-title, .rc-menu-item {
+    margin: 0;
+    position: relative;
+    display: block;
+    padding: 7px 7px 8px 10px !important;
+    white-space: nowrap;
+}
+
+.groupBy-actuals-menu .main-menu {
+    display: inline-block;
+    width: calc(100% - 20px);
+}
+
+.groupBy-actuals-menu .sub-menu {
+    display: inline-block;
+    margin-left: 5px;
+}
+.groupBy-actuals-menu .rc-menu-item-active, .groupBy-actuals-menu .rc-menu-submenu-active > .rc-menu-submenu-title,
+.rc-menu-submenu .rc-menu-item-active, .rc-menu-submenu-selected {
+    background-color: #004DFF !important;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.groupBy-actuals-menu .rc-menu-item-selected, .rc-menu-submenu .rc-menu-item-selected {
+    background-color: #004DFF ;
+    transform: none;
+}
+
+.icon-tab-div .groupBy-actuals-menu{
+z-index: 3;
+text-align: left;
+width: 165px;
+position: absolute;
+/* margin-left: 52%; */
+/* margin-top: 2%; */
+/* right:  4px; */
+background-color: #505050;
+box-shadow: none;
+border: none;
+color: white;
+font-size: 12px;
+font-family: Graphik;
+}
+
+.ws-actuals-tab-main .icon-tab-div .groupBy-actuals-menu {
+    z-index: 4;
+}
+
+
+/* todays view css styles */
+.ws-today-div-main {
+    position: absolute;
+    top: -8px;
+    width: 1px;
+    height: calc( 100% + 8px);
+    border-left: 2px solid #66BBFF;
+    padding: 2px;
+    z-index: 1;
+}
+
+/* todays view styles */
+.today-header {
+    position: absolute;
+    bottom: 0;
+}
+
+.caret-triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #ffffff;
+}

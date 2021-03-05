@@ -1,0 +1,189 @@
+.workStreamDiv{
+    /* background-color: whitesmoke; */
+    /* margin-top: 3%; */
+    margin-left: 0%;  
+    margin-bottom:1%;
+    /* height:400px; */
+    height: fit-content;
+    position: sticky;
+    top:0px;
+    z-index: 999;
+}
+
+.workStreamDiv .sideNavBar {
+    padding-bottom: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: -15px;
+}
+.workStreamDiv .selectLevelDiv
+{
+    padding-left: 10px;
+  
+}
+
+.workStreamDiv .expand_aboveDiv {
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.workStreamDiv .wsHeading{
+    /* margin-top:8%; */
+    margin-bottom:1%;
+    font-family: 'Graphik';
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.workStreamDiv .lblWorkstream
+{
+  
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.workStreamDiv .selectLevelWAD
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.sideNavBar{
+    /* background-color:#d3d3d3fa; */
+    /* #d3d3d382; */
+    /* height:400px */
+}
+.workStreamDiv .icons-benefits img {
+    width: 20px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.workStreamDiv  .icons-benefits {
+    padding-right: 0.5rem;
+    text-align-last: end;
+    position: relative;
+top: -2rem; 
+}
+.workStreamDiv .test-input {
+    width: 8%;
+    height: 43%;
+    color:#000000;
+}
+
+.workStreamDiv  .radioDiv{
+    margin-top: 30%;
+}
+
+.workStreamDiv  #select_container {
+    position:relative;
+}
+
+#myselect-container select {
+    position:absolute; 
+    font-size: 13px;
+    width: 100%;
+    height:20px;        
+}
+
+.workStreamDiv  .selectLevel{
+    font-size: 12px;
+    width: 100%;   
+    
+    height: 30px;
+    
+    
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 2px; 
+    color: #ffffff;
+    z-index: 99;
+    background-color: #5A5A5A !important;
+}
+
+.workStreamDiv .wad-col {
+    padding-left: 0;
+}
+
+.long-name-rid {
+    margin-left: 12px;
+    margin-right: 15px;
+}
+
+.expanded-view .long-name-rid {
+    margin-left: 15px;
+}
+
+.workStreamDiv .expanded-view .wad-col {
+    margin-right: 0;
+}
+
+.workStreamDiv .wad-col {
+    margin-right: -8px;
+}
+
+.workStreamDiv .expanded-view .selectLevelWAD {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.workStreamDiv .selectLevelWAD {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+
+.workStreamDiv  .selectWAD{
+    font-size: 12px;
+    width: 100%;     
+     /* position: absolute; 
+     z-index: 99; */
+ 
+ 
+height: 30px;
+
+color: #ffffff;
+z-index: 99;
+background-color: #5A5A5A !important;
+border: 1px solid #F0F0F0;
+box-sizing: border-box;
+border-radius: 2px; 
+
+}
+
+.workStreamDiv .wa-header select {
+    outline: none;
+}
+
+.workStreamDiv  .test-radio {
+    font-size: 15px;
+    margin-bottom: 14px;
+    margin-right: 0px;
+    margin-left:9%;
+    color:#000000;
+    font-weight: 500;
+
+}
+
+.workStreamDiv  .test-input {
+/* margin-top:0.4rem */
+}
+.workStreamDiv  .expandImg{
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+.workStreamDiv  .expand_aboveDiv{
+    /* text-align-last: right;
+    padding-right : 0%; */
+    /* overflow-x: auto; */
+}
+
+.workStreamDiv select.selectWAD option:hover {
+    box-shadow: 0 0 10px 100px #43a4ff inset !important;
+}

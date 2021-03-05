@@ -1,0 +1,391 @@
+.ws-header-main .page-name-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.ws-header-main .project-navbar-main {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.ws-header-main {
+    margin: 1% 0;
+}
+
+.ws-main-container {
+    padding-top: 1%;
+    background: #5A5A5A !important;
+}
+
+.plus-icon  {
+    width: 4%;
+    background: darkgrey;
+    padding: 10px;
+    border-radius: 50%;
+}
+.link-kpi-icon  {
+    width: 4%;
+    background: darkgrey;
+    padding: 5px;
+    border-radius: 50%;
+}
+.list-icon, .list-d-icon, .list-a-icon {
+    width: 4%;
+    background: darkgrey;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.icon-enclose {
+    padding: 1% 0;
+}
+
+.grid-icon, .sort-az-icon, .sort-date-icon, .list-w-icon {
+    width: 44px;
+    height: 44px;
+    background: darkgrey;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.ws-color-grey {
+    opacity: 0.6;
+}
+
+.ws-color-white {
+    color: #fff;
+    cursor: pointer;
+}
+
+.dws-icons-tab-row .ws-icon-disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.circle-icon {
+    background: darkgrey;
+    padding: 5px;
+    border-radius: 50%; 
+}
+.icons-tab-row {
+    display: inline;
+}
+.icon-tab-div {
+    display: inline;
+    margin-right: 3%;
+}
+
+/* styles for ws actuals tab icon spacing */
+.ws-act-main .ws-act-icon-set {
+    justify-content: flex-end;
+}
+
+.ws-act-main .ws-act-icon-set .icon-tab-div {
+    margin-right: 4%;
+}
+
+.ws-act-main .ws-act-icon-set .ws-act-last-icon {
+    margin-right: 0;
+}
+
+.ws-act-main .ws-act-group-by, .ws-act-main .ws-act-filter {
+    position: relative;
+}
+
+.ws-act-main .ws-act-group-by .groupBy-actuals-menu {
+    right: 0;
+    top: 30px;
+}
+
+.ws-act-main .ws-act-filter .filterby-menu {
+    right: 0;
+}
+
+.tab-click-icon:hover {
+    cursor: pointer;
+}
+
+.ws-main-container .icon-container {
+    margin-bottom: 1.5rem;
+}
+
+.dws-tabs-li .disable-icon {
+    pointer-events: none;
+}
+
+.dws-icons-tab-row .icon-tab-div .disable-icon{
+    opacity: 0.6;
+}
+
+.dws-icons-tab-row img {
+    cursor: pointer;
+}
+
+/* media query */
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .workstream-home .container {
+        max-width: 1086px;
+    }
+}
+
+
+/* new design styles */
+
+.ws-main-container .dws-icons-tab-row {
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.dws-icons-tab-row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.dws-icons-tab-row .dws-tabs-wrapper {
+    padding-left: 0.5rem;
+}
+.dws-icons-tab-row .dws-option-icons {
+    padding-right: 0.5rem;
+}
+
+.dws-tabs-ul {
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-right: 0;
+    font-size: 12px;   
+}
+
+.dws-tabs-li {
+    margin-bottom: -1px;
+}
+
+.dws-tabs-ul .dws-tabs-li .active-class {
+    border-color: #fff #fff #5A5A5A;
+    background-color: #5A5A5A;
+}
+
+.dws-tabs-li .dws-nav-link {
+    color: #fff;
+    display: block;
+    padding: .7rem .5rem;
+    cursor: pointer;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+   
+}
+
+.dws-option-icons {
+    text-align: right;
+
+}
+
+.dws-option-icons .last-ws-icon {
+    margin-right: 0;
+}
+
+.workstream-tabs {
+    margin: 0 1rem;
+}
+
+.no-ws-msg {
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.ws-spinner-div {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.showLinkKpi{
+    opacity: 0.6;
+}
+
+/* new rc menu styles */
+.enclose-menu-div {
+    position: relative;
+    display: inline;
+}
+
+.icon-tab-div .filterby-menu{
+    text-align-last: left;
+}
+
+.icon-tab-div .filter-menu {
+    position: absolute;
+    font-size: 12px;
+    top: 30px;
+    right: 4px;
+    z-index: 3;
+    color: #fff;
+    background: #505050;
+    border-radius: 2px;
+    text-align: left;
+    border: none;
+    box-shadow: none;
+    padding: 4px 0;
+    width: 110px;
+}
+
+.ws-actuals-tab-main .icon-tab-div .filter-menu {
+    z-index: 4;
+}
+/*
+.icon-tab-div .filter-menu > .rc-menu-item, .icon-tab-div .rc-menu-vertical > .rc-menu-submenu > .rc-menu-submenu-title {
+    padding: 4px 8px;
+    
+}*/
+/*
+.icon-tab-div .sortby-menu > .rc-menu-item {
+    width: 100px;
+}*/
+.sortby-menu.rc-menu-rtl.rc-menu-vertical > .rc-menu-submenu > .rc-menu-submenu-title{
+    padding : 10px !important;
+}
+
+.sortby-menu.rc-menu-rtl.rc-menu-vertical .rc-menu-submenu-arrow{
+    left : 10px !important;
+}
+.rc-menu-vertical.rc-menu-sub {
+    min-width: 20px !important;
+
+}
+
+.filter-menu .rc-menu-item-active, .filter-menu .rc-menu-submenu-active > .rc-menu-submenu-title,
+.rc-menu-submenu .rc-menu-item-active, .rc-menu-submenu-selected {
+    background-color: #004DFF !important;
+    cursor: pointer;
+}
+
+.filter-menu .rc-menu-item-selected, .rc-menu-submenu .rc-menu-item-selected {
+    background-color: #004DFF ;
+    transform: none;
+}
+
+.rc-menu-submenu .rc-menu {
+    color: #fff;
+    background: #505050 !important;
+    border-radius: 2px;
+    text-align-last: left;
+    border: none;
+    box-shadow: none;
+    padding: 4px 0;
+    z-index: 2 !important;
+}
+
+.filter-menu > .rc-menu-item, .sortby-menu > .rc-menu-item{
+    padding: 10px !important;
+}
+
+.filter-menu, .sortby-menu {
+    padding: 6px 0px !important;
+}
+
+.rc-menu-submenu > .rc-menu {
+    background-color: #505050 !important;
+    color: white !important;
+    font-size: 12px !important;
+}
+
+
+
+.radio-img {
+    float: right;
+    padding-top: 4px; 
+    margin-left: 4px;   
+    }   
+    /* .radio-select {
+    display: none;
+    } */
+    
+    .radio-not-select {
+    display: inline-block;
+    }
+    
+    
+    .rc-menu-item-selected.radio-select, .rc-menu-submenu-selected.radio-select {
+    display: inline-block;
+    }
+    
+
+.sortby-menu { 
+    width: 170px !important;
+}
+.sort-actuals .sortby-menu { 
+    width: 185px !important;
+}
+
+/*
+ .rc-menu-vertical-left .rc-menu-submenu-arrow{
+    left : 10px !important;
+    -webkit-transform: scaleX(-1) !important;
+    right: unset !important;
+}
+*/
+
+.rc-menu-submenu-popup{
+    z-index: 3;
+    padding: 5px 0px !important;
+}
+
+.rc-menu-submenu-rtl .rc-menu-vertical.rc-menu-sub{
+    padding: 5px 0px;
+}
+
+.groupBy-menu .rc-menu-item-active, .groupBy-menu .rc-menu-submenu-active > .rc-menu-submenu-title,
+.rc-menu-submenu .rc-menu-item-active, .rc-menu-submenu-selected {
+    background-color: #004DFF !important;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.groupBy-menu .rc-menu-item-selected, .rc-menu-submenu .rc-menu-item-selected {
+    background-color: #004DFF ;
+    transform: none;
+}
+
+.icon-tab-div .groupBy-menu{
+z-index: 3;
+text-align: left;
+width: 130px;
+position: absolute;
+/* margin-left: 52%; */
+/* margin-top: 2%; */
+right:  4px;
+background-color: #505050;
+box-shadow: none;
+border: none;
+color: white;
+font-size: 12px;
+font-family: Graphik;
+}
+
+.groupBy-menu .rc-menu-submenu-title, .rc-menu-item {
+    margin: 0;
+    position: relative;
+    display: block;
+    padding: 7px 7px 8px 10px !important;
+    white-space: nowrap;
+}
+
+.groupBy-menu .main-menu {
+    display: inline-block;
+    width: calc(100% - 20px);
+}
+
+.groupBy-menu .sub-menu {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.icon-tab-div .filter-menu .main-menu {
+    display: inline-block;
+    width: calc(100% - 1px);
+}

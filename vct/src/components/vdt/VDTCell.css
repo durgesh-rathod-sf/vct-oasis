@@ -1,0 +1,44 @@
+.vdt-kpi {
+  background-color: #006abf;
+  cursor: grab;
+}
+
+.lv4 .vdt-kpi-non-fin {
+  background-color: #350056 !important;
+  cursor: grab;
+}
+.vdt-kpi-red {
+  background-color:#dc1414eb !important;
+  cursor: grab;
+}
+.vdt-kpi-green {
+  background-color:#339933 !important;
+  cursor: grab;
+}
+.vdt-kpi-grey {
+  background-color:#909090 !important;
+  cursor: grab;
+}
+.vdt-kpi-purple{
+  background-color:#39285f !important;
+  cursor: grab;
+}
+.vdt-kpi-cursor{
+  cursor: default;
+}
+
+.dbc-benefits-tab .static-vdt .vdt-kpi-cursor {
+  cursor: pointer;
+}
+
+.vdt-kpi-benefit-selected {
+  background-color:#3E3E3E !important;
+}
+
+.vdt-node>input {
+  background: transparent;
+  border: none;
+  width: 79px;
+  border-bottom: 1px dotted;
+  color: #fff;
+}

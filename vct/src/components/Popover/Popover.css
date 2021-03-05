@@ -1,0 +1,32 @@
+.filter-popover .card-body {
+    padding: 2px;
+    width: 200px;   
+}
+
+.filter-popover .card-body ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+     height: 150px;
+    overflow-y: auto;
+}
+.filter-popover .card-body li {    
+    padding: 5px 0px 0px 5px;
+    border-bottom: solid 1px #f9f9f9;
+}
+
+.filter-popover .card-body li:nth-child(1) {
+    border-bottom: solid 1px #000000;
+    text-transform: capitalize;
+}
+
+.filter-popover .card-body li:nth-child(odd) {
+    background-color: #F7F6F6;
+}
+
+.filter-popover-btn {    
+    border: solid 1px #000000;
+    margin: 0 10px 10px 0;
+    font-size: 13px;
+    width: 70px;
+}

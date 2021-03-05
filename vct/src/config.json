@@ -1,0 +1,31 @@
+{
+  "api": {
+    "invokeUrl": "https://api.valuecockpit-accenture.net/value-cockpit/kpi/value_cockpit"
+  },
+  "cognito": { 
+    "production": {
+      "REGION": "us-east-1",
+      "USER_POOL_ID": "us-east-1_ZkM5YelXe",
+      "APP_CLIENT_ID": "6nnqe5mcm2imu3c4loag2936uc",
+      "IDENTITY_POOL_ID": "us-east-1:10903c7c-b0b4-430f-a315-c611c1f8dc0a"
+    },
+    "staging": {
+      "REGION": "us-east-1",
+      "USER_POOL_ID": "us-east-1_28t2SZxZ8",
+      "APP_CLIENT_ID": "3gt4hmlgbbqdmbvhcvqqslbplr",
+      "IDENTITY_POOL_ID": "us-east-1:234b0ebf-4f8f-4b6b-bc2f-5702538b256a"
+    },
+    "development": {
+      "REGION": "us-east-1",
+      "USER_POOL_ID": "us-east-1_28t2SZxZ8",
+      "APP_CLIENT_ID": "3gt4hmlgbbqdmbvhcvqqslbplr",
+      "IDENTITY_POOL_ID": "us-east-1:234b0ebf-4f8f-4b6b-bc2f-5702538b256a"
+    },
+    "local": {
+      "REGION": "us-east-1",
+      "USER_POOL_ID": "us-east-1_28t2SZxZ8",
+      "APP_CLIENT_ID": "3gt4hmlgbbqdmbvhcvqqslbplr",
+      "IDENTITY_POOL_ID": "us-east-1:234b0ebf-4f8f-4b6b-bc2f-5702538b256a"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+.addElementDiv {
+    background-color: white;
+}
+
+.inputRow {  
+    margin-top: 15px;
+}
+
+.closeIcon_vdt {
+    position: relative;
+    left: 92%;
+    height: 27px;
+    margin-top: 0.5%;
+    cursor: pointer;
+}
+
+#addVDT .labelH5 {
+ color:#ffffff;
+}
+
+#addVDT .selectVDT {
+    width: 250px;
+    height: 40px;
+    margin-left: 0px !important
+}
+
+#addVDT .inputVDT {
+    width: 90%;
+    padding-left: 10px;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #5A5A5A;
+    color: #FFFFFF !important;
+    height: 40px;
+    padding-top: 8px;
+}
+#addVDT  .inputVDTTextArea
+{
+    width: 90%;
+    padding-left: 10px;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #5A5A5A;
+    color: #FFFFFF !important;
+    height: 110px;
+}
+#addVDT .inputVDTTextArea:focus,#addVDT .inputVDT:focus{
+    outline: none;
+}
+#addVDT .selectVDT {
+    width: 80%; 
+    height: 40px; 
+   position: absolute;
+   color: #ffffff;
+   z-index: 99;
+   background-color: #5A5A5A !important;
+   color:'#ffffff';
+   border: 1px solid #F0F0F0;
+   border-radius: 2px;
+   padding-left: 5px;
+}
+#addVDT .addKPIVDT
+{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 0px;
+}
+#addVDT .addKPI
+{
+    /* margin-top: 12px; */
+    margin-left:63px;
+    margin-top: 56px;
+  
+}
+#addVDT .vdtLabel
+{
+    margin-left: 0px !important;
+    font-family: 'Graphik';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+margin-bottom: 3px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+#addVDT .KPIForm
+{
+    margin-left: 32px;
+    margin-top: 28px;
+}
+
+#addVDT .buttondiv
+{
+    margin:25px 0px;
+    padding:0px;
+
+}
+#addVDT .field-wrap{
+    height: 60px;
+    margin-bottom: 20px;
+}
+.edit-save-icon {
+    cursor: pointer;
+    /* width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align-last: center;
+    padding: 5px 5px;
+    background: darkgrey; */
+}
+
+.edit-save-icon-row {
+    position: absolute;
+    bottom: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    right: 0;
+}
+
+#addVDT .multi-select {
+    --rmsc-main: #ccc !important;
+    --rmsc-hover: #5A5A5A !important; /* 004DFF */
+    --rmsc-selected: #5A5A5A !important;
+    --rmsc-border: #ccc !important;
+    --rmsc-gray: rgb(170, 170, 170) !important;
+    --rmsc-bg: #5A5A5A !important;
+    --rmsc-p: 10px !important; /* Spacing */
+    --rmsc-radius: 2px !important; /* Radius */
+    --rmsc-h: 40px !important; /* Height */
+  }
+ 
+  #addVDT .dropdown-heading{
+     color: #FFFFFF;
+  }
+ 
+  #addVDT .dropdown-content{
+     color: #FFFFFF;
+     white-space: nowrap;
+  }
+
+  #addVDT .dropdown-content span{
+      height: 20px;
+      word-break: normal;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+
+  #addVDT .dropdown-container .dropdown-content .panel-content .select-panel .select-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }

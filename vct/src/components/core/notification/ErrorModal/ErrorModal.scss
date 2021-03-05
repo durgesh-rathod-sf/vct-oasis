@@ -1,0 +1,81 @@
+.error-modal-wrapper {
+
+
+  .show {
+    display: grid !important;
+    place-items: center;
+  }
+
+  .modal-content {
+    padding: 4% 0;
+    border-radius: 10px;
+    border: none;
+  }
+
+
+
+  .modal-header {
+    /* font-size: 16px; */
+    border-bottom: none;
+    /* color: #fff;
+    text-align: center; */
+
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+  }
+
+
+  .modal-body {
+    text-align-last: center;
+  }
+
+  svg {
+    width: 60px;
+    height: 60px;
+    left: 30px;
+    position: relative;
+
+    border-radius: 30px;
+    padding: 5px;
+
+    &.errIcon {
+      border: 6px solid red;
+
+      rect {
+        fill: red;
+      }
+    }
+
+    &.okIcon {
+      border: 6px solid rgb(4, 116, 4);
+
+      path {
+        fill: rgb(4, 116, 4);
+        ;
+      }
+    }
+  }
+
+  h6 {
+    padding-left: 50px;
+  }
+
+  .yes-button {
+    min-width: 65px;
+    margin-right: 5%;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #3b3b3b
+  }
+}

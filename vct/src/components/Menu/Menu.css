@@ -1,0 +1,133 @@
+body {
+	transition: background-color .5s;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	float: left;
+	z-index: 3;
+	top: 10;
+	right: 0;
+	background-color:  rgba(56, 56, 56, 0.94);
+	overflow-x: hidden;
+	transition: 0.5s;
+	z-index: 9999;
+}
+
+#sideNavClose {
+	display: none;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav ul li {
+	height: 54px;
+	list-style-type: none;
+	/* background-color:  rgba(56, 56, 56, 0.94); */
+	line-height: 21px;
+	left: 1100px;
+	top: 80px;
+}
+
+.sidenav ul li:hover {
+	height: 54px;
+	list-style-type: none;
+	background-color: #00BAFF;
+	line-height: 21px;
+	border-bottom-width: 1px;
+}
+
+.sidenav ul {
+	margin-left: -12%;
+	text-align: center;
+}
+
+.sidenav ul li:first-child {
+	 background-color:  rgba(56, 56, 56, 0.94);
+	padding: 3% 1% 3% 5%;
+	display: none;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#main {
+	transition: .5s;
+	padding: 16px;
+}
+
+.menu-icons {
+	margin-right: 10%;
+	/* height: 45px; */
+	width: 45px
+}
+
+.menu-logo {
+	height: 65px;
+}
+
+.shadow .nav-link {
+	padding: 0.5rem 0.5rem;
+}
+
+
+/* styles for idle timeout modal */
+
+.timeout-modal {
+	width: 35% !important;
+	height: 40% !important;
+	margin: 0 30%;
+}
+
+.timeout-modal .modal-content {
+	background-color: #fff !important;
+}
+
+.timeout-modal .modal-dialog {
+	margin: 0;
+}
+
+.timeout-modal .modal-dialog p {
+	margin-bottom: 0;
+	color: #212529;
+}
+
+.timeout-modal .modal-title {
+	color: #212529;
+}
+
+.timeout-modal .modal-footer {
+	padding: 0.5rem;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 0px;
+	}
+	.sidenav a {
+		font-size: 14px;
+	}
+}
+
+.one-edge-shadow {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+}

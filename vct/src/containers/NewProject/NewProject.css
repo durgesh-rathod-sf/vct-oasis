@@ -1,0 +1,201 @@
+.required-label::after {
+    content: "*";
+    color: white;
+}
+
+
+.datepicker-input{
+    width: 570px
+}
+
+.datepicker-input:disabled{
+    border: 1px solid #9d9b9b
+}
+/* modal styles */
+.modal-header-flex {
+    display: flex;
+    padding: 3%;
+}
+#convert .modal-dialog{
+   text-align: -webkit-center;
+    }
+#convert .modal-content{
+    width:  490px !important;
+    margin-top: 0px;
+     border-radius: 10px !important;
+    }
+.modalStyle{
+    font-weight: 500;
+    line-height: normal;
+    min-width: 65px;
+    margin-right: 5%;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #3b3b3b;
+}
+/* modal styles */
+.upload-info {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+/* Styles for new designs */
+.main-form{
+    margin-top: 1rem;
+}
+.form-group_newProject{
+    margin-bottom: 1rem;
+    padding: 0px;
+}
+.required-label{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+
+.form-input{
+    background: #5A5A5A;
+    width: 320px;
+    border: 1px solid #F0F0F0;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+   
+}
+/* .newProject .form-control{
+
+} */
+/* input:-internal-autofill-selected{
+background-color: #454545 !important;
+} */
+.newProject .form-control:focus {
+    background-color: #5A5A5A;
+    color: rgba(255, 255, 255, 0.7);
+}
+.uploadText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+.userTable th{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #C8C5C5;
+    background-color: #505050;
+    text-align-last:center;
+    height: 40px;
+}
+.userTable{
+    width:100%;
+    border: 1.5px solid #757575;
+box-sizing: border-box;
+}
+.logoUpload-box{
+    /* margin-top: 3%; */
+    margin:0px;
+    padding:5px;
+    border: 1px dashed rgb(200, 197, 197);
+    text-align-last: center;
+    width: 249px;
+    height: 138px;
+}
+.userTable tr{
+    border: 1.5px solid #757575;
+}
+.newProject{
+    /* background-color: #454545 !important; */
+}
+.subText{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+    /* display: flex; */
+    align-items: center;
+    color: #FFFFFF;
+    width: 320px;
+    text-align: right;
+}
+.form-input::placeholder{
+    color: #808080;
+}
+.form-control:focus {
+    /* color: #495057; */
+    /* background-color: #fff; */
+    /* border-color: #80bdff; */
+    outline: 0;
+    /* box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); */
+}
+.cross{
+    width: 18px;
+    height: 18px;
+    margin-right: 30px;
+}
+.userTable input{
+    height: 30px;
+    opacity: 1;
+    border: none;
+    background-color: #4D4D4D;
+    margin-left: 18px;
+    margin-top: 8px;
+ 
+}
+.userTable select{
+    border: 1px solid rgb(240, 240, 240);
+    width: 87px;
+    height: 26px;
+    background-color:#5A5A5A;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0px;
+}
+.enableHov{
+    font-size: 14px;
+    width: 200px;
+    background-color: #00BAFF;
+    border-color:#00BAFF;
+}
+.disableHov{
+    font-size: 14px;
+    width: 200px;
+    background-color: #505050 !important;
+    border-color: #505050 !important;
+}
+.enableHov:hover {
+    color: #fff;
+    background-color: #004DFF !important;
+    border-color: #0062cc !important;
+}
+.list_projectUser:hover{
+    background-color:#004DFF !important
+}
+.tooltip-class.show {
+    background-color: black !important;
+    color: white !important;
+    padding: 0.5rem;
+}
+
+.divLeftFloat {
+    float: right;
+}
+
+.mrT0{
+    margin-top: 0px !important;
+}

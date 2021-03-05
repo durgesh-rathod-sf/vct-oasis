@@ -1,0 +1,369 @@
+.my-project-body {
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+
+.no-project-body {
+    color: #ffffff;
+    height: 100vh;
+    width: 100%;
+}
+
+.projectlist {
+    background-color: transparent;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    height: 300px;
+    border-radius: 0px;
+    margin: 1%;
+}
+
+.project-info {
+    width: 100%;
+    background-color: transparent;
+    height: 180px;
+    color: #ffffff;
+}
+
+.project-info i {
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.project-setting-row {
+    width: 100%;
+    text-align: right;
+    padding-right: 6px;
+}
+
+.project-image-row {
+    text-align: center;
+    width: 100%;
+}
+
+.project-details {
+    width: 100%;
+    height: 118px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 0.9rem;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.project-name {
+    font-size: 0.9rem;
+    font-weight: 500
+}
+
+.project-detail-info {
+    display: none;
+}
+
+.projectlist:hover .project-info {
+    height: 127px;
+}
+
+.projectlist:hover .project-details {
+    height: 58%;
+    font-weight: 500;
+}
+
+.projectlist:hover .project-image-row {
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+}
+
+.projectlist:hover .project-image-row img {
+    height: 70%;
+    width: 60%;
+}
+
+.projectlist:hover #appLogo {
+    height: 120%;
+    width: 120%;
+}
+
+.projectlist:hover .project-name {
+    font-size: 1rem;
+    font-weight: 500;
+    float: left;
+    width: 100%;
+    padding-top: 5px
+}
+
+.projectlist:hover .project-setting-row {
+    width: 38%;
+    float: right;
+}
+
+.projectlist:hover .project-setting-row .master-label2 {
+    margin-right: 0 !important;
+}
+
+.projectlist:hover .project-setting-row .master-label {
+    margin-left: 10px;
+}
+
+.projectlist:hover .project-detail-info {
+    display: block;
+}
+
+
+/* .projectlist:hover .project-setting-row .fa-cog{
+    padding-right: 2%;
+} */
+
+.customDatePickerWidth .form-control {
+    width: 570px;
+}
+
+.addUserDiv {
+    border: #ffffff dashed;
+    border-radius: 5px;
+    height: 38px;
+    margin-top: 5%;
+    cursor: pointer;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.copyIcon {
+    width: 15px;
+    /* padding-right: 5px; */
+}
+
+.loading {
+    color: white;
+    justify-content: center;
+    margin: 10% 0%;
+}
+
+
+/* sort icon styles */
+
+.create-sort-options-row .sort-by-div img {
+    width: 27px;
+    height: 27px;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+
+.create-sort-options-row .create-deal-newproject,
+.create-sort-options-row .create-master {
+    display: inline-block;
+}
+
+.create-sort-options-row .sort-by-div {
+    text-align: right;
+}
+
+.create-sort-options-row .sort-icon {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    border-radius: 50%;
+    float: right;
+    background: #f8f9fa;
+    cursor: pointer;
+}
+
+/* new design styles - 7/14 */
+
+.deals-projects-main .page-header-row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.deals-projects-main {
+    margin: 1rem 3.5rem;
+    margin-top: 1.5rem;
+}
+
+.deals-projects-main .page-header-row {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #A2A2A2;
+}
+
+.deals-projects-main .page-header-row .col-sm-3 {
+    padding-left: 0;
+}
+
+.deals-projects-main .page-header-row .col-sm-9 {
+    padding-right: 0;
+}
+
+.deals-projects-main .btn-row {
+    text-align: right;
+}
+
+.cr-de-btn-div, .cr-offer-btn-div, .sorting-wrapper-div {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.cr-de-btn-div button, .cr-offer-btn-div button {
+    font-size: 14px;
+    background-color: #00BAFF;
+    border-color: #00BAFF;
+}
+.cr-de-btn-div button:hover, .cr-offer-btn-div button:hover {
+    font-size: 14px;
+    background-color: #004DFF;
+    border-color: #004DFF;
+}
+
+.sorting-wrapper-div .sort-svg {
+    cursor: pointer;
+}
+
+/* each project card styles */
+.projects-list-main .project-card {
+    border: 1px solid #909090;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+.projects-list-main {
+    margin-top: 1rem;
+}
+
+.projects-list-main .project-card-main {
+    padding-bottom: 2rem;
+}
+
+.project-icons-row  {
+    text-align: right;
+    padding-top: 0.5rem;
+}
+
+.project-icons-row span {
+    padding-left: 10px;
+}
+
+.project-card .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.project-logo-row {
+    padding-top: 0.5rem;
+}
+
+.project-name-row {
+    justify-content: center;
+    padding-top: 0.5rem;
+}
+
+.project-name-row .pr-name {
+    cursor: pointer;
+    overflow-wrap: anywhere;
+    color: #ffffff;
+    text-align: center;
+}
+
+.project-date-row {
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 0.5rem;
+}
+
+.project-date-row .pr-date-div {
+    text-align: right;
+    
+}
+
+.project-date-row .pr-date-div .pr-date-block {
+    background: #3b3b3b;
+}
+
+.pr-date-block span {
+    padding: 0 0.3rem;
+}
+
+.project-details-row {
+    color: #ffffff;
+    background-color: #4D4D4D;
+    margin: 1px;
+}
+.project-details-row .details-wrapper {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    word-break: break-all;
+}
+
+/* project card hover styles */
+
+.on-hover-card {
+    display: none;
+    background-color: #4D4D4D;
+    color: #ffffff;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+
+.project-card:hover .not-hover-card {
+    display: none;
+}
+
+.project-card:hover .on-hover-card {
+    display: block;
+}
+
+.project-card:hover .project-icons-row {
+    background-color: #4D4D4D;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.project-descr-row {
+    padding: 0.5rem;
+}
+
+.project-descr-row p {
+    margin-bottom: 0;
+    word-break: break-all;
+}
+
+/* master and offering labels styles */
+
+
+.project-card .master-label label,
+.project-card .offering-label label {
+    margin-bottom: 0;
+}
+
+.project-card .master-label {
+    font-size: 11px;
+    color: #FFFEFE;
+    background-color: #00BAFF;
+    padding: 0 8px;
+    top: -7px;
+    left: 10px;
+}
+
+.project-card .offering-label {
+    font-size: 11px;
+    color: #FFFEFE;
+    background-color: #3b3b3b;
+    padding: 1px 5px;
+    top: -8px;
+    left: 10px;
+}
+
+.sortTimestamp-dimensions {
+    height: 34px;
+    width: 34px;
+}
+

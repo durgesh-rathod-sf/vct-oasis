@@ -1,0 +1,69 @@
+.vdt-tree-wrapper>div>div>.label {
+  background-color: #99d2ff;
+  color: #000000;
+
+}
+
+.branch.lv1>div>div>.label {  
+  color: #000000;
+  cursor: grab;
+}
+
+.branch.lv1 .isFin {
+  background-color: #66bbff;
+}
+.branch.lv1 .isNonFin {
+  background-color: #E0B0FF;
+}
+
+.branch.lv2>div>div>.label {
+  
+  color: #fff;
+  cursor: grab;
+}
+
+.branch.lv2 .isFin {
+  background-color: #6694ff;
+}
+
+.branch.lv2 .isNonFin {
+  background-color: #C161FF;
+}
+
+.branch.lv3>div>div>.label {
+  
+  color: #fff;
+  cursor: grab;
+}
+
+.ordCursor {
+  cursor: auto !important;
+}
+
+.branch.lv3 .isFin {
+  background-color: #008bbf;
+}
+.branch.lv3 .isNonFin {
+  background-color: #A212FF;
+}
+.branchCursor.lv1>div>div>.label {
+  cursor: default;
+}
+
+.branchCursor.lv2>div>div>.label {
+  cursor: default;
+}
+
+.branchCursor.lv3>div>div>.label {
+  cursor: default;
+}
+
+
+.droppable {
+  border: 2px dotted #fff;
+}
+
+.kpiModal1 .modal-body{
+  color: #ffffff;
+   padding: 2rem;
+}

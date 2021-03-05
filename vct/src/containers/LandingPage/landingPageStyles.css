@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+#homelandingPage .welcomeFont{
+
+
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 64px;
+	display: flex;
+	margin-bottom: 36px;
+	/* align-items: center; */
+	
+	color: #00BAFF;
+}
+#homelandingPage .displayText
+{
+	font-family: 'Graphik';
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+display: flex;
+/* align-items: center;
+text-align: center; */
+
+color: #FFFFFF;
+}
+
+.toastWarnCSS{
+    background-color: #424242 !important;
+    width :405px;  
+	padding: 6px;
+	margin-top: -21px;
+    cursor : default !important;
+}
+
+#homelandingPage{
+	background-image: url(../../assets/project/login/Lighthouse.svg);
+    background-size: cover;
+    height: calc(100vh - 80px);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#homelandingPage .leftdiv
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#homelandingPage .welcomediv
+{
+	margin-top: 145px;
+	margin-left: 140px;
+	
+}
+#homelandingPage .btn-row
+{
+	margin-top: 40px;
+	padding-left: 0px;
+	
+}

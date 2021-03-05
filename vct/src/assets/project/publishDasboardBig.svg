@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="245px" height="274px" viewBox="0 0 245 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>publish dasboard big</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing2-Copy-30" transform="translate(-784.000000, -289.000000)">
+            <g id="publish-dasboard-big" transform="translate(766.000000, 286.455782)">
+                <path d="M150.448849,5.70489623 L252.125419,64.0085507 C258.342248,67.5734222 262.176569,74.1920907 262.176569,81.3584901 L262.176569,197.729945 C262.176569,204.896345 258.342248,211.515013 252.125419,215.079885 L150.448849,273.383539 C144.286878,276.916953 136.713122,276.916953 130.551151,273.383539 L28.8745814,215.079885 C22.6577516,211.515013 18.8234308,204.896345 18.8234308,197.729945 L18.8234308,81.3584901 C18.8234308,74.1920907 22.6577516,67.5734222 28.8745814,64.0085507 L130.551151,5.70489623 C136.713122,2.17148206 144.286878,2.17148206 150.448849,5.70489623 Z" id="Polygon-Copy-5" fill="#FFFFFF"></path>
+                <g id="Group-9" transform="translate(121.000000, 52.544218)">
+                    <path d="M31.5033,10.9979 C31.5033,9.3889 30.6453,7.9009 29.2513,7.0969 L18.0043,0.6029 C16.6093,-0.2011 14.8933,-0.2011 13.4993,0.6029 L2.2523,7.0969 C0.8583,7.9009 0.0003,9.3889 0.0003,10.9979 L0.0003,23.9849 C0.0003,25.5949 0.8583,27.0819 2.2523,27.8869 L13.4993,34.3799 C14.8933,35.1849 16.6093,35.1849 18.0043,34.3799 L29.2513,27.8869 C30.6453,27.0819 31.5033,25.5949 31.5033,23.9849" id="Stroke-1" stroke="#343434" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M38.0434,17.492 L21.7294,17.492" id="Stroke-3" stroke="#343434" stroke-width="2"></path>
+                    <polyline id="Stroke-5" stroke="#343434" stroke-width="2" points="34.3383 12.2938 38.0433 17.4918 34.3383 22.6898"></polyline>
+                    <path d="M15.7514,18.5067 C15.1924,18.5067 14.7374,18.0517 14.7374,17.4917 C14.7374,16.9327 15.1924,16.4777 15.7514,16.4777 C16.3114,16.4777 16.7664,16.9327 16.7664,17.4917 C16.7664,18.0517 16.3114,18.5067 15.7514,18.5067 M15.7514,14.4777 C14.0894,14.4777 12.7374,15.8297 12.7374,17.4917 C12.7374,19.1537 14.0894,20.5067 15.7514,20.5067 C17.4134,20.5067 18.7664,19.1537 18.7664,17.4917 C18.7664,15.8297 17.4134,14.4777 15.7514,14.4777" id="Fill-7" fill="#343434"></path>
+                </g>
+                <text id="3.-Publish-Dashboard" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="105.384415" y="108.544218">3. Publish </tspan>
+                    <tspan x="97.8807527" y="125.544218">Dashboards</tspan>
+                </text>
+                <text id="Ingest-Periodic-KPI" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="72.1277514" y="169.544218">Ingest periodic KPI </tspan>
+                    <tspan x="55.2030505" y="186.544218">data inputs and publish </tspan>
+                    <tspan x="88.7385576" y="203.544218">to dashboards</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

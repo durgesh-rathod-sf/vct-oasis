@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="204px" height="224px" viewBox="0 0 204 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing2-Copy-10" transform="translate(-797.000000, -313.000000)">
+            <g id="Group-2" transform="translate(782.000000, 308.000000)">
+                <g id="Group-4" fill="#FFFFFF">
+                    <path d="M131.923274,9.35326271 L203.248246,50.252622 C212.573491,55.5999292 218.324972,65.5279319 218.324972,76.2775311 L218.324972,157.722469 C218.324972,168.472068 212.573491,178.400071 203.248246,183.747378 L131.923274,224.646737 C122.680318,229.946859 111.319682,229.946859 102.076726,224.646737 L30.7517537,183.747378 C21.426509,178.400071 15.6750278,168.472068 15.6750278,157.722469 L15.6750278,76.2775311 C15.6750278,65.5279319 21.426509,55.5999292 30.7517537,50.252622 L102.076726,9.35326271 C111.319682,4.05314146 122.680318,4.05314146 131.923274,9.35326271 Z" id="Polygon-Copy-4"></path>
+                </g>
+                <g id="Group-5" transform="translate(100.000000, 37.500000)">
+                    <path d="M35,17.5 C35,26.8895662 27.1651143,34.5 17.5003966,34.5 C7.83567884,34.5 0,26.8895662 0,17.5 C0,8.11120428 7.83567884,0.5 17.5003966,0.5 C27.1651143,0.5 35,8.11120428 35,17.5 Z" id="Stroke-1" stroke="#343434" stroke-width="2"></path>
+                    <path d="M23.9391443,15.9143598 L16.2193881,9.97634454 C15.3438657,9.30289506 14.0881758,9.46670758 13.4147263,10.34223 C13.1458062,10.6918415 13,11.1205443 13,11.5616182 L13,23.438166 C13,24.5427355 13.8954305,25.438166 15,25.438166 C15.4411028,25.438166 15.8698319,25.2923408 16.2194549,25.0233883 L23.939211,19.0848557 C24.8147051,18.4113694 24.9784648,17.1556726 24.3049784,16.2801785 C24.1993861,16.1429145 24.0764128,16.0199463 23.9391443,15.9143598 Z" id="Fill-3" fill="#343434"></path>
+                </g>
+                <text id="Learn-how-to-use-the" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="41.5940249" y="149">Learn how to use the </tspan>
+                    <tspan x="52.2847689" y="166">Value Cockpit in a </tspan>
+                    <tspan x="70.725583" y="183">video tutorial</tspan>
+                </text>
+                <text id="How-to-use-Copy" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="76.803116" y="93">How To Use</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,37 @@
+#ddlCars {
+    min-height:190px; 
+    overflow-y :auto; 
+    overflow-x:hidden; 
+    position:absolute;
+    width:300px;
+    display: contents;
+ }
+
+ /* new design styles */
+
+ .offering-select-box {
+     z-index: 3;
+     padding-right: 0;
+ }
+ .offering-select-box p{
+    margin-bottom: 0;
+ }
+
+ .css-tlfecz-indicatorContainer {
+    padding: 0px !important;
+ }
+
+ .css-tlfecz-indicatorContainer:hover {
+    color:hsl(0,0%,80%) !important;
+ }
+
+ .css-1gtu0rj-indicatorContainer {
+    padding: 0px !important;
+ }
+
+ .css-1gtu0rj-indicatorContainer:hover{
+     color:hsl(0,0%,80%) !important;
+ }
+ .offering-select-disable{
+   opacity: 0.5;
+}

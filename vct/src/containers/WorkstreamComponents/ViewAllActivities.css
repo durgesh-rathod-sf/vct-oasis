@@ -1,0 +1,83 @@
+.view-acti-main-div .modal-backdrop.show {
+    opacity: 0.3;
+}
+
+.view-activity {
+    border: none;
+    padding: 8px 0;
+    background: #494949;
+    border-radius: 2px;
+    margin-left: 0;
+    margin-right: 0;    
+}
+
+.activity-binder {
+    margin-bottom: 1%;
+}
+
+.activity-name {
+    word-break: break-all;
+}
+
+.activity-name label:hover {
+    cursor: pointer;
+}
+
+.activity-name label, .deliverables-counter label {
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+/* font-awesome icon styles */
+
+.fa-trash {
+    cursor: pointer;
+}
+
+/*  activities GRID view styles */
+.view-activity-grid {    
+    margin-bottom: 1%;
+    padding-right: 0;
+}
+
+.view-all-act-grid-tab {
+    margin-right: 0;
+}
+
+.view-activity-grid .grid-holder {
+    border: none;
+    height: 100%;
+    background: #494949;
+    border-radius: 2px;
+    
+}
+
+.view-activity-grid .grid-holder .no-gutters {
+    padding: 0.5rem;
+}
+
+.view-activity-grid .grid-delivery {
+    padding: 0.5rem;
+    padding-top: 0;
+}
+
+.view-activity-grid .activity-name {
+    
+    height: 72px;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.view-activity-grid .act-name-grid {
+    padding: 0 0.5rem;
+}
+
+.view-acti-main-div .trash-img {
+    padding: 5px 0;
+}
+
+.no-act-div {
+    display: flex;
+    margin-left: 42%;
+    margin-top: 150px;
+}

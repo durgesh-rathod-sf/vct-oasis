@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+#contactUs .contact-body {
+	/* The image used */
+	background: linear-gradient(0deg, rgb(62, 62, 62), rgba(0, 0, 0, 0.49)), url(/static/media/contact_us.505e3ce0.jpg);
+	opacity: 60;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#contactUs .contact-person {
+	font-size: 22px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#contactUs .contact-person-position {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+#contactUs .contact-person-email a {
+	font-size: 14px;
+	color: #ffffff;
+}
+
+#contactUs .saturate {
+	filter: grayscale(100%);
+}
+
+#contactUs .leftDiv {
+	width: 25%;
+	float: left;
+}
+
+#contactUs .middleDiv {
+	width: 20%;
+}
+
+#contactUs .divTable {
+	display: table;
+	width: 55%;
+	float: right;
+	margin-left: 50px;
+}
+
+#ContactTable .divTable {
+	display: table;
+	width: 70%;
+	float: right;
+}
+
+#ContactTable .divTableRow {
+	display: table-row;
+}
+
+#ContactTable .divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+
+#ContactTable.divTableCell,
+#ContactTable .divTableHead {
+	display: table-cell;
+	width: 187px;
+	height: 134px;
+}
+
+#ContactTable .divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+
+#ContactTable .divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+
+#ContactTable .divTableBody {
+	display: table-row-group;
+}
+
+#contactUs .contactbellIco {
+	/* float: left; */
+	text-align-last: left;
+	margin-bottom: 10px;
+	/* padding-left: 7px;
+	display: contents; */
+}
+
+#contactUs .no-gutters {
+	width:680px;
+	height:350px;
+}
+#contactUs #clear{
+	clear: both;
+}
+
+#contactUs .flip-card {
+	perspective: 100vw;
+	min-height: 105px;
+	max-width: 170px;
+}
+
+#contactUs .flip-cardMain {
+	float: left;
+	perspective: 100vw;
+	height: 210px;
+    width: 190px;
+    margin-top: 105px;
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+	.flip-card {
+		width: 31%;
+		margin: 1.16%;
+		/*width + margin-left + margin-right = 33.33%*/
+	}
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+	.flip-cardMain {
+		width: 61%;
+		margin: 1.16%;
+		/*width + margin-left + margin-right = 33.33%*/
+	}
+}
+
+#contactUs .thumbimg-name {
+	background: rgba(252, 252, 252, 0);
+	background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252, 252, 252, 0)), color-stop(0%, rgba(241, 111, 92, 0)), color-stop(100%, rgba(0, 0, 0, 1)));
+	background: -webkit-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	background: -o-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	background: linear-gradient(to bottom, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#000000', GradientType=0);
+	color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 11px;
+	display: flex;
+	/* align-items: center; */
+	padding-left: 8px;
+	padding-bottom: 6px;
+	text-align: left;
+}
+
+#contactUs .thumbimg-nameMain {
+	background: rgba(252, 252, 252, 0);
+	background: -moz-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252, 252, 252, 0)), color-stop(0%, rgba(241, 111, 92, 0)), color-stop(100%, rgba(0, 0, 0, 1)));
+	background: -webkit-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	background: -o-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	background: -ms-linear-gradient(top, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	background: linear-gradient(to bottom, rgba(252, 252, 252, 0) 0%, rgba(241, 111, 92, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#000000', GradientType=0);
+	color: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 13px;
+	display: flex;
+	/* align-items: center; */
+	padding-left: 8px;
+	padding-bottom: 6px;
+	text-align: left;
+}
+
+#contactUs .flip-card .front,
+#contactUs .flip-card .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-size: cover;
+	transition: 0.3s;
+	backface-visibility: hidden;
+	box-sizing: border-box;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 11px;
+	display: flex;
+	align-items: center;
+}
+
+#contactUs .flip-cardMain .front,
+#contactUs .flip-cardMain .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	transition: 0.3s;
+	backface-visibility: hidden;
+	box-sizing: border-box;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 13px;
+	display: flex;
+	align-items: center;
+}
+
+#contactUs .flip-card:hover .front {
+	transform: rotateY(180deg) scale(0.5);
+}
+
+#contactUs .flip-cardMain .back,
+#contactUs .flip-card .back {
+	background: #4D4D4D;
+	color: #fff;
+	overflow: hidden;
+	padding: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: left;
+	
+	transform: rotateY(180deg) scale(0.5);
+}
+#contactUs .flip-cardMain .back a,
+#contactUs .flip-card .back a  {
+	color:#00BAFF;
+}
+#contactUs .flip-cardMain:hover .back,
+#contactUs .flip-card:hover .back {
+	transform: rotateY(360deg) scale(1);
+}
+
+#contactUs .float-container {
+	border: 3px solid #fff;
+	padding: 20px;
+}
+
+#contactUs .float-child1 {
+	float: left;
+}
+
+#contactUs .float-child2 {
+	float: left;
+}
+
+#contactUs .float-child3 {
+	float: right;
+	/* margin-right: 70px; */
+}
+
+#contactUs .ContactText {
+	font-size: 27px;
+	text-align: "left";
+	word-wrap: break-word;
+	width: '30%';
+	line-height: 28px;
+	font-weight: 800;
+	display: table-cell;
+	/* padding: 3px 5px; */
+	color: #ffffff;
+	font-family: 'Graphik';
+}
+
+#contactUs .contactTextDiv {
+	color: #ffffff;
+	font-family: 'Graphik';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 0.6rem;
+	line-height: 14px;
+	word-wrap: inherit;
+	text-align: left;
+	/* padding-top: 18px; */
+	letter-spacing: 1px;
+}

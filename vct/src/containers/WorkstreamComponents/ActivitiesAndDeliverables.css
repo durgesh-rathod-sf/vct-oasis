@@ -1,0 +1,154 @@
+.all-activities-row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0.5rem;  
+    overflow: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 24px;
+    height: 300px;
+    max-height: 300px;
+}
+
+.all-act-list {
+    display: inline-block; 
+    float: none;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: fit-content; */
+}
+
+.act-del-div .modal-backdrop.show {
+    opacity: 0.3;
+}
+
+
+.act-del-div {
+    width: 100%;
+}
+
+label b {
+    font-weight: 500;
+}
+
+.add-del-label {
+    padding: 0.25rem 0.5rem;
+}
+
+.activity-name-row, .each-delivery-row, .all-deliverables-row{
+    margin-bottom: 0.5rem;
+}
+
+.add-deliv-row {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.each-delivery-row {
+    width: 100%;
+    color: white;
+    padding-left: 0.5rem !important;
+}
+
+
+.all-act-list label {
+    margin-bottom: 0;
+    word-break: break-all;
+    white-space: break-spaces;
+}
+
+.all-act-list label:hover:not(.owner-name) {
+    cursor: pointer;
+}
+
+.add-act-input-div label:hover {
+    cursor: pointer;
+}
+
+.all-act-list .act-name-div input, .all-act-list .del-input-box {
+    width: 100%;
+    background: #4D4D4D;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+.activity-name-row .act-name-div, .del-name-row .del-name-div { 
+    padding-right: 5px;
+    /* height: 72px; */
+}
+
+.activity-name-row .act-del, .del-name-row .del-del {
+    padding-right: 1rem;
+}
+
+.owner-icon img{
+    width: 16px;
+    height: 16px;
+}
+
+.del-del-ellipsis .fa-ellipsis-h {
+    cursor: pointer;
+}
+
+/* scroll bar styling */
+.all-activities-row::-webkit-scrollbar {
+    height: 0.6em;
+    width: 0.6em;
+}
+ 
+.all-activities-row::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.all-activities-row::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 5px;
+}
+
+.all-act-list .act-del-ellipsis, .all-act-list .del-del-ellipsis {
+    text-align: right;
+}
+
+
+/* new design styles */
+.add-act-wrapper-row .form-control, .add-deliv-row .form-control {
+    border: 1px solid #F0F0F0;
+box-sizing: border-box;
+border-radius: 2px;
+background: transparent;
+color: #fff;
+font-size: 14px;
+}
+
+.add-act-wrapper-row {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 14px;
+}
+
+.add-act-wrapper-row .add-act-plus {
+    
+}
+
+.add-act-wrapper-row .add-act-input-div {
+    display: flex;
+}
+
+.activity-name-row, .each-delivery-row {
+    background: #4D4D4D;
+border-radius: 2px;
+padding: 1rem;
+}
+
+.add-del-input-div {
+    width: 88%
+}
+
+.add-del-img-div {
+    width: 12%;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="245px" height="274px" viewBox="0 0 245 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Create ptroject big</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing2-Copy-31" transform="translate(-784.000000, -289.000000)">
+            <g id="Create-ptroject-big" transform="translate(766.000000, 286.455782)">
+                <path d="M150.448849,5.70489623 L252.125419,64.0085507 C258.342248,67.5734222 262.176569,74.1920907 262.176569,81.3584901 L262.176569,197.729945 C262.176569,204.896345 258.342248,211.515013 252.125419,215.079885 L150.448849,273.383539 C144.286878,276.916953 136.713122,276.916953 130.551151,273.383539 L28.8745814,215.079885 C22.6577516,211.515013 18.8234308,204.896345 18.8234308,197.729945 L18.8234308,81.3584901 C18.8234308,74.1920907 22.6577516,67.5734222 28.8745814,64.0085507 L130.551151,5.70489623 C136.713122,2.17148206 144.286878,2.17148206 150.448849,5.70489623 Z" id="Polygon-Copy-5" fill="#FFFFFF"></path>
+                <text id="5.-Add-Initiative-In" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="85.5797258" y="108.544218">5. Add Initiative </tspan>
+                    <tspan x="100.535259" y="125.544218">Information</tspan>
+                </text>
+                <text id="Capture-the-details" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="63.813193" y="168.544218">Capture the details of </tspan>
+                    <tspan x="65.2225817" y="185.544218">the various initiatives</tspan>
+                </text>
+                <g id="Group-7" transform="translate(118.000000, 51.544218)">
+                    <path d="M4.16666667,29.5 L9.16666667,29.5 L9.16666667,20.5 L4.16666667,20.5 L4.16666667,29.5 Z" id="Fill-1" stroke="#343434" stroke-width="3"></path>
+                    <path d="M19.1666667,29.5 L24.1666667,29.5 L24.1666667,9.5 L19.1666667,9.5 L19.1666667,29.5 Z" id="Fill-2" stroke="#343434" stroke-width="3"></path>
+                    <polygon id="Fill-2-Copy" fill="#343434" points="0.666666667 37 42.6666667 37 42.6666667 34 0.666666667 34"></polygon>
+                    <path d="M34.1666667,29.5 L39.1666667,29.5 L39.1666667,1.5 L34.1666667,1.5 L34.1666667,29.5 Z" id="Fill-3" stroke="#343434" stroke-width="3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

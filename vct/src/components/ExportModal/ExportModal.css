@@ -1,0 +1,10 @@
+.modal-header-flex {
+    display: flex;
+    padding: 3%;
+}
+#exportScreen .modal-dialog{
+   text-align: -webkit-center;
+    }
+#exportScreen .modal-content{
+    width:  490px;
+    } 

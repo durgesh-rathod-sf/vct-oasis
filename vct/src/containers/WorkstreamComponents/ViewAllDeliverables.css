@@ -1,0 +1,88 @@
+.view-all-dlv-tab {
+    
+}
+
+.view-dlvr {
+    border: none;
+    padding: 8px 0;
+    background: #494949;
+    border-radius: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.dlvr-binder {
+    margin-bottom: 1%;
+}
+
+.dlvr-name {
+    word-break: break-all;
+}
+
+.dlvr-name label:hover {
+    cursor: pointer;
+}
+
+.dlvr-name label, .milestone-counter label {
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+/* font-awesome icon styles */
+
+.fa-trash {
+    cursor: pointer;
+}
+
+/*  deliverables GRID view styles */
+.view-delivery-grid {    
+    margin-bottom: 1%;
+    padding-right: 0;
+}
+
+.view-delivery-grid .grid-holder {
+    border: none;
+    height: 100%;
+    background: #494949;
+    border-radius: 2px;
+    
+}
+
+.view-delivery-grid .grid-holder .no-gutters {
+    padding: 0.5rem;
+}
+
+.view-delivery-grid .grid-delivery {
+    padding: 0.5rem;
+    padding-top: 0;
+}
+
+.view-delivery-grid .dlvr-name {
+    padding-right: 10px;
+    height: 72px;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.del-modal-enclose .modal-backdrop.show {
+    opacity: 0.3;
+}
+
+.view-all-dlv-tab .trash-img {
+    padding: 5px 0;
+}
+
+.view-all-act-grid-tab {
+    margin-right: 0;
+}
+
+.view-delivery-grid .del-name-grid {
+    padding: 0 0.5rem;
+}
+
+.no-deli-div {
+    display: flex;
+    margin-left: 42%;
+    margin-top: 150px;
+}

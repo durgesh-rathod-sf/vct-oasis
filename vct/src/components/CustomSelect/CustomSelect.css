@@ -1,0 +1,124 @@
+.color-box-wrap{
+    display:flex
+}
+.color-box-wrap:hover{
+    background-color:#527FFF;
+}
+
+.color-box{
+    margin: 5px 10px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    font-size: 12px;
+}
+.color-box-wrap .dark-green{background-color: #339933;}
+.color-box-wrap .light-green{background-color: #59A14F;}
+.color-box-wrap .red{background-color: #E15759;}
+.color-box-wrap .blue{background-color:#4E79A7;}
+.color-box-wrap .grey{background-color: #A5A4A4;}
+
+
+.select-custom {
+    padding: 5px 8px;
+    line-height: 22px;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.select-custom-disabled{
+    padding: 5px 8px;
+    line-height: 22px;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #a7a7a7;
+    background: transparent;
+    color: #a7a7a7;
+}
+
+.select-custom::after , .select-custom-disabled::after{
+content:"▼";
+font-size:12px;
+font-family:arial;
+position:absolute;
+top:50%;
+right:5px;
+transform:translate(0, -50%);
+}
+
+/* .select-sim::after {
+content:"";
+}
+
+.select-sim {
+overflow:visible;
+} */
+
+.select-sim .options .option label {
+display:inline-block;
+}
+
+.select-sim .options {
+background: #4d4d4d;
+padding: 5px 0px;
+border: 1px solid #ccc;
+position: absolute;
+top: 32px;
+left: 0px;
+z-index: 1;
+width: 100%;
+/* height: 88px; */
+/* overflow-y: scroll; */
+font-size: 12px;
+}
+
+/* .select-sim .options .option {
+overflow:hidden;
+} */
+
+.select-sim .options .option {
+height:22px;
+overflow:hidden;
+}
+
+.select-sim .options .option img {
+vertical-align:middle;
+}
+
+.select-sim .options .option label {
+display:none;
+}
+
+.select-sim .options .option input {
+width:0;
+height:0;
+overflow:hidden;
+margin:0;
+padding:0;
+float:left;
+display:inline-block;
+/* fix specific for Firefox */
+position: absolute;
+left: -10000px;
+}
+
+.select-sim .options .option input:checked + label {
+display:block;
+width:100%;
+}
+
+.select-sim .options .option input + label {
+display:block;
+}
+
+.select-sim .options .option input:checked + label {
+background:#fffff0;
+}

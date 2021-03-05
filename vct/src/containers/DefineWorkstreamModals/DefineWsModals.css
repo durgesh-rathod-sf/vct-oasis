@@ -1,0 +1,767 @@
+#activityModal .modal-backdrop.show {
+    opacity: 0 !important;
+}
+#activityModal.modal {
+    position: fixed;
+    z-index: 1050;
+    display: none;
+    width: 60%;
+    margin-left: 20%;
+    /* height: 93%;
+    overflow: hidden; */
+    height: 80%;
+    overflow-y: overlay;
+    outline: 0;
+    margin-top: 6%;
+}
+.act-modal-wa.modal {
+    width: 62% !important;
+}
+
+#activityModal .modal-dialog {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+#activityModal .modal-content {
+    background: #505050 !important;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1.5rem;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    /* height: 100%; */
+}
+#activityModal .modal-backdrop.show {
+    opacity: 0 !important;
+}
+#activityModal .modal-title{
+    margin-left: 0;
+    color: #fff;
+    font-size: 18px;
+}
+#activityModal .mx-auto {
+    margin-left: 0 !important;
+}
+#activityModal .confirm-modal-wrapper .mx-auto {
+    margin-left: auto !important;
+}
+
+#activityModal .disabled-cat-box, #activityModal .disabled-cat-box:hover {
+    opacity: 0.4
+}
+#activityModal .activity-form-label {
+    color: #fff;
+    font-weight: 400;
+    
+    cursor: default;
+}
+#activityModal .activity-row {
+    padding: 0.5rem 1rem 0.1rem 1rem;
+}
+#activityModal .activity-img {
+    width: 25px;
+}
+#activityModal .activity-img-save {
+    width: 25px;
+}
+#activityModal .activity-img-save:hover {
+    cursor: pointer;
+}
+#activityModal .activity-checkbox {
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+#activityModal .activity-include-text {
+    color: #fff;
+    font-size: 12px;
+    
+}
+#activityModal .delete-icon {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*padding-left: 1.2rem;*/
+}
+ #activityModal .delete-icon img {
+     cursor: pointer;
+ }
+
+#activityModal .save-icon-align {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+#activityModal .save-icon-align button {
+    min-width: 85px;
+}
+#activityModal .owner-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#activityModal .modal-header {
+    padding: 1rem 0;
+    padding-top: 0;
+    border-bottom: 1px solid #5B5B5B;
+    margin-bottom: 20px;
+}
+
+#activityModal .modal-header img {
+    cursor: pointer;
+}
+
+.reg-form-control .form-control {
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+
+.date-form-control .form-control {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+
+.date-form-control .form-control:disabled, .reg-form-control .form-control:disabled,
+.date-form-control .form-control:read-only, .reg-form-control .form-control:read-only {
+    opacity: 0.5;
+   
+}
+
+.dept-sm {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.date-form-control .ws-date-row {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    width: 100% !important;
+}
+
+.date-form-control .ws-date-row input, .date-form-control .ws-date-row img {
+    padding-right: 0.5rem;
+}
+
+#activityModal .cat-del-binder {
+    display: flex;
+}
+
+.cat-checkbox-row {
+    padding-top: 0.5rem;
+    display: inline-flex;
+    padding-left: 0px ;
+}
+
+.reg-form-control textarea {
+    resize: none;
+}
+
+.act-modal-div {
+    padding : 0px 15px;
+    background: #4D4D4D;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    font-family: Graphik;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+
+.act-modal-scroll-div {
+    padding: 10px 20px;
+    background: #5A5A5A;
+    border-radius: 2px;
+}   
+
+.act-modal-scroll-div label{
+    padding: 0px 10px;
+} 
+
+#activityModal label{
+    margin-bottom: 0rem;
+}
+
+.act-modal-body-div {
+    padding : 20px 5px;
+}
+
+.act-modal-body-div .act-cat-details{
+    margin-left: 0px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.act-modal-body-div .act-category{
+    flex: 0 0 97%;
+    max-width: 97%;
+}
+
+.act-modal-body-div .act-category-plus{
+    margin-left: 32px;
+    flex: 0 0 2%;
+    max-width: 2%;
+    padding-top: 0px;
+    /*padding-left: 1rem;*/
+
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.deli-modal-main {
+    border: none;
+    color: #fff;
+    width: 60% !important;
+    margin-left: 20%;
+    height: 80%;
+    margin-top: 6%;
+    overflow-y: overlay;
+}
+
+
+.deli-modal-main .modal-body {
+    padding: 0
+}
+
+.deli-modal-main .form-group {
+    margin-bottom: 0.7rem;
+}
+
+.deli-modal-main .modal-title {
+    font-size: 18px;
+}
+
+.deli-modal-main .modal-header img {
+    cursor: pointer;
+}
+
+.deli-modal-main .modal-content{
+    background-color: #505050 !important;
+    color: #fff;
+    border-width: 0;
+    
+    border-radius: 10px;
+color: #fff;
+padding: 1.5rem;
+}
+
+.deli-modal-main .form-control {
+    /* border: 1px solid #F0F0F0; */
+    border-radius: 2px;
+
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.deli-modal-main .modal-dialog {
+    margin: 0;
+}
+
+.deli-modal-main .modal-header {
+    padding: 1rem 0;
+    padding-top: 0;
+    border-bottom: 1px solid #5B5B5B;
+    margin-bottom: 20px;
+    
+}
+
+.deli-modal-main .react-datepicker-wrapper {
+    width: 100%;
+}
+
+.del-detail-row label {
+    margin-bottom: 0;
+    vertical-align: middle;
+
+    font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.del-detail-row .del-mile-desc {
+    padding-right: 5px
+}
+
+.del-mile-trash {
+    text-align: right;
+}
+
+.del-detail-row .disabled-checkbox {
+    opacity: 0.4;
+}
+
+/* category styles */
+.category-include-text {
+    color: #fff;
+    font-size: 12px;
+    /* width: 95px; */
+}
+
+.del-detail-row .category-checkbox {
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 2px;
+vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.del-detail-row .delete-icon {
+    text-align: right;
+    font-size: 16px;
+}
+
+.del-detail-row .delete-icon .fa-trash {
+    vertical-align: top
+}
+
+.del-detail-row .mil-date-col {
+    text-align: right;
+}
+
+.del-detail-row .mil-date {
+    padding-top: 0.3rem;
+    padding-right: 0.5rem;
+    white-space: nowrap;
+}
+
+.save-div {
+    text-align: right;
+}
+#DeliverableModal .add-more-info {
+    margin-top: 1rem;
+}
+#DeliverableModal .add-more-info label, #DeliverableModal .add-more-mile label {
+    cursor: pointer;
+}
+
+.react-datepicker-popper {
+    z-index: 9999 !important;
+}
+
+.modal-open .modal{
+    overflow-x: hidden !important;
+    overflow-y: overlay;
+}
+
+/* icon image styles */
+.del-detail-row .owner-icon {
+    width: 24px;
+    height: 18px;
+    padding-right: 10px;
+}
+
+.del-detail-row .deliv-desc-img {
+    width: 25px;
+    height: 27px;
+    padding-right: 9px;
+}
+
+.del-detail-row .deliv-dept-img {
+    width: 27px;
+    height: 16px;
+    padding-right: 10px;
+}
+
+.del-detail-row .deliv-sub-dept-img {
+    width: 28px;
+    height: 20px;
+    padding-right: 9px;
+}
+
+.del-detail-row .deliv-calend-img {
+    width: 27px;
+    height: 17px;
+    padding-right: 10px;
+}
+
+.del-detail-row .deliv-freq-img {
+    width: 30px;
+    height: 26px;
+    padding-right: 10px;    
+}
+
+.del-detail-row .deliv-star-img {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;    
+}
+
+.del-detail-row .deliv-img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+.del-detail-row .deliv-plus-img {
+    width: 23px;
+    height: 20px;
+    margin-top: 8px;
+    padding-right: 10px;
+}
+.del-detail-row .save-img {
+    width: 26px;
+    cursor: pointer;
+}
+
+.deli-modal-main .date-form-control .ws-date-row {
+    width: 100%;
+    border: 1px solid #F0F0F0;
+}
+.deli-modal-main .date-form-control .ws-date-row-disabled {
+   border: 1px solid #ffffff80 !important;
+}
+.deli-modal-main .date-form-control .ws-date-row-disabled Img {
+  opacity: 0.6;
+}
+.deli-modal-main .date-form-control .ws-date-row input{
+    padding-right: 2px;
+}
+
+.deli-modal-main .tra-fre-control .form-control {
+    opacity: 1;
+    background: #3e3e3e;
+}
+
+.deli-modal-main .cat-del-binder {
+    display: flex;
+}
+
+.deli-modal-main .delete-icon {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding-left: 1rem; */
+}
+ .deli-modal-main .delete-icon img {
+     cursor: pointer;
+ }
+
+ .deli-modal-main .miles-form-group .ws-date-row {
+     width: 70%;
+ }
+
+ .deli-modal-main .miles-form-group .delete-icon {
+     width: 30%;
+ }
+
+ .deli-modal-main .del-save-div {
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .deli-modal-main .del-save-div button {
+    /* height: 36px; */
+    margin-top: 20px;
+     min-width: 85px;
+ }
+ #DeliverableModal .modal-body .row{
+    margin: 0px;
+    }
+.dws-icon .drillDownIcon{
+    width: 12px;
+    height: 7px;
+    cursor: pointer;
+ }
+ .del-modal-scroll-div img{
+    cursor: pointer;
+ }
+ .dws-icon{
+     margin-right: 10px;
+ }
+ .del-title-row{
+    background: #4D4D4D;
+    /* border-radius: 2px; */
+    margin-bottom: 0.1rem;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+ }
+
+ .del-title-row label{
+     margin-bottom: 0px;
+ }
+
+ .del-title-subrow{
+    height: -webkit-fill-available;
+    align-items: center;
+ }
+
+ .del-title-subrow label{
+     margin: 0px;
+ }
+ .paddingNone{
+     padding: 0px;
+ }
+ .del-detail-row{
+     padding: 20px 20px;
+    border-radius: 0px 0px 2px 2px;
+ }
+ .custom-justify-right{
+    text-align: -webkit-right
+ }
+ .custom-justify-right .alignText{
+     text-align-last: left;
+ }
+ .deli-modal-main input{
+padding: 5px 8px;
+ }
+ .deli-modal-main .ownerDiv{
+     margin-bottom: 20px;
+ }
+ .del-modal-scroll-div {
+    padding: 10px 20px;
+    background: #5A5A5A;
+    border-radius: 2px;
+}
+.del-modal-scroll-div label{
+    margin: 0px;
+    padding: 0px 10px;
+}
+.col-sm-5-customized{
+    flex: 0 0 46.666667%;
+    max-width: 46.666667%;
+}
+.col-sm-2-customized{
+    flex: 0 0 6.666667%;
+    max-width: 6.666667%;
+   
+    align-self: center;
+    padding-left: 20px;
+}
+.deli-modal-main .cat-checkbox-row{
+    padding: 0.5rem 0rem 0rem;
+}
+.deli-modal-main .modal-backdrop.show {
+    opacity: 0.5;
+}
+.nodata-label{
+justify-content: center;
+}
+.team-list{
+    background: #757575;
+    border-radius: 14px;
+    display: inline-flex;
+    padding: 0px 4px;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: fit-content;
+    color: #ffffff;
+}
+.team-list p{
+    margin: 2px;
+}
+.team-list img{
+    width: 6px;
+    margin: 0px 2px 0px 4px;
+    cursor: pointer;
+}
+/* .teamList-class aria-owns+ul{
+z-index: -1;
+} */
+.team-list-wrap{
+    padding-top: 1rem;
+}
+.team-list-wrap .col-sm-4{
+    padding: 0px 10px 0px 0px;
+    flex: 0 0 33.333333%;
+	max-width: fit-content;
+}
+
+.milestone-modal-main {
+    border: none;
+    color: #fff;
+    width: 30%;
+    margin-left: 35%;
+    height: 80%;
+    margin-top: 10%;
+}
+
+#MilestoneModal .modal-dialog {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#MilestoneModal .modal-header {
+    padding: 1rem 0;
+    padding-top: 0;
+    border-bottom: 1px solid #5B5B5B;
+    margin-bottom: 20px;
+}
+
+#MilestoneModal .modal-header img {
+    cursor: pointer;
+}
+
+#MilestoneModal .modal-body{
+    padding: 0px;
+}
+
+#MilestoneModal .modal-content {
+    background: #505050 !important;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1.5rem;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    /* height: 100%; */
+}
+
+#MilestoneModal .modal-body-div{
+    padding-bottom: 20px;
+}
+
+#MilestoneModal .form-control:disabled{
+    opacity: 0.5;
+}
+
+#MilestoneModal .form-control {
+    /* border: 1px solid #F0F0F0; */
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    background: transparent;
+}
+
+#Milestone .test{
+    opacity: 0.5;
+    color: rgba(144, 144, 144, 0.7);
+    border-radius: 2px;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    background: #3E3E3E;
+}
+
+#MilestoneModal .milestone-form-label{
+    margin-bottom: 0px;
+}
+
+#MilestoneModal .milestone-date-row {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: flex;
+    width: 100%;
+}
+
+#MilestoneModal .milestone-date-row .form-control {
+    border: none;
+    outline: none;
+}
+
+#MilestoneModal .milestone-date-row input, #MilestoneModal .milestone-date-row img {
+    padding-right: 0.5rem;
+}
+/* styles for linkKpis in WSModal start*/
+.ws-linkKpi-div table thead tr th{
+    
+    text-align-last: center;
+    background: #505050;
+border: 1px solid #909090;
+box-sizing: border-box;
+padding: 8px 1px;
+font-family: Graphik;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+min-width: 110px;
+}  
+.ws-linkKpi-div table tbody tr td{
+    /* width:unset; */
+   
+    text-align-last: right;
+    background: #505050;
+border: 1px solid #909090;
+box-sizing: border-box;
+min-width: 85px;
+padding: 8px 4px;
+font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 13px;
+color: #FFFFFF;
+}  
+.ws-linkKpi-div table{
+    width: max-content;
+    margin: 0px;
+  
+}  
+.ws-linkKpi-div-wrap{
+padding: 20px 0px;
+}   
+.ws-linkKpi-div{
+    width: 95%;
+    margin: 0px 20px;
+    overflow-x: auto;
+    max-width: 768px;
+}
+.ws-benfits ::-webkit-scrollbar,.ws-cost ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  .ws-benfits ::-webkit-scrollbar-track, .ws-cost ::-webkit-scrollbar-track {
+    border: 1px solid #606060; 
+    background: #494949;
+  } 
+  .ws-benfits ::-webkit-scrollbar-thumb, .ws-cost ::-webkit-scrollbar-thumb {
+    background:#606060; 
+  }
+  
+  /* Handle on hover */
+  .ws-benfits ::-webkit-scrollbar-thumb:hover, .ws-cost ::-webkit-scrollbar-thumb:hover{
+    background: #606060; 
+  }
+/* styles for linkKpis in WSModal end*/
+
+
+  

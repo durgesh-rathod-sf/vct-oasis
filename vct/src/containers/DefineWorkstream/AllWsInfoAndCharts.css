@@ -1,0 +1,226 @@
+.all-wda-info-main {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+
+.all-wda-info-main .all-ws-tree-main {
+    font-size: 12px;
+    padding-left: 15px;
+    width: 216px;
+    
+}
+.all-wda-info-main .all-ws-chart-main {
+    /* font-size: 12px; */
+    margin: 0 15px;
+    width: calc(100% - 246px);
+    /* overflow-x: auto;     */
+}
+
+.all-wda-info-main .ws-gantt-chart-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+.all-ws-tree-main .each-ws-row .ws-name-row {
+    display: flex;
+    background: #555555;
+    padding: 0 8px
+}
+
+.all-ws-tree-main .each-ws-row .act-name-row {
+    display: flex;
+    margin-left: 12px;
+    padding: 0 8px
+}
+
+.all-ws-tree-main .each-ws-row .del-name-row {
+    display: flex;
+    margin-left: 30px;
+    padding: 0 8px
+}
+
+.all-ws-tree-main .each-ws-row .name-input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.all-ws-tree-main .each-ws-row .name-label {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.all-ws-tree-main .each-ws-row .ws-indicator {
+    padding-right: 6px;
+}
+
+.all-ws-tree-main label {
+    margin-bottom: 0;
+}
+
+.all-ws-tree-main .each-ws-row .add-ws-ell{
+    text-align: right;
+    /* padding-right: 0.5rem; */
+}
+
+.all-ws-tree-main .each-ws-row .ws-name-div {
+    width: 95%;
+    padding-right: 6px;
+    height: 20px;
+}
+
+.all-ws-tree-main .del-name-row .ws-name-div {
+    width: 100%;
+    padding-right: 0;
+}
+
+.all-ws-tree-main .each-ws-row .ws-name-input {
+    background: #555555;
+    border: none;
+    outline: none;
+    width: 90%;
+    color: #fff;
+}
+
+.all-ws-tree-main .each-ws-row .ws-name-input:focus {
+    background: #5A5A5A;
+    border: none;
+    outline: none;
+    width: 90%;
+    color: #fff;
+}
+
+.all-ws-tree-main .each-ws-row .act-name-input {
+    background: #555555;
+    border: none;
+    outline: none;
+    width: 90%;
+    color: #fff;
+}
+
+
+.all-ws-tree-main .each-ws-row .del-name-input {
+    background: #555555;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #fff;
+}
+
+.no-ws-msg {
+    font-size: 16px;
+}
+
+.no-ws-msg .clickable-span {
+    padding-bottom: 2px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+.ell-v-img {
+    position: relative;
+}
+
+.ws-menu-wrapper {
+    position: absolute;
+    background: #505050;
+    border: 1px solid #707070;
+border-radius: 2px;
+top: 24px;
+    right: -8px;
+    z-index: 1;
+}
+
+.ws-menu-wrapper .menu-vertical {
+    padding: 4px 0;
+}
+
+.ws-menu-wrapper .menu-item {
+    white-space: nowrap;
+    text-align: left;
+    padding: 4px 6px;
+}
+
+.ws-menu-wrapper .menu-item:hover {
+    background: #004DFF;
+    cursor: pointer;
+}
+
+.ws-menu-wrapper .disabled-item {    
+    cursor: default;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.ws-menu-wrapper .menu-vertical .disabled-item:hover {
+    background: none;
+}
+
+.each-ws-row .ws-name-row, .each-ws-row .act-name-row, .each-ws-row .del-name-row {
+    margin-bottom: 8px;
+}
+
+.all-ws-tree-main .all-act-in-ws {
+    width: 100%;
+}
+
+
+/* styles for filtered view */
+.filtered-view-main .each-ws-row .act-name-row, .filtered-view-main .each-ws-row .del-name-row {
+    margin-left: 0;
+}
+
+
+/* timeline chart container scrollbar styles */
+    #ws_gantt_main::-webkit-scrollbar {
+    height: 12px;
+  }
+  
+  /* Track */
+  #ws_gantt_main::-webkit-scrollbar-track {
+    background: #606060; 
+    /*border: 0.3px solid #555555;*/
+  } 
+  #ws_gantt_main::-webkit-scrollbar-thumb {
+    background:#494949; 
+    height: 10px;
+    border: 1px solid #606060;
+  }
+  
+  /* Handle on hover */
+  #ws_gantt_main::-webkit-scrollbar-thumb:hover {
+    background: #494949; 
+  }
+
+
+/* ws timeline wrapper styles */
+.all-ws-tree-main .no-content-div {
+    /* margin-bottom: 1rem; */
+    height: 51px;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    background: #5A5A5A;
+}
+
+.all-ws-tree-main .ws-tree-wrapper, .all-wda-info-main .ws-gantt-chart-wrapper  {
+    padding-top: 0.5rem;
+}
+
+.all-ws-chart-main .ws-timeline-header-main{
+    /* margin-bottom: 1rem; */
+    /* position: relative; */
+    overflow-x: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+    height: 51px;
+}
+
+.ws-actuals-tab-main .all-ws-chart-main .ws-timeline-header-main {
+    z-index: 3;
+
+}

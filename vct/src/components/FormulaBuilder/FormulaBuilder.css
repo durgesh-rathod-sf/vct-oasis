@@ -1,0 +1,248 @@
+.form-row {
+  margin: 25px 0 0px 0;          
+  /* animation: fadein 3s;
+  animation-fill-mode: forwards; */
+}
+
+/* @keyframes fadein {    
+  to {
+      opacity: 1;
+      transition-timing-function: ease-in-out;
+  }
+} */
+.text-muted{
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF !important;
+}
+.close-icon {
+  /* font-size: 28px;    
+  color: #000000; */
+  padding-top: 5px;
+  cursor: pointer;
+  float: right;
+  width: 12px;
+  /* opacity: 0;     
+  animation: fadein 3s;
+  animation-fill-mode: forwards; */
+}
+
+.formLabel {
+  color: #000000;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+.param-formLabel {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding-top: 0%;
+  align-self: flex-end;
+  margin: 0%;
+}
+
+.benefit-formLabel {
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  padding-top: 0%;
+  align-self: flex-end;
+  margin: 0%;
+}
+
+.previewImgBtn {
+  width: 24px;
+  margin-top: 8px;
+  cursor: pointer;        
+}
+
+.preview-table {
+  table-layout: fixed;
+  font-size: 12px;
+  width: 100%;
+  overflow-x: auto;
+  /* opacity: 0;
+  animation: fadein 3s;
+  animation-fill-mode: forwards; */
+}
+
+.preview-table th {
+  font-size: 12px;
+  background-color: #505050 !important;
+  color: #ffffff;
+  border: 1px solid #909090 !important;
+}
+
+.preview-table td  {
+  /* background-color: #5A5A5A !important; */
+  color: #ffffff !important;
+  border: 1px solid #909090 !important;
+    word-break: break-word;
+    
+}
+.preview-table td input{
+color: #ffffff !important;
+}
+
+.preview-table td:not(:first-child) {
+text-align: center;
+}
+
+.preview-table th:first-child {
+  width: 40%;    
+}
+
+.preview-table td:first-child {    
+  font-weight: 500;
+}
+
+.mentions {
+margin: 0;
+}
+
+.mentions--singleLine .mentions__control {
+display: inline-block;
+}
+.mentions--singleLine .mentions__higlighter {
+padding: 2px;
+margin: 2px;
+border: 2px inset transparent;
+}
+.mentions--singleLine .mentions__input {
+padding: 5px;
+border: 2px inset; 
+font-size: 10px; 
+}
+
+.mentions--multiLine .mentions__control {  
+  font-size: 12px;
+  border: 1px solid #F0F0F0;
+  height: 110px;  
+  background-color: #5A5A5A;
+  border-radius: 2px;
+}
+.mentions--multiLine .mentions__highlighter {
+padding: 9px;  
+}
+.mentions--multiLine .mentions__input {
+font-size: 12px;
+padding: 9px;
+min-height: 63px;
+outline: 0;
+border: 0;
+color: #FFFFFF;
+}
+
+.mentions__suggestions__list {
+  background-color: #4D4D4D;  
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
+  font-size: 10pt;
+  color: #FFFFFF;
+  min-height: 30px;
+  max-height: 170px;
+  overflow-y: scroll;
+}
+
+.mentions__suggestions__item {
+padding: 5px 15px;
+/* border-bottom: 1px solid rgba(0, 0, 0, 0.15); */
+}
+
+.mentions__suggestions__item--focused {
+  background-color: #004DFF;
+  font-weight: 600;
+}
+
+.mentions__mention {
+  background-color:  #004DFF;
+
+}
+
+.rule-box {
+/* background-color: #e7e6e6; */
+/* min-height: 200px; */
+/* max-height: 500px;   */
+/* overflow-y: scroll; */
+
+  /* background-color: #505050; */
+  min-height: 300px;
+  /* max-height: 450px; */
+  /* overflow-y: scroll; */
+  margin: 0% 10%;
+  padding: 0px;
+  width: 80%;
+}
+
+.rule-box .form-control {
+  background-color: #5A5A5A;
+  /* border: 1px solid #F0F0F0;
+box-sizing: border-box;
+border-radius: 2px; */
+border: 1px solid #F0F0F0;
+box-sizing: border-box;
+border-radius: 2px;
+font-family: 'Graphik';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.benefit-rule-box {
+  /* background-color: #505050; */
+  min-height: 300px;
+  /* max-height: 450px; */
+  /* overflow-y: scroll; */
+  margin: 0% 10%;
+  padding: 0px;
+  width: 80%;
+}
+
+.benefit-form-box {
+min-height: 200px;
+max-height: 500px;
+}
+
+.param-form-box {
+/* height: 300px;   */
+}
+
+.number-format {
+width: 80%;  
+border: none;
+background-color: transparent;  
+text-align: center;
+}
+.benRule-header{
+  font-family: 'Graphik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  color: #FFFFFF;
+}
+.button-dimenssions{
+width: 85px;
+height: 33px;
+margin-right: 2%;
+}

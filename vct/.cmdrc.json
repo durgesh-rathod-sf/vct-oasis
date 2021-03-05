@@ -1,0 +1,20 @@
+{
+    "development": {
+        "REACT_APP_BASE_URL": "development"
+        
+    },
+    "staging": {
+        "REACT_APP_BASE_URL": "staging",
+        "REACT_APP_STAGING_DOMAIN": "valuecockpit.auth.us-east-1.amazoncognito.com",
+        "REACT_APP_STAGING_REGION": "us-east-1",
+        "REACT_APP_STAGING_USER_POOL_ID": "us-east-1_qy8OoT1Nc",
+        "REACT_APP_STAGING_CLIENT_ID": "7ebtulhsaria2uls68o96ms93n"
+    },
+    "production": {
+        "REACT_APP_BASE_URL": "production",
+        "REACT_APP_PRODUCTION_DOMAIN": "valuecockpitprod.auth.us-east-1.amazoncognito.com",
+        "REACT_APP_PRODUCTION_REGION": "us-east-1",
+        "REACT_APP_PRODUCTION_USER_POOL_ID": "us-east-1_qy8OoT1Nc",
+        "REACT_APP_PRODUCTION_CLIENT_ID": "7hl1tl9og8nahn5v98ig3aks7t"
+    }
+}

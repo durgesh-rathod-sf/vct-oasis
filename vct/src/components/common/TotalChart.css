@@ -1,0 +1,28 @@
+.panel {
+  border: 1px solid #eee;
+  padding: 5px;
+  margin: 5px;
+  flex: 1;
+}
+
+.panel .titlePanel {
+  font-size: 1.5em;
+}
+.panel.totalChart .totalValue {
+    font-size: 3.5em;
+    margin-left: 8%;
+}
+
+.panel.totalChart.green .totalValue {
+   color: #2bdd2b;
+}
+
+.panel.totalChart.red .totalValue {
+   color:#fe5656;
+}
+.panel.totalChart img {
+    position: absolute;
+    right: 10%;
+    bottom: 25%;
+    height: 40%;
+}

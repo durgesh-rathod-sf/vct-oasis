@@ -1,0 +1,26 @@
+div {
+    visibility: visible;
+}
+.rvdt-header {
+    margin: 1% 0.5%;
+  
+    font-size: 13px;
+    overflow: auto;
+    width: 1314px;
+}
+
+.rvdt-header-col {
+    padding-top: 1.5%;
+}
+
+.html2canvas-container {
+    width: 1800px !important;
+}
+.constDiv{
+    margin: 1%;
+ text-align: center;
+}
+.frag_header{
+
+    background-color: #6C6C6C;
+}

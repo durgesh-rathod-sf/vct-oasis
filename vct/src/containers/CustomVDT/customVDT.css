@@ -1,0 +1,32 @@
+.vdt-tree-start-div {
+    margin: 1% 0;
+    margin-bottom: 50px;
+    width: 100%
+}
+
+.vdt-tree-part {
+    padding-right: 0;
+    padding-left: 2%;
+}
+
+.vdt-table-main {
+    padding-right: 0;
+}
+
+.vdt-table-main input[type="checkbox"] {
+    margin-right: 2px;
+}
+
+/* new design styles */
+.vdt-tree-start-div .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.vdt-tree-part {
+    width: 620px;
+}
+
+.vdt-table-main {
+    width: calc(100% - 620px);
+}

@@ -1,0 +1,50 @@
+#disableLink{
+    pointer-events: none;
+    
+}
+
+/* new styles */
+
+.project-navbar-main {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.project-navbar-main a{
+text-decoration: none;
+color: #B9B9B9;
+}
+
+.fvdt-tab-name, .dbc-tab-name, .pd-tab-name, .dw-tab-name, .ca-tab-name {
+    display: inline-block;
+    font-size: 12px;
+    color: #B9B9B9;
+    padding-right: 2rem;
+    position: relative;
+}
+
+.project-navbar-main .ca-nav-link {
+    padding: 0;
+    border-bottom: none;
+}
+
+.project-navbar-main .active-menu{
+    color: #ffffff;
+    border: none;
+}
+
+.tab-content-outer-wrapper {
+    min-height: 400px;
+    background: #5A5A5A;
+    border: 1px solid #757575;
+    box-sizing: border-box;
+    border-radius: 2px;
+ }
+
+ .polygon-caret {
+     position: absolute;
+     top: 1.2rem;
+     left: calc(50% - 2rem);
+ }
+
+ 

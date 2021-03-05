@@ -1,0 +1,85 @@
+#newUserRegistrationModal .modal-content{
+    width: 423px;
+    margin-left: 530px;
+}
+
+#newUserRegistrationModal .form-group{
+    margin-left: 35px
+}
+.modalTitle{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 21px;
+}
+
+.form-content{
+    width: 80%;
+    margin-bottom: 10px
+}
+
+#newUserRegistrationModal .yes-button {
+    min-width: 65px;
+    margin-right: 5%;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #3b3b3b
+}
+
+#newUserRegistrationModal .master-dropdown {
+    width: 320px; 
+    height: 30px; 
+    border-radius: 2px;
+    color: #ffffff;
+    z-index: 99;
+    background-color: #5A5A5A !important;
+    color:'#ffffff';
+    border: 1px solid #F0F0F0;
+}
+
+#newUserRegistrationModal .form-control:disabled, #newUserRegistrationModal .form-control[readonly] {
+    background: #5A5A5A;
+    opacity: 1;
+}
+
+.showLoader{
+    opacity: 0.70;
+}
+
+#newUserRegistrationModal .multi-select {
+    --rmsc-main: #D0D0D0 !important;
+    --rmsc-hover: #5A5A5A !important;
+    --rmsc-selected: #5A5A5A !important;
+    --rmsc-border: #D0D0D0 !important;
+    --rmsc-gray: #ffffff !important;
+    --rmsc-bg: #5A5A5A !important;
+    --rmsc-p: 10px !important;
+    --rmsc-radius: 2px !important;
+    --rmsc-h: 30px !important;
+    width: 320px;
+  }
+
+  #newUserRegistrationModal .dropdown-heading{
+     color: #FFFFFF;
+  }
+ 
+  #newUserRegistrationModal .dropdown-content{
+     color: #FFFFFF;
+     min-width: 220px;
+     white-space: nowrap;
+  }
+
+  #newUserRegistrationModal .dropdown-content span{
+      height: 20px;
+      word-break: normal;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+
+  #newUserRegistrationModal .dropdown-container .dropdown-content .panel-content .select-panel .select-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }

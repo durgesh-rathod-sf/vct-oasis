@@ -1,0 +1,179 @@
+{
+  "kpiList": [
+    {
+      "kpiId": 100,
+      "kpiName": "Churn Rate",
+      "kpiType": "Financial",
+      "actualVsTargetBenefits": [
+        {
+          "frequencyType": "Yearly",
+          "frequency": 1,
+          "targetBenefit": 3000,
+          "actualBenefit": 2500
+        },
+        {
+          "frequencyType": "Yearly",
+          "frequency": 2,
+          "targetBenefit": 5000,
+          "actualBenefit": 4500
+        },
+        {
+          "frequencyType": "Yearly",
+          "frequency": 3,
+          "targetBenefit": 6000,
+          "actualBenefit": 5500
+        },
+        {
+          "frequencyType": "Yearly",
+          "frequency": 4,
+          "targetBenefit": 7000,
+          "actualBenefit": 7000
+        },
+        {
+          "frequencyType": "Yearly",
+          "frequency": 5,
+          "targetBenefit": 9000,
+          "actualBenefit": 9000
+        }
+      ],
+      "actualVsTargetKpiTillDates": [
+        {
+          "frequencyType": "Yearly",
+          "frequency": 5,
+          "baseline": 100,
+          "kpiActual": 6000,
+          "kpiTarget": 6000
+        },
+        {
+          "frequencyType": "Yearly",
+          "frequency": 1,
+          "baseline": 100,
+          "kpiActual": 1700,
+          "kpiTarget": 2000
+        },
+        {
+          "frequencyType": "Yearly",
+          "frequency": 2,
+          "baseline": 100,
+          "kpiActual": 2700,
+          "kpiTarget": 3000
+        },
+        {
+          "frequencyType": "Yearly",
+          "frequency": 3,
+          "baseline": 100,
+          "kpiActual": 4200,
+          "kpiTarget": 4000
+        },
+        {
+          "frequencyType": "Yearly",
+          "frequency": 4,
+          "baseline": 300,
+          "kpiActual": 2500,
+          "kpiTarget": 6700
+        },
+        {
+          "frequencyType": "Yearly",
+          "frequency": 5,
+          "baseline": 400,
+          "kpiActual": 3500,
+          "kpiTarget": 7700
+        }
+      ],
+      "expectedBenefitFinalYear": 120000,
+      "expectedBenefitCurrentYear": 50000,
+      "actualBenefit": 2000
+    },
+    {
+      "kpiId": 101,
+      "kpiName": "NPS",
+      "kpiType": "Financial"
+    },
+    {
+      "kpiId": 102,
+      "kpiName": "Lead Conversion Rate",
+      "kpiType": "Non-Financial"
+    }
+  ],
+  "expectedTotalBenefitFinalYear": 1100000,
+  "expectedTotalBenefitCurrentYear": 30000,
+  "benefitEndDate": 1759276800000,
+  "benefitStartDate": 1603450436330,
+  "actualTotalBenefit": 100000,
+  "actualVsTargetTotalBenefits": [
+    {
+      "frequencyType": "Yearly",
+      "frequency": 1,
+      "targetBenefit": 3000,
+      "actualBenefit": 2500
+    },
+    {
+      "frequencyType": "Yearly",
+      "frequency": 2,
+      "targetBenefit": 5000,
+      "actualBenefit": 4500
+    },
+    {
+      "frequencyType": "Yearly",
+      "frequency": 3,
+      "targetBenefit": 6000,
+      "actualBenefit": 5500
+    },
+    {
+      "frequencyType": "Yearly",
+      "frequency": 4,
+      "targetBenefit": 7000,
+      "actualBenefit": 7000
+    },
+    {
+      "frequencyType": "Yearly",
+      "frequency": 5,
+      "targetBenefit": 9000,
+      "actualBenefit": 9000
+    }
+  ],
+  "actualVsTargetTotalKpiTillDates": [
+    {
+      "frequencyType": "Yearly",
+      "frequency": 5,
+      "baseline": 100,
+      "kpiActual": 6000,
+      "kpiTarget": 6000
+    },
+    {
+      "frequencyType": "Yearly",
+      "frequency": 1,
+      "baseline": 100,
+      "kpiActual": 1700,
+      "kpiTarget": 2000
+    },
+    {
+      "frequencyType": "Yearly",
+      "frequency": 2,
+      "baseline": 100,
+      "kpiActual": 2700,
+      "kpiTarget": 3000
+    },
+    {
+      "frequencyType": "Yearly",
+      "frequency": 3,
+      "baseline": 100,
+      "kpiActual": 4200,
+      "kpiTarget": 4000
+    },
+    {
+      "frequencyType": "Yearly",
+      "frequency": 4,
+      "baseline": 300,
+      "kpiActual": 2500,
+      "kpiTarget": 6700
+    },
+    {
+      "frequencyType": "Yearly",
+      "frequency": 5,
+      "baseline": 400,
+      "kpiActual": 3500,
+      "kpiTarget": 7700
+    }
+  ]
+}

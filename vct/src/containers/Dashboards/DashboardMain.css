@@ -1,0 +1,94 @@
+#publishDashboard .navMenu .tab_menu{
+    display: flex;
+    width: 30%;
+    z-index: 1;
+}
+.modal-open #publishDashboard .navMenu .tab_menu{
+    display: flex;
+    width: 60%;
+    z-index: 0 !important;
+}
+
+#publishDashboard .navMenu .Icon_menu{
+    display: flex;
+    width: 70%;
+  
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+#publishDashboard .navMenu {
+    margin:0px;
+    padding-left: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+     display: flex;
+    /* max-width: 100%;  */
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+#publishDashboard .nav-tabs {
+   border: 0px !important;
+}
+#publishDashboard .nav-tabs>li {
+    float: left;
+    padding: 6px 0px;
+
+}
+#publishDashboard .nav>li {
+    position: relative;
+    display: block;
+}
+
+
+
+#publishDashboard .nav-tabs>li {
+    width: 50%;
+    cursor: pointer;
+    text-align-last: center;
+    margin: 0px;
+    line-height: 1.42857143;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px 4px 0 0;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #D0D0D0;
+    padding-bottom: 10px;
+}
+#publishDashboard .nav-tabs>li.active {
+    cursor: default;
+    border:  1px solid #ffff ;
+    border-bottom-color: transparent;
+    color: #FFFFFF;
+}
+#publishDashboard .nav-tabs>li.active:active,.nav-tabs>li.active:focus{
+    border: 0px;
+}
+#publishDashboard .tooltip-class.show {
+    background-color: black !important;
+    color: white !important;
+    padding: 0.5rem;
+    left:1092px;
+    top:65px
+}
+#publishDashboard .nav-tabs li:active {
+    border: none;
+}
+#publishDashboard .download-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#publishDashboard .spinner-icon{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+

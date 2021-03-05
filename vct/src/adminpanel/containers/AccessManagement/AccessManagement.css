@@ -1,0 +1,77 @@
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+  }
+  
+  .radio-item input[type='radio'] {
+    display: none;
+  }
+  
+  .radio-item label {
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+  }
+  
+  .radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin: 0 5px 0 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 11px;
+    border: 2px solid #eceff3;
+    background-color: transparent;
+  }
+  
+  .radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #f3f5f7;
+  }
+
+  .form-group_newProject .dropDown{
+    width: 100%;
+  }
+
+  #AccessManagementTable .table td p{
+    margin-top: 10px;
+    width: 112%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  /* scroll styles for td elements */
+#AccessManagementTable td p::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+} 
+
+/* Track */
+#AccessManagementTable td p::-webkit-scrollbar-track {
+  background: #565555; 
+} 
+#AccessManagementTable td p::-webkit-scrollbar-thumb {
+  background:#6E6E6E; 
+}
+
+/* Handle on hover */
+#AccessManagementTable td p::-webkit-scrollbar-thumb:hover {
+  background: #454545; 
+}
+#AccessManagementTable .savespin{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin: 5px 0px 0px -18px;
+  cursor: default;
+  font-size: 15px !important;
+}

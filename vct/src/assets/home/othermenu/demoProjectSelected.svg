@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="204px" height="224px" viewBox="0 0 204 224" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.1322 13.6404 0.1322 13.6404 13.7712 0 13.7712"></polygon>
+        <polygon id="path-3" points="0.6532 0.0039 9.315 0.0039 9.315 8.6659 0.6532 8.6659"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing2-Copy-2" transform="translate(-797.000000, -313.000000)">
+            <g id="Group-6" transform="translate(782.000000, 308.795918)">
+                <g id="Group-4">
+                    <path d="M131.923274,8.55734434 L203.248246,49.4567037 C212.573491,54.8040108 218.324972,64.7320135 218.324972,75.4816127 L218.324972,156.926551 C218.324972,167.67615 212.573491,177.604152 203.248246,182.95146 L131.923274,223.850819 C122.680318,229.15094 111.319682,229.15094 102.076726,223.850819 L30.7517537,182.95146 C21.426509,177.604152 15.6750278,167.67615 15.6750278,156.926551 L15.6750278,75.4816127 C15.6750278,64.7320135 21.426509,54.8040108 30.7517537,49.4567037 L102.076726,8.55734434 C111.319682,3.25722309 122.680318,3.25722309 131.923274,8.55734434 Z" id="Polygon-Copy-4" fill="#FFFFFF"></path>
+                    <text id="Check-a-sample-VRO-P" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                        <tspan x="40.067972" y="128.204082">Check a sample VRO </tspan>
+                        <tspan x="60.456505" y="146.204082">Project demo to </tspan>
+                        <tspan x="37.5620425" y="162.204082">understand how Value </tspan>
+                        <tspan x="42.0188296" y="179.204082">Cockpit can help you</tspan>
+                    </text>
+                    <g id="Group-9" transform="translate(92.000000, 39.204082)">
+                        <polygon id="Stroke-1" stroke="#343434" stroke-width="2" points="41.9841 30.607 41.9841 10.305 24.4021 0.155 6.8201 10.305 6.8201 30.607 24.4021 40.758"></polygon>
+                        <g id="Group-5" transform="translate(0.000000, 3.912700)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-4"></g>
+                            <path d="M13.6404,6.9512 C13.6404,10.7192 10.5864,13.7712 6.8204,13.7712 C3.0534,13.7712 -0.0006,10.7192 -0.0006,6.9512 C-0.0006,3.1842 3.0534,0.1322 6.8204,0.1322 C10.5864,0.1322 13.6404,3.1842 13.6404,6.9512" id="Fill-3" fill="#343434" mask="url(#mask-2)"></path>
+                        </g>
+                        <g id="Group-8" transform="translate(37.000000, 25.912700)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-7"></g>
+                            <path d="M9.3152,4.3349 C9.3152,6.7269 7.3762,8.6659 4.9842,8.6659 C2.5912,8.6659 0.6532,6.7269 0.6532,4.3349 C0.6532,1.9419 2.5912,0.0039 4.9842,0.0039 C7.3762,0.0039 9.3152,1.9419 9.3152,4.3349" id="Fill-6" fill="#343434" mask="url(#mask-4)"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="Demo-project" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="69.1848817" y="104.2040816">Demo Project</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

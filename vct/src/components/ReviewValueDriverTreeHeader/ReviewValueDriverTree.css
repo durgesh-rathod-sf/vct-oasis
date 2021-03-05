@@ -1,0 +1,78 @@
+.collapseBtn {
+    background: none;
+    border: none;
+    color: #ffffff;
+}
+
+.rvdt-header-alignment {
+    width: 16.666%;
+    padding: 1%;
+    text-align: center;
+}
+
+/* new styles for new design */
+.vdt-tree-header-main {
+    width: 100%;
+    
+    display: flex;
+}
+
+.vdt-tree-header-main .constDiv,
+.vdt-tree-header-main .rvdt-header-alignment {
+    display: flex;
+    font-size: 10px;
+}
+
+.vdt-tree-header-main .table-only-header
+ {
+    display: flex;
+    width: calc(100% - 615px);
+    background: #505050;
+border: 1px solid #909090;
+box-sizing: border-box;
+justify-content: center;
+border-right: 0;
+}
+
+.vdt-tree-header-main .tree-only-header {
+display: flex;
+width: 620px;
+margin-right: 0.5%;
+background: #505050;
+border: 1px solid #909090;
+box-sizing: border-box;
+justify-content: center;
+border-left: 0;
+}
+
+.vdt-tree-header-main .constDiv {
+    padding: 1% 5%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.vdt-tree-header-main .rvdt-header-alignment {
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #909090;
+
+}
+
+.vdt-tree-header-main .trg-ach {
+    border-right: 0;
+}
+
+/* full screen header */
+.full-screen-header .tree-only-header {
+    width: 100% !important;
+    margin-right: 0;
+}
+
+.full-screen-header .tree-only-header .constDiv {
+font-size: 1rem;
+}
+
+.dbc-vdt-header .tree-only-header {
+    width: 100%;
+}

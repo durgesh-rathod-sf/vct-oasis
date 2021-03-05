@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="245px" height="274px" viewBox="0 0 245 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>manjually big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.4784 0.5333 12.327 0.5333 12.327 12.3823 0.4784 12.3823"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing2-Copy-28" transform="translate(-784.000000, -289.000000)">
+            <g id="manjually-big" transform="translate(766.000000, 286.455782)">
+                <path d="M150.448849,5.70489623 L252.125419,64.0085507 C258.342248,67.5734222 262.176569,74.1920907 262.176569,81.3584901 L262.176569,197.729945 C262.176569,204.896345 258.342248,211.515013 252.125419,215.079885 L150.448849,273.383539 C144.286878,276.916953 136.713122,276.916953 130.551151,273.383539 L28.8745814,215.079885 C22.6577516,211.515013 18.8234308,204.896345 18.8234308,197.729945 L18.8234308,81.3584901 C18.8234308,74.1920907 22.6577516,67.5734222 28.8745814,64.0085507 L130.551151,5.70489623 C136.713122,2.17148206 144.286878,2.17148206 150.448849,5.70489623 Z" id="Polygon-Copy-5" fill="#FFFFFF"></path>
+                <g id="Group-10" transform="translate(121.000000, 59.544218)">
+                    <path d="M26.4139,12.1195 L26.4139,12.1195 C26.4139,13.6215 25.1959,14.8395 23.6939,14.8395 L2.7199,14.8395 C1.2179,14.8395 -0.0001,13.6215 -0.0001,12.1195 C-0.0001,10.6175 1.2179,9.3995 2.7199,9.3995 L23.6939,9.3995 C25.1959,9.3995 26.4139,10.6175 26.4139,12.1195 Z" id="Stroke-1" stroke="#343434" stroke-width="2"></path>
+                    <path d="M26.4139,2.7201 L26.4139,2.7201 C26.4139,4.2221 25.1959,5.4401 23.6939,5.4401 L2.7199,5.4401 C1.2179,5.4401 -0.0001,4.2221 -0.0001,2.7201 C-0.0001,1.2181 1.2179,0.0001 2.7199,0.0001 L23.6939,0.0001 C25.1959,0.0001 26.4139,1.2181 26.4139,2.7201 Z" id="Stroke-3" stroke="#343434" stroke-width="2"></path>
+                    <path d="M26.4139,21.5189 L26.4139,21.5189 C26.4139,23.0209 25.1959,24.2389 23.6939,24.2389 L2.7199,24.2389 C1.2179,24.2389 -0.0001,23.0209 -0.0001,21.5189 C-0.0001,20.0169 1.2179,18.7989 2.7199,18.7989 L23.6939,18.7989 C25.1959,18.7989 26.4139,20.0169 26.4139,21.5189 Z" id="Stroke-5" stroke="#343434" stroke-width="2"></path>
+                    <g id="Group-9" transform="translate(28.000000, 8.238500)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-8"></g>
+                        <polygon id="Fill-7" fill="#343434" mask="url(#mask-2)" points="0.4784 0.5333 4.2144 11.7403 6.8364 9.1173 10.1014 12.3823 12.3274 10.1553 9.0634 6.8913 11.6854 4.2683"></polygon>
+                    </g>
+                </g>
+                <text id="2.-Manually-Select-K" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="99.7002977" y="108.544218">2. Develop</tspan>
+                    <tspan x="99.2864793" y="125.544218">Business Case</tspan>
+                </text>
+                <text id="Select-KPIs-manually" font-family="ArialMT, Arial" font-size="15" font-weight="normal" letter-spacing="0.5357147" fill="#000000">
+                    <tspan x="56.9116855" y="178.544218">Select KPIs manually  </tspan>
+                    <tspan x="40.1876345" y="198.544218">so that they can be added to </tspan>
+                    <tspan x="58.9116855" y="218.544218">the value driver tree.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

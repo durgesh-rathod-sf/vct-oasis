@@ -1,0 +1,227 @@
+/* Commenting out for avoiding the overlapping of new designs with the old once
+
+.deli-modal-main {
+    border: none;
+    color: #fff;
+    width: 45%;
+    margin-left: 25%;
+    height: 80%;
+    margin-top: 5%
+}
+*/
+.deli-modal-main .modal-body {
+    padding: 0
+}
+
+.deli-modal-main .form-group {
+    margin-bottom: 0.7rem;
+}
+
+.deli-modal-main .modal-title {
+    font-size: 18px;
+}
+
+.deli-modal-main .modal-header img {
+    cursor: pointer;
+}
+
+.deli-modal-main .modal-content{
+    background-color: #3e3e3e;
+    color: #fff;
+    border-width: 0;
+    
+    border-radius: 10px;
+color: #fff;
+padding: 1.5rem;
+}
+
+.deli-modal-main .form-control {
+    font-size: 14px;
+}
+
+.deli-modal-main .modal-dialog {
+    margin: 0;
+}
+
+.deli-modal-main .modal-header {
+    padding: 1rem 0;
+    padding-top: 0;
+    border-bottom: 1px solid #5B5B5B;
+    margin-bottom: 1rem;
+}
+
+.deli-modal-main .react-datepicker-wrapper {
+    width: 100%;
+}
+
+.del-detail-row label {
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.del-detail-row .del-mile-desc {
+    padding-right: 5px
+}
+
+.del-mile-trash {
+    text-align: right;
+}
+
+.del-detail-row .disabled-checkbox {
+    opacity: 0.4;
+}
+
+/* category styles */
+.category-include-text {
+    color: #fff;
+    font-size: 12px;
+    /* width: 95px; */
+}
+
+.del-detail-row .category-checkbox {
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 2px;
+vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.del-detail-row .delete-icon {
+    text-align: right;
+    font-size: 16px;
+}
+
+.del-detail-row .delete-icon .fa-trash {
+    vertical-align: top
+}
+
+.del-detail-row .mil-date-col {
+    text-align: right;
+}
+
+.del-detail-row .mil-date {
+    padding-top: 0.3rem;
+    padding-right: 0.5rem;
+    white-space: nowrap;
+}
+
+.save-div {
+    text-align: right;
+}
+#DeliverableModal .add-more-info {
+    margin-top: 1rem;
+}
+#DeliverableModal .add-more-info label, #DeliverableModal .add-more-mile label {
+    cursor: pointer;
+}
+
+.react-datepicker-popper {
+    z-index: 9999 !important;
+}
+
+.modal-open {
+    overflow: hidden !important;
+}
+
+/* icon image styles */
+.del-detail-row .owner-icon {
+    width: 24px;
+    height: 18px;
+    padding-right: 10px;
+}
+
+.del-detail-row .deliv-desc-img {
+    width: 25px;
+    height: 27px;
+    padding-right: 9px;
+}
+
+.del-detail-row .deliv-dept-img {
+    width: 27px;
+    height: 16px;
+    padding-right: 10px;
+}
+
+.del-detail-row .deliv-sub-dept-img {
+    width: 28px;
+    height: 20px;
+    padding-right: 9px;
+}
+
+.del-detail-row .deliv-calend-img {
+    width: 27px;
+    height: 17px;
+    padding-right: 10px;
+}
+
+.del-detail-row .deliv-freq-img {
+    width: 30px;
+    height: 26px;
+    padding-right: 10px;    
+}
+
+.del-detail-row .deliv-star-img {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;    
+}
+
+.del-detail-row .deliv-img {
+    width: 25px;
+    padding-right: 10px;
+}
+
+.del-detail-row .deliv-plus-img {
+    width: 23px;
+    height: 20px;
+    margin-top: 8px;
+    padding-right: 10px;
+}
+.del-detail-row .save-img {
+    width: 26px;
+    cursor: pointer;
+}
+
+.deli-modal-main .date-form-control .ws-date-row {
+    width: 100%;
+    border: 1px solid #F0F0F0;
+}
+
+.deli-modal-main .tra-fre-control .form-control {
+    opacity: 1;
+    background: #505050;
+}
+
+.deli-modal-main .cat-del-binder {
+    display: flex;
+}
+
+.deli-modal-main .delete-icon {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 1rem;
+}
+ .deli-modal-main .delete-icon img {
+     cursor: pointer;
+ }
+
+ .deli-modal-main .miles-form-group .ws-date-row {
+     width: 70%;
+ }
+
+ .deli-modal-main .miles-form-group .delete-icon {
+     width: 30%;
+ }
+
+ .deli-modal-main .del-save-div {
+    display: flex;
+    justify-content: flex-start;
+ }
+
+ .deli-modal-main .del-save-div button {
+     min-width: 85px;
+ }

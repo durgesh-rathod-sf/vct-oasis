@@ -1,0 +1,267 @@
+#userForm .page-header-row
+{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #A2A2A2;
+    
+    padding-left: 0px !important;
+
+}
+#userForm .userFormRow{
+    margin-top:10px;
+    margin-left: 60px;
+}
+#userForm .userFormLable
+{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 0px;
+}
+#userForm  .textboxStyle
+{
+    width: 320px;
+    padding-left: 10px;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #5A5A5A;
+    color: #FFFFFF !important;
+    height: 30px;
+}
+#userForm  .textboxStyle:disabled
+{
+    border: 1px solid #9d9b9b
+}
+
+#userForm  .DateFieldStyle
+{
+    width: 118px;
+    padding-left: 10px;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #5A5A5A;
+    color: #FFFFFF !important;
+    height: 30px;
+}
+
+#userForm .master-dropdown {
+	 width: 320px; 
+     height: 30px; 
+     border-radius: 2px;
+	/* position: absolute; */
+	color: #ffffff;
+	z-index: 99;
+    background-color: #5A5A5A !important;
+    color:'#ffffff';
+    border: 1px solid #F0F0F0;
+}
+#userForm .master-dropdown1 {
+	/* width: 320px; */
+	/* height: 25px; */
+	/* position: absolute; */
+	color: #ffffff;
+	z-index: 99;
+    background-color: #5A5A5A !important;
+    border: 1px solid white;
+    border-radius: 2px;
+    color:'#ffffff'
+}
+#userForm .master-dropdownSort {
+	/* width: 320px; */
+	/* height: 25px; */
+	/* position: absolute; */
+	color: #ffffff;
+	z-index: 99;
+    background-color: #5A5A5A !important;
+    color:'#ffffff';
+}
+#userForm .dropdown select.master-dropdown option:hover {
+	box-shadow: 0 0 10px 100px #43a4ff inset !important;
+}
+#userForm .userFormRow .cr-de-btn-div
+{
+    padding-left: 0px;
+}
+
+
+#userForm .master-dropdownSort {
+	width: 119px;
+	/* height: 25px; */
+	/* position: absolute; */
+	color: #ffffff;
+	z-index: 99;
+    background-color: #5A5A5A !important;
+    color:'#ffffff'
+}
+
+
+ 
+
+
+#userForm  .table tbody {
+    display:block;
+    height:350px;
+    overflow:auto;
+    width:100%; 
+    overflow-x: hidden !important;
+}
+#userForm .table thead, #userForm tbody tr {
+    display:table;
+     width:100%; 
+     height: 55px;
+    table-layout:fixed;/* even columns width , fix width of table too*/
+    /* width: 764px; */
+    overflow-x: hidden !important;
+  
+}
+
+#userForm .table {
+    width: 100% !important;
+    /* border: 1px solid !important; */
+  
+    padding: 3px;
+    padding-left: 0.5rem;
+    color: #ffffff;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+  
+    overflow-x: hidden !important;
+    
+}
+#userForm .table th, #userForm td
+{
+    height: 55px;
+    vertical-align: middle;
+    border-bottom: none !important;
+}
+#userForm .table-responsive
+{
+    overflow-x: hidden !important;
+}
+#userForm ::-webkit-scrollbar {
+    width: 8px;
+  } 
+  
+  /* Track */
+ #userForm ::-webkit-scrollbar-track {
+    background: #565555; 
+  } 
+ #userForm ::-webkit-scrollbar-thumb {
+    background:#6E6E6E; 
+  }
+  
+  /* Handle on hover */
+ #userForm  ::-webkit-scrollbar-thumb:hover {
+    background: #454545; 
+  }
+  #userForm  .btn-primary:disabled {
+    background: #505050;
+    
+    
+    border: 1px solid #595959;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #fff
+    
+    
+    }
+    #userForm .accessHeader
+    {
+        width:88%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 2%;
+       
+    }
+    #userForm .accessTableHead
+    {
+        margin-right: 0px;
+        margin-left: 0px;
+        
+
+
+
+    }
+    #userForm .accessTable
+    {
+        margin-top: 20px;
+        padding-right: 75px;
+    }
+    #userForm .spinner-div {
+        padding: 5rem;
+    }
+    #userForm .fa-spin
+{
+    font-size: 36px !important;
+    color:#000000
+    
+}
+#userForm .add-spin{
+    font-size: 15px !important;
+    color:#ffffff
+    
+}
+#userForm  .table th
+{
+    background-color: #505050 !important;
+}
+
+
+.access-control-multiselect .multi-select {
+    --rmsc-main: #D0D0D0 !important;
+    --rmsc-hover: #5A5A5A !important;
+    --rmsc-selected: #5A5A5A !important;
+    --rmsc-border: #D0D0D0 !important;
+    --rmsc-gray: #ffffff !important;
+    --rmsc-bg: #5A5A5A !important;
+    --rmsc-p: 10px !important;
+    --rmsc-radius: 2px !important;
+    --rmsc-h: 28px !important;
+    width: 100%;
+  }
+
+  .userFormRow .multi-select {
+    --rmsc-main: #D0D0D0 !important;
+    --rmsc-hover: #5A5A5A !important;
+    --rmsc-selected: #5A5A5A !important;
+    --rmsc-border: #D0D0D0 !important;
+    --rmsc-gray: #ffffff !important;
+    --rmsc-bg: #5A5A5A !important;
+    --rmsc-p: 10px !important;
+    --rmsc-radius: 2px !important;
+    --rmsc-h: 30px !important;
+    width: 320px;
+  }
+ 
+  #userForm .dropdown-heading{
+     color: #FFFFFF;
+  }
+ 
+  #userForm .dropdown-content{
+     color: #FFFFFF;
+     min-width: 220px;
+     white-space: nowrap;
+  }
+
+  #userForm .dropdown-content span{
+      height: 20px;
+      word-break: normal;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+
+  #userForm .dropdown-container .dropdown-content .panel-content .select-panel .select-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
+
+ #userForm .__react_component_tooltip{
+     max-width: 200px;
+ }

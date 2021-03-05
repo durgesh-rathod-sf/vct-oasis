@@ -1,0 +1,20 @@
+.disabled {
+    opacity: 0.5;
+}
+
+.datePicker-form-input{
+    width: 210px;
+    margin-left: -30px !important;
+}
+
+#userTable .form-control:disabled, #userTable .form-control[readonly] {
+    background-color: #5A5A5A;
+}
+
+.addUserOption{
+    cursor: pointer;
+    padding-left: 10px;
+    background-color: rgb(59, 59, 59);
+    font-weight: normal;
+    text-decoration: underline;
+}

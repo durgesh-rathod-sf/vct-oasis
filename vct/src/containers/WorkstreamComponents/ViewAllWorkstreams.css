@@ -1,0 +1,132 @@
+.view-all-ws-tab {
+    
+}
+
+.view-workstream {
+    border: none;
+    background: #505050;
+    border-radius: 2px;
+    padding: 8px 0;
+    margin-bottom: 1%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.ws-icon-input {
+    display: inline-block;
+    width: 100%;
+}
+
+.ws-icon-input .ws-icon {
+    display: inline-block;
+    width: 5%;
+}
+
+.ws-icon-input .ws-input-div {
+    display: inline-block;
+    width: 95%;
+}
+
+.ws-input-div label{
+    margin: 0;
+    /* width: 100%; */
+    padding: 5px;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+.activities-counter label, .deliverables-counter label{
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+label .ws-name {
+    color: #fff;
+}
+label .ws-placeholder {
+    color: gray;
+}
+
+.workstream-input {
+    width: 100%;
+    color: #fff;
+    background: #4D4D4D;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+
+/* font-awesome icon styles */
+.icon-disabled .fa-plus {
+    opacity: 0.5;
+    cursor: default;
+}
+.fa-plus {
+    cursor: pointer;
+}
+.fa-trash {
+    cursor: pointer;
+}
+
+
+
+/* workstream GRID view styles */
+
+.view-all-ws-grid-tab {
+    margin-right: 0;
+}
+.view-workstream-grid {    
+    margin-bottom: 1%;
+    padding-right: 0;
+}
+
+.grid-holder {
+    border: none;
+    height: 100%; 
+    background: #494949;
+    border-radius: 2px;   
+}
+
+.grid-holder .no-gutters {
+    padding: 0.5rem;    
+}
+
+.grid-activity, .grid-delivery {
+    padding: 0.5rem;
+    padding-top: 0;    
+}
+
+.grid-input-div label {
+    cursor: pointer;
+    width: 100%;
+    word-break: break-all;
+}
+
+.workstream-grid-input {
+    width: 100%;
+    color: #fff;
+    background: #3b3b3b;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.view-workstream-grid .grid-input-div {
+    height: 72px;
+    margin: 0.5rem 0;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+.view-workstream-grid .grid-holder label {
+    margin-bottom: 0;
+}
+
+.view-all-ws-tab .trash-img {
+    padding: 5px 0;
+}
+
+.view-all-ws-tab img, .view-all-ws-grid-tab img {
+    cursor: pointer;
+}

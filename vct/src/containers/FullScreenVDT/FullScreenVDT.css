@@ -1,0 +1,289 @@
+@media print {
+  /* html, body {
+    height: 99%;    
+} */
+/* @page {
+  size: auto;
+  margin: 2px 2px 0px 2px;
+       } */
+.modal-content{
+  visibility:hidden;
+}
+  body * {
+    visibility:hidden;
+  }
+  #mypdftest, #mypdftest *, #mypdftest1, #mypdftest1 *, #mypdftest2, #mypdftest2 *, #mypdftest3, #mypdftest3 *{
+    visibility:visible;
+  }
+  #mypdftest, #mypdftest1, #mypdftest2,#mypdftest3 {
+    position:absolute;
+    /* left:0; */
+    top:0;
+    width:100%;
+    -webkit-print-color-adjust: exact;
+    page-break-inside: avoid;
+    /* height: 100% !important; */
+  }
+  #mypdftest #generatepdf {
+    visibility: hidden;
+  } 
+  #mypdftest #closepdf {
+    visibility: hidden;
+  }
+  #mypdftest #closepdf #close_pdf_icon{
+    visibility: hidden;
+  }
+  #mypdftest #button_row {
+    visibility: hidden;
+  }
+  #mypdftest {
+    height: 200% !important;
+  }
+  #mypdftest1 #generatepdf {
+    visibility: hidden;
+  } 
+  #mypdftest1 #closepdf {
+    visibility: hidden;
+  }
+  #mypdftest1 #closepdf #close_pdf_icon{
+    visibility: hidden;
+  }
+  #mypdftest1 {
+    height: 300% !important;
+  }
+  #mypdftest2 #generatepdf {
+    visibility: hidden;
+  } 
+  #mypdftest2 #closepdf {
+    visibility: hidden;
+  }
+  #mypdftest2 #closepdf #close_pdf_icon{
+    visibility: hidden;
+  }
+  #mypdftest2 {
+    height: 400% !important;
+  }
+  #mypdftest3 #generatepdf {
+    visibility: hidden;
+  } 
+  #mypdftest3 #closepdf {
+    visibility: hidden;
+  }
+  #mypdftest3 #closepdf #close_pdf_icon{
+    visibility: hidden;
+  }
+  #mypdftest3 {
+    height: 500% !important;
+  }
+}
+
+.modal1{
+    height:350vh;   
+}
+.modal2{
+    height:550vh;   
+}
+
+.modal3{
+    height:800vh;   
+}
+
+.modal4{
+    height:1000vh;   
+}
+
+
+.modal-dialog {
+    max-width: initial !important;
+}
+
+.modal-content {
+  
+    background-color: #505050 !important;
+    position: relative;
+}
+
+.fullScreenVDT .modal-content {
+  width: 753px;
+  margin-left: 176px;
+}
+
+.full-screen-vdt-modal-main .modal-content {
+  width: 753px;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #wrapper {
+    position: relative;
+    font-size: 0.6rem;
+  }
+  
+  .branchFull {
+    position: relative;
+    margin-left: 228px ;
+  }
+  .branch1:before {
+    content: "";
+    width: 38px;
+    border-top: 2px solid #eee9dc;
+    position: absolute;
+    left: 141px;
+    top: 50%;
+    margin-top: 1px;
+  }
+  
+  .branch3:before {
+    content: "";
+    width: 63px;
+    border-top: 2px solid #eee9dc;
+    position: absolute;
+    left: 141px;
+    top: 50%;
+    margin-top: 1px;
+  }
+
+  .branch4:before {
+    content: "";
+    width: 60px;
+    border-top: 2px solid #eee9dc;
+    position: absolute;
+    left: 142px;
+    top: 50%;
+    margin-top: 1px;
+  }
+
+  .branch2:before {
+    content: "";
+    width: 63px;
+    border-top: 2px solid #eee9dc;
+    position: absolute;
+    left: 141px;
+    top: 50%;
+    margin-top: 1px;
+  }
+  
+  .entryNew  {
+    position: relative;
+    min-height: 80px !important;
+  }
+  .entryNew :before {
+    content: "";
+    height: 100%;
+    border-left: 2px solid #eee9dc;
+    position: absolute;
+    left: -50px;
+  }
+  .entryNew :after {
+    content: "";
+    width: 17px;
+    border-top: 2px solid #eee9dc;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    margin-top: 1px;
+  }
+  .entryNew :first-child:before {
+    width: 10px;
+    height: 50%;
+    top: 50%;
+    margin-top: 2px;
+    border-radius: 10px 0 0 0;
+  }
+  .entryNew :first-child:after {
+    height: 10px;
+    border-radius: 10px 0 0 0;
+  }
+  .entryNew :last-child:before {
+    width: 10px;
+    height: 50%;
+    border-radius: 0 0 0 10px;
+  }
+  .entryNew :last-child:after {
+    height: 10px;
+    border-top: none;
+    border-bottom: 2px solid #eee9dc;
+    border-radius: 0 0 0 10px;
+    margin-top: -9px;
+  }
+  .entryNew .sole:before {
+    display: none;
+  }
+  .entryNew .sole:after {
+    width: 17px;
+    height: 0;
+    margin-top: 1px;
+    border-radius: 0;
+  }
+  
+  .labelNew {
+    display: block;
+    min-width: 175px;
+    width: 9%;
+    padding: 8px 10px;
+    line-height: 15px;
+    text-align: center;
+   
+    border-radius: 5px;
+    position: absolute;
+    left: -34px;
+    top: 50%;
+    margin-top: -22px;
+    height: 58px;
+    overflow-y: auto;
+    scrollbar-color: #fff;
+    font-size:0.8rem;
+    font-weight:500;
+  }
+  
+  .label1 {
+    display: block;
+    min-width: 100px;
+    width: 9%;
+    padding: 5px 10px;
+    line-height: 15px;
+    text-align: center;
+    border: 2px solid #eee9dc;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -22px;
+    height: 50px;
+    overflow-y: auto;
+    scrollbar-color: #fff;
+  }
+  
+  .lv6:before{
+    border: 0px
+  }
+  .row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* margin-right: -15px; */
+    /* margin-left: -8px; */
+  }
+
+  /* custom scrollbar styles */
+  .labelNew::-webkit-scrollbar {
+    width: 0.8em;
+    background: lightblue;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    
+  }
+  .labelNew::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 4px;
+    border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .modal-open .full-rvdt-header .rvdt-header {
+    z-index: 1;
+    background-color: #505050;
+    border-left: 1px solid #909090;
+}

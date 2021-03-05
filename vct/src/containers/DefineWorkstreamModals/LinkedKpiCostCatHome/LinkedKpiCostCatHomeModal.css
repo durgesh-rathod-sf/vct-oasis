@@ -1,0 +1,19 @@
+.kpicostcat-modal-main{
+    border: none;
+    color: #fff;
+    width: 60% !important;
+    margin-left: 20%;
+    margin-top: 6%;
+    overflow-y: overlay;
+}
+.kpicostcat-modal-main .modal-dialog{
+margin: 0px;
+}
+.kpicostcat-modal-main .modal-content{
+    background: #505050 !important;
+    color: #fff;
+    border-width: 0;
+    border-radius: 10px;
+    color: #fff;
+    /*padding: 1.5rem;*/
+}

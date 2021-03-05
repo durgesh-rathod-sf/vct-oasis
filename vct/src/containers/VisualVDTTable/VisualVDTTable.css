@@ -1,0 +1,142 @@
+.invoice-origin address {
+  font-size: 1em;
+}
+
+.amount-due > div {
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
+}
+.invoice-summary > table > tbody > tr td {
+  margin-left: -15%;
+}
+
+.invoice-body {
+  width: 100%;
+  margin-left: 9%;
+  margin-top: -3%;
+}
+
+.invoice-btn-group > button {
+  margin-right: 5px;
+}
+
+.invoice-itemization {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.invoice-itemization tbody td {
+  position: relative;
+  outline: 0 !important;
+}
+
+.visual-vdt-table-main .colClass {
+  border: none !important;
+  padding: 0px !important;
+  height: 46.9px;
+}
+
+.custom-vdt-table-main .colClass {
+  border: none !important;
+  padding: 0px !important;
+  height: 46.9px;
+}
+.form-check-input {
+  width: 100%;
+  height: 50px;
+}
+
+.table {
+  width: 100%;
+}
+
+.tableDataConfig {
+  color: #ffffff;
+  border: none !important;
+}
+
+.mb-3,
+.my-3 {
+  margin-bottom: 0rem !important;
+}
+
+.visual-vdt-table-main input[type="checkbox"] {
+  margin-right: 2px;
+  opacity: 0.8;
+}
+
+/* new design styles */
+.visual-vdt-table-main .colClass .form-control {
+  background-color: #4d4d4d;
+  color: #ffffff;
+  font-size: 10px;
+  border: 1px solid #606060;
+  border-right: 0;
+}
+
+.visual-vdt-table-main .input-group-text {
+  background-color: #4d4d4d;
+}
+
+.visual-vdt-table-main .input-group-text,
+.visual-vdt-table-main .input-group-prepend .form-control {
+  border: 1px solid #606060;
+}
+
+/* custom vdt table styles */
+.custom-vdt-table-main .colClass .form-control {
+  background-color: #404040;
+  color: #ffffff;
+  font-size: 10px;
+  border: 1px solid #606060;
+  border-right: 0;
+}
+
+.custom-vdt-table-main .input-group-text {
+  background-color: #404040;
+}
+
+.custom-vdt-table-main .input-group-text,
+.custom-vdt-table-main .input-group-prepend .form-control {
+  border: 1px solid #606060;
+}
+
+.custom-vdt-table-main .invoice-itemization tbody td {
+  width: 16.66%;
+}
+
+.visual-vdt-table-main {
+  padding-top: 0.3em;
+}
+
+.custom-vdt-table-main .eye-icon {
+  background-color: #404040;
+  margin: 1px 0;
+  padding: 6px 6px 6px 0;
+}
+.visual-vdt-table-main .eye-icon {
+  background-color: #4d4d4d;
+  margin: 1px 0;
+  padding: 6px 6px 6px 0;
+}
+#eyeDataSource .modal-dialog {
+  padding: 20% 0% 0% 63%;
+}
+#eyeDataSource .modal-content {
+  width: 238px;
+  background: #505050 !important;
+  border-radius: 5px;
+}
+#eyeDataSource .source-input {
+  margin: 0% 0% 5% 6%;
+  background: #505050 !important;
+}
+#eyeDataSource .source-save-button {
+  margin: 8% 0% 5% 6%;
+  text-align: center;
+}
+#eyeDataSource .modal-backdrop-show {
+  opacity: 0 !important;
+  position: absolute !important;
+}
